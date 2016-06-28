@@ -1,0 +1,18 @@
+package com.bjsxt.spring;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+
+
+public class Test {
+	public static void main(String[] args) {
+		//Moveable m = new Car();
+		//m.run();
+		
+		BeanFactory factory = new XmlBeanFactory("applicationContext.xml");
+		Moveable m = (Moveable) factory.getBean("v");
+		m.run();
+		System.out.println(m.getSpeed());
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.bjsxt.spring;
+
+import org.springframework.beans.factory.BeanFactory;
+
+
+public class Test {
+	public static void main(String[] args) {
+		//Moveable m = new Car();
+		//m.run();
+		
+		BeanFactory factory = new ClassPathXmlApplicationContext();
+	}
+}

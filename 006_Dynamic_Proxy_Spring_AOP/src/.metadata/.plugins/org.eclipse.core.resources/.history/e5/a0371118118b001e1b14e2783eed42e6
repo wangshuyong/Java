@@ -1,0 +1,21 @@
+package com.bjsxt.spring.factory;
+
+import java.io.IOException;
+import java.util.Properties;
+
+public class Test {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws Exception {
+		Properties props = new Properties();
+		props.load(Test.class.getClassLoader().
+				getResourceAsStream("com/bjsxt/spring/factory/spring.properties"));
+		String vehicleTypeName = props.getProperty("VehicleType");
+		System.out.println(vehicleTypeName);
+		Class.forName(vehicleTypeName).newInstance();
+	}
+
+}

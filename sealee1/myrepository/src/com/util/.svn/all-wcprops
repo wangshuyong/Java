@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/myrepository/!svn/ver/1/src/com/util
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/myrepository/!svn/ver/1/src/com/util/Test.java
+END
+ParameterTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/myrepository/!svn/ver/1/src/com/util/ParameterTools.java
+END
+JspFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/src/com/util/JspFilter.java
+END
+FreeMarkerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/myrepository/!svn/ver/1/src/com/util/FreeMarkerTest.java
+END
+SessionFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/myrepository/!svn/ver/1/src/com/util/SessionFilter.java
+END
+ConversionServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/myrepository/!svn/ver/1/src/com/util/ConversionServlet.java
+END
+NewsItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/myrepository/!svn/ver/1/src/com/util/NewsItem.java
+END
+EncodingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/myrepository/!svn/ver/1/src/com/util/EncodingFilter.java
+END

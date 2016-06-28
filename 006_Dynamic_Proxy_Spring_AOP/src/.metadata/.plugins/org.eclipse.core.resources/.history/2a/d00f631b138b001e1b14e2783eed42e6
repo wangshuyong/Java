@@ -1,0 +1,17 @@
+package com.bjsxt.spring.factory;
+
+import java.io.IOException;
+
+public class Test {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws Exception {
+		BeanFactory factory = new ClassPathXmlApplicationContext("applicationContext.xml");
+		Moveable m = (Moveable)o;
+		m.run();
+	}
+
+}

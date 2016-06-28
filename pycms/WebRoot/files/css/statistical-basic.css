@@ -1,0 +1,15 @@
+.form-list {
+    min-width: 560px;
+    overflow: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 8px 0;
+}
+.form-list>.input-group {
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+}
+.tr-pointer tbody tr {
+    cursor: pointer;
+}

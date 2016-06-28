@@ -1,0 +1,15 @@
+package com.bjsxt.dp.factory.abstractfactory;
+
+public class MagicFactory {
+	public Broom createBroom() {
+		return new Broom();
+	}
+	
+	public MagicStick createMagicStick() {
+		return new MagicStick();
+	}
+	
+	public MushRoom creatMushRoom() {
+		return new MushRoom();
+	}
+}

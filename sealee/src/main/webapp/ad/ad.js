@@ -1,0 +1,1 @@
+document.write('<a href="http://www.92os.com.cn/zhucegongsi/wangluo/" target="_blank"><img src="../../ad/ad-sealee.com.gif" height="60" width="486" border="0"></a>');

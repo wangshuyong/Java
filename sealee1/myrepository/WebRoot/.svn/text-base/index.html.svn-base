@@ -1,0 +1,1160 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="y_key" content="662168cba92c1f9b" />
+<meta name="verify-v1" content="nTm8Dxznc5R2V6pRAqJWMouH0Op+1GjR9Cgf9S34L7A=" />
+<title></title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/css.css" type="text/css">
+<script src="js/yu.js" type="text/javascript"></script>
+<script src="js/tb.js" type="text/javascript"></script>
+<script src="js/ajax.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+.STYLE2 {color: #0000FF}
+.STYLE3 {
+	color: #6C2D00;
+	font-size: 14px;
+}
+.STYLE4 {color: #000000}
+.STYLE6 {color: #999999}
+#Layer1 {
+	position:absolute;
+	width:145px;
+	height:18px;
+	z-index:0;
+	left: 652px;
+	top: 408px;
+}
+-->
+</style>
+</head>
+<body style="text-align:center;" onLoad="ajax_user()">
+<div id="kuang">
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="Shortcut Icon" href="favicon.ico">
+<link rel="Bookmark" href="favicon.ico">
+<div align="center">
+<div id="topest" style="margin-top:0px;">	
+	  <div align="right" style="width:400px; margin-left:550px;">
+	  <ul style=" text-align: right">
+		<li class="LiNoPointTop" style="border:none"><a href="login.jsp" target="_self">会员登录</a></li>
+		<li class="LiNoPointTop"><a href="register.jsp" target="_self">注册会员</a></li>
+		<li class="LiNoPointTop"><a href="javascript:bookmarkit()">添加收藏</a></li>
+	  </ul>
+	  </div>
+	</div>
+	<div id="divBorder">
+	  <div id="top"></div>
+	  <div id="banner_right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1 style="font-size:12px; display:inline">王树勇</h1></div>
+	  <div id="banner"><img alt="文件柜" src="image/index.gif"  border="0" height="60" width="468"/></div>  
+	</div>
+	<div id="top">
+	  <ul style=" text-align:center; margin-left:0px;">
+		<li class="LiNoPoint" style="border:none;">
+		<a class="topLink" href="index.html" target="_self"><font color="#FFFFFF">主页</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1000/index.html" target="_self"><font color="#FFFFFF">行业动态</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1001/index.html" target="_self"><font color="#FFFFFF">网站推广</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1002/index.html" target="_self"><font color="#FFFFFF">PHP教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1003/index.html" target="_self"><font color="#FFFFFF">JAVA教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1004/index.html" target="_self"><font color="#FFFFFF">ASP教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1005/index.html" target="_self"><font color="#FFFFFF">数据库教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1006/index.html" target="_self"><font color="#FFFFFF">网页设计教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1007/index.html" target="_self"><font color="#FFFFFF">图形创意</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1008/index.html" target="_self"><font color="#FFFFFF">系统设计文档</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="html/1009/index.html" target="_self"><font color="#FFFFFF">javascript教程</font></a>
+		</li>
+	  </ul>
+	</div>
+	<form id="search_form" name="search_form" action="" method="post">
+	<div id="search">
+		<ul style=" text-align:center">
+			<li class="LiNoPointSearch" style="border:none">搜索热门：</li>
+			<li class="LiNoPointSearch">
+			<a href="searchinfo.shtml?urlcondition=jsp" target="_self">JSP源码</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="searchinfo.shtml?urlcondition=%CD%F8%D2%B3%C9%E8%BC%C6" target="_self">网页设计</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="searchinfo.shtml?urlcondition=%CD%F8%D5%BE%CD%C6%B9%E3" target="_self">网站推广</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="searchinfo.shtml?urlcondition=%C9%E8%BC%C6%CE%C4%B5%B5" target="_self">设计文档</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="searchinfo.shtml?urlcondition=java" target="_self">JAVA</a>
+			</li>
+			<li class="LiNoPointSearch" style="margin-left:200px; width:300px; line-height:27px;"><nobr>智能搜索：<input align="absmiddle" type="text" name="condition">
+			  <input type="image" src="image/btn_search.gif" name="button" value="提交" onClick="return searchcheck()"/>   </nobr>		
+			</li>
+	  </ul>
+	</div>
+	</form>
+	</div>
+<script language="javascript">
+	function searchcheck(){
+		if(document.search_form.condition.value==''){
+			alert('对不起，请输入查询条件！');
+			return false;
+			document.search_form.condition.focus();
+		}else{
+			var tempurl = document.search_form.condition.value;
+			search_form.action = "searchinfo.shtml?urlcondition="+tempurl;
+			search_form.submit();
+		}
+	}
+	function getcondition(){
+		
+		document.wirte(tempurl);
+	}
+	function bookmarkit(){
+	window.external.addfavorite("/","-专业的WEB开发技术，编程技术，网页设计，设计文档，网站推广教程")
+	}
+	function rundemo(k){
+		var democode=document.getElementById(k).value
+		var demowin=window.open()
+		
+		demowin.document.open();
+		demowin.document.write(democode)
+		demowin.document.close();
+	}
+
+</script>	<div id="topAdvertiseA">
+		<div style="float:left;height:15px;line-height:30px;margin-left:50px;margin-top:8px;">
+			<script type="text/javascript"><!--
+			google_ad_client = "pub-3815888257365205";
+			/* 728x15, 创建于 09-3-4 */
+			google_ad_slot = "9612698337";
+			google_ad_width = 728;
+			google_ad_height = 15;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+		</div>
+	</div>
+	<div id="topAdvertise">
+		<div style="float:left;height:90px;margin-left:0px;">
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-3815888257365205";
+		/* 728x90, 创建于09-2-15 */
+		google_ad_slot = "5510414093";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+		</div>
+		<div style="float:left;height:90px;margin-left:36px;">		
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-3815888257365205";
+		/* 200x90, 创建于 09-2-23 */
+		google_ad_slot = "0056571429";
+		google_ad_width = 200;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+		</div>
+	</div>
+	<!------网页正文栏-------->
+	<div align="center" id="body_all">
+		<!----正文左侧内容--------->
+		<div id="body_left" align="left">
+			<!---会员信息--->
+			<div id="member_info">
+				<div id="state_view" style="visibility:view;display:">
+				<li id="member_info_row_title">&nbsp;&nbsp;&nbsp; &nbsp;<strong>会员中心</strong> </li>
+				<li id="member_info_row">&nbsp;&nbsp;&nbsp; &nbsp;当前状态：<b>游客</b> </li>
+				<li id="member_info_row">&nbsp;&nbsp;&nbsp; &nbsp;发表文章&nbsp;&nbsp;&nbsp; &nbsp;我的留言</li>
+				<li id="member_info_row">&nbsp;&nbsp;&nbsp; &nbsp;我的空间&nbsp;&nbsp;&nbsp; &nbsp;我的收藏</li>
+				<li id="member_info_row">&nbsp;&nbsp;&nbsp; &nbsp;<span class="STYLE2"><a href="login.jsp" target="_self">马上登陆</a></span>&nbsp;&nbsp;&nbsp; &nbsp;<span class="STYLE1"><a href="register.jsp" target="_self"><font color="red">注册会员</font></a></span></li>
+				</div>
+				<div id="state_hidden" style="visibility:hidden;display:none">
+				<li id="member_info_row_title">&nbsp;&nbsp;&nbsp; &nbsp;<strong>会员中心</strong> </li>
+				<li id="member_info_row">&nbsp;&nbsp;&nbsp; &nbsp;当前状态：<b><font color="#FF0000"><span id="membername"></span></font></b> </li>
+				<li id="member_info_row">&nbsp;&nbsp;&nbsp; &nbsp;<a href="member/newarticle.jsp" target="_self">发表文章</a>&nbsp;&nbsp;&nbsp; &nbsp;我的留言</li>
+				<li id="member_info_row">&nbsp;&nbsp;&nbsp; &nbsp;<a href="member/main.jsp" target="_self">我的空间</a>&nbsp;&nbsp;&nbsp; &nbsp;我的收藏</li>
+				<li id="member_info_row">&nbsp;&nbsp;&nbsp; &nbsp;<span class="STYLE2"><a href="member/main.jsp" target="_self"><span class="STYLE2">控制面板</span></a></span>&nbsp;&nbsp;&nbsp; &nbsp;<span class="STYLE1"><a href="outlogin.shtml" target="_self">注销登陆</a></span></li>
+				</div>
+			</div>
+			<!----文章点击排行�------->
+			<div id="note_top">
+				<li align="left" id="note_top_row_title">&nbsp;&nbsp;&nbsp; &nbsp;<b>文章TOP</b> </li>
+			</div>
+			<div id="left_info">
+				<li id="left_info_row_title">&nbsp;&nbsp;&nbsp; &nbsp;<b>会员排行</b></li>
+				<li style="height:20px; line-height:20px;float:left; width:150px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+					ying
+				</li>
+				<li style="height:20px; line-height:20px; float:left; width:27px;">
+				<span class="STYLE6">30</span>
+				</li>
+			
+				<li style="height:20px; line-height:20px;float:left; width:150px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+					可可
+				</li>
+				<li style="height:20px; line-height:20px; float:left; width:27px;">
+				<span class="STYLE6">22</span>
+				</li>
+			
+				<li style="height:20px; line-height:20px;float:left; width:150px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+					周小姐
+				</li>
+				<li style="height:20px; line-height:20px; float:left; width:27px;">
+				<span class="STYLE6">20</span>
+				</li>
+			
+				<li style="height:20px; line-height:20px;float:left; width:150px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+					glamey
+				</li>
+				<li style="height:20px; line-height:20px; float:left; width:27px;">
+				<span class="STYLE6">10</span>
+				</li>
+			
+				<li style="height:20px; line-height:20px;float:left; width:150px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+					小谢
+				</li>
+				<li style="height:20px; line-height:20px; float:left; width:27px;">
+				<span class="STYLE6">10</span>
+				</li>
+			
+				<li style="height:20px; line-height:20px;float:left; width:150px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+					花泽静
+				</li>
+				<li style="height:20px; line-height:20px; float:left; width:27px;">
+				<span class="STYLE6">10</span>
+				</li>
+			
+				<li style="height:20px; line-height:20px;float:left; width:150px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+					chinanpn
+				</li>
+				<li style="height:20px; line-height:20px; float:left; width:27px;">
+				<span class="STYLE6">10</span>
+				</li>
+			
+				<li style="height:20px; line-height:20px;float:left; width:150px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+					turen
+				</li>
+				<li style="height:20px; line-height:20px; float:left; width:27px;">
+				<span class="STYLE6">0</span>
+				</li>
+			
+			</div>
+			
+		</div>
+		<!--------正文中间部分---------->
+		<div id="body_center" align="left">
+			<div id="center_info">
+				<li align="left" id="center_info_row_title">&nbsp;&nbsp;<span class="STYLE3">&nbsp; <B>
+				<a class="headLink" href="html/1003/index.html" target="_blank"><font color="#6C2D00">Java技术教程</font></a> &nbsp;<span class="STYLE4">&amp;</span> &nbsp; 
+				<a class="headLink" href="html/1004/index.html" target="_blank"><font color="#6C2D00">ASP技术教程</font></a> &nbsp;<span class="STYLE4">&amp;</span> &nbsp; 
+				<a class="headLink" href="html/1002/index.html" target="_blank"><font color="#6C2D00">PHP技术教程</font></a> &nbsp;<span class="STYLE4">&amp;</span> &nbsp;
+				<a class="headLink" href="html/1006/index.html" target="_blank"><font color="#6C2D00">网页设计教程</font></a></B></span>
+				</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1006/4ecd45a4-1863-4ec8-a005-cc165146a095.html" target="_blank" class="STYLE10">
+				网页设计中CSS属性简介
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网页设计教程
+				<span class="STYLE6">
+				18 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1006/faa7520e-b46f-4a9b-84c9-99bd90046898.html" target="_blank" class="STYLE10">
+				网页制作常用特殊符号汇总
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网页设计教程
+				<span class="STYLE6">
+				18 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1003/e32be6f4-6dcf-4c8a-97a0-1ca2ff855d1f.html" target="_blank" class="STYLE10">
+				JDBC连接(各种)数据库连接类汇总
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				JAVA技术教程
+								<span class="STYLE6">
+				14 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1006/9f356800-53ee-47b6-b1b3-7f5375873164.html" target="_blank" class="STYLE10">
+				网页设计中的色彩的调和
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网页设计教程
+				<span class="STYLE6">
+				14 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1006/83cb85b8-408a-4111-b605-03ab0fb9b3b4.html" target="_blank" class="STYLE10">
+				如何使用Dreamweaver框架？
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网页设计教程
+				<span class="STYLE6">
+				14 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1004/e9523724-504a-4d83-aca0-e1d42304c2b9.html" target="_blank" class="STYLE10">
+				IIS HTTP500错误最终解决方法
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				ASP技术教程
+								<span class="STYLE6">
+				14 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1006/14ec3420-689d-4662-bf9a-1d08efc73676.html" target="_blank" class="STYLE10">
+				经典网页配色实例演示
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网页设计教程
+				<span class="STYLE6">
+				13 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1006/00abeacf-f8c3-4a76-b149-99baf237c57e.html" target="_blank" class="STYLE10">
+				网页设计颜色代码参考总结
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网页设计教程
+				<span class="STYLE6">
+				13 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1003/2d63e9cb-61a3-470e-93f1-c3b10c5ebdfe.html" target="_blank" class="STYLE10">
+				JSP中使用Spring的方法
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				JAVA技术教程
+								<span class="STYLE6">
+				13 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1006/7aa23379-b618-4eb4-83ab-0305f5ab67f6.html" target="_blank" class="STYLE10">
+				DW如何实现文本的段落缩进
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网页设计教程
+				<span class="STYLE6">
+				13 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1004/8efa9e8c-8f0d-4f2b-9e8b-a986e930f0f9.html" target="_blank" class="STYLE10">
+				ASP如何实现数据库事务处理的方法 
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				ASP技术教程
+								<span class="STYLE6">
+				13 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1003/ae48a7b7-5d88-494f-9659-d2a2aaea8c24.html" target="_blank" class="STYLE10">
+				jsp(java)图片缩图以及加文字水印组件
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				JAVA技术教程
+								<span class="STYLE6">
+				11 日
+				</span>
+			</li>
+		  </div>
+			<div id="center_ad1" align="center">
+				<script type="text/javascript"><!--
+				google_ad_client = "pub-3815888257365205";
+				/* 468x60, 创建于 09-2-15 */
+				google_ad_slot = "4702466330";
+				google_ad_width = 468;
+				google_ad_height = 60;
+				//-->
+				</script>
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+			</div>
+			<!----数据库以及做站------>
+			<div id="center_info">
+				<li align="left" id="center_info_row_title">&nbsp;&nbsp;<span class="STYLE3">&nbsp;<strong>
+				<a class="headLink" href="html/1001/index.html" target="_blank"><font color="#6C2D00">网站推广教程</font></a> &nbsp;<span class="STYLE4">&amp;</span> &nbsp; 
+				<a class="headLink" href="html/1005/index.html" target="_blank"><font color="#6C2D00">数据库教程</font></a> &nbsp; <span class="STYLE4">&amp;</span> &nbsp;
+				<a class="headLink" href="html/1007/index.html" target="_blank"><font color="#6C2D00">图形创意教程</font></a>
+				 </strong></span> </li>
+				 <!----中上部显示信息--->
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1001/8f3c870e-84cd-46df-be78-2c53c0c4c8d8.html" target="_blank" class="STYLE10">
+				网站如何优化多个关键字？
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网站推广教程
+								<span class="STYLE6">
+				19 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1005/cd6166a2-0b2b-45bc-8383-7e0277a6ab4f.html" target="_blank" class="STYLE10">
+				mysql数据库(数据)导入导出
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				数据库教程
+								<span class="STYLE6">
+				18 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1005/9356ed77-6006-43b2-a5e5-5cadc6e2162a.html" target="_blank" class="STYLE10">
+				MySQL在指定位置增加字段
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				数据库教程
+								<span class="STYLE6">
+				18 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1001/ffe902ef-a597-4173-bb3f-00674775fd08.html" target="_blank" class="STYLE10">
+				网站优化：网页内链的作用分析
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网站推广教程
+								<span class="STYLE6">
+				17 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1001/5f05bd68-b243-4f82-bc96-91d17180bf5b.html" target="_blank" class="STYLE10">
+				外链的魅力究竟有多大？
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网站推广教程
+								<span class="STYLE6">
+				17 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1005/e1ffdb88-c63a-401f-91a1-c41bb649e6ab.html" target="_blank" class="STYLE10">
+				sqlserver使用sql语句创建角色和用户方法
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				数据库教程
+								<span class="STYLE6">
+				12 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1005/f93f1273-12b2-4c14-a1be-1ead1f3973c4.html" target="_blank" class="STYLE10">
+				sqlserver常用SQL语句总结
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				数据库教程
+								<span class="STYLE6">
+				12 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1005/a1d072a3-6c0c-41fb-bbf1-51b649ac9240.html" target="_blank" class="STYLE10">
+				SQLServer2000的网络故障解决方法
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				数据库教程
+								<span class="STYLE6">
+				12 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1005/e5b61e26-da35-4bbe-841e-6f95c9bc869f.html" target="_blank" class="STYLE10">
+				SQLServer存储过程简单使用简介
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				数据库教程
+								<span class="STYLE6">
+				08 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1005/9497ee32-1133-4d40-ac7d-fef4d4ff8a92.html" target="_blank" class="STYLE10">
+				SQL Server设置数据库定时操作功能
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				数据库教程
+								<span class="STYLE6">
+				03 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1005/a138c04d-9aae-425c-9b5c-70228f13af1f.html" target="_blank" class="STYLE10">
+				如何解决Sqlserver占用内存问题
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				数据库教程
+								<span class="STYLE6">
+				03 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1001/67170f06-ddb9-423c-820c-f3c8262a02b6.html" target="_blank" class="STYLE10">
+				网站顶部文字对整体页面的影响
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				网站推广教程
+								<span class="STYLE6">
+				03 日
+				</span>
+			</li>
+			</div>
+			<div id="center_info">
+				<li align="left" id="center_info_row_title">&nbsp;&nbsp;<span class="STYLE3">&nbsp; <strong>
+				<a class="headLink" href="html/1008/index.html" target="_blank"><font color="#6C2D00">系统设计文档</font></a> &nbsp;<span class="STYLE4">&amp;</span> &nbsp; 
+				<a class="headLink" href="html/1009/index.html" target="_blank"><font color="#6C2D00">javascript教程</font></a> &nbsp; </strong></span> 
+				</li>
+				<!---中下部显示信息--->
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/aba64d03-3038-4721-9068-a73c3c710d00.html" target="_blank" class="STYLE10">
+				JavaScript递增和递减运算符使用方法
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				18 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1008/b80265f1-506f-48b8-8dbe-94dcb7016d94.html" target="_blank" class="STYLE10">
+				网站(网页)设计文档分析
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				系统设计文档
+								<span class="STYLE6">
+				28 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1008/445adbfc-6bec-4c23-9c94-94654e70bfdf.html" target="_blank" class="STYLE10">
+				软件需求分析几大编写重点
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				系统设计文档
+								<span class="STYLE6">
+				28 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/ca4d60af-8491-40c8-ae05-528ac72e1662.html" target="_blank" class="STYLE10">
+				javascript null与undefinedAuthor对比
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				25 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/3a24be78-5ab3-450a-89d1-fe05fccec790.html" target="_blank" class="STYLE10">
+				Javascript正则表达式语法基础
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				25 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/b1dfec0c-be7f-4499-bd06-a691964f947c.html" target="_blank" class="STYLE10">
+				Javascript trim()函数使用方法
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				25 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/6c06af3a-a059-4d8c-a603-e585abf7ae13.html" target="_blank" class="STYLE10">
+				javascript设定延时代码
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				25 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/a7964c54-b4cf-4327-90cf-cf3cd52cf2b5.html" target="_blank" class="STYLE10">
+				javascript监听鼠标事件
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				25 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/661bcea6-38c3-4e84-be5a-3c16a5cb2a47.html" target="_blank" class="STYLE10">
+				javascript网页左侧的选项卡效果
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				25 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/4564d50d-0d21-4aea-a24b-43d444b19aaa.html" target="_blank" class="STYLE10">
+				javascript点击一个链接打开两个链接地址
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				25 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/1aae4c91-503e-4cdc-8ff2-809cbc9edfa8.html" target="_blank" class="STYLE10">
+				Javascript中数据类型转换方法
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				20 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1009/1d53da41-cf55-49b7-a56f-c3aada5f41dc.html" target="_blank" class="STYLE10">
+				javascript文档对象语法基础总结
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				javascript教程
+				<span class="STYLE6">
+				18 日
+				</span>
+			</li>
+			</div>
+			<!---休闲放松-->
+			<div id="center_info_1">
+				<li align="left" id="center_info_1_row_title">&nbsp;&nbsp;<span class="STYLE3">&nbsp; <strong>
+		        <a class="headLink" href="html/1010/index.html" target="_blank"><font color="#6C2D00">休闲娱乐文章</font></a> &nbsp;</strong></span> </li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1010/ef74e9fe-421a-494c-8013-0f629d6c4bc5.html" target="_blank" class="STYLE10">
+				《我的团长我的团》经典台词语录
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				<span class="STYLE6">
+				18 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1010/92ec7fc5-e82b-418e-8798-7900df3de110.html" target="_blank" class="STYLE10">
+				《东邪西毒终极版》经典台词欣赏
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				<span class="STYLE6">
+				18 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1010/0dafba0c-20fb-4b29-8686-23be25a1d098.html" target="_blank" class="STYLE10">
+				新浪博客登陆都没找到
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				<span class="STYLE6">
+				29 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1010/4294a76e-489a-4fbd-b8af-8fc17d53433d.html" target="_blank" class="STYLE10">
+				一个网页设计师的情书
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				<span class="STYLE6">
+				18 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1010/81ea4721-b653-4b1b-88fc-f00f23f13ed8.html" target="_blank" class="STYLE10">
+				超级MM编程C语言程序搞笑版
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				<span class="STYLE6">
+				08 日
+				</span>
+			</li>
+			<li id="list_line_index_title">&nbsp;
+				<A href="html/1010/209cf001-efc8-4f6a-8c67-b72897717e27.html" target="_blank" class="STYLE10">
+				《大话西游》IT搞笑版
+				</A>
+			</li>
+			<li id="list_line_index_time">
+				<span class="STYLE6">
+				23 日
+				</span>
+			</li>
+			</div>
+		</div>
+		<!-------网页右侧部分----
+			<div id="right_image">
+				<div id="MainPromotionBanner">
+				<div id="SlidePlayer">
+				<ul class="Slides">
+				<li><a target="_blank" href="http://../html/1007/6a9f395f-e9a4-4b4d-9aa5-899e72be75be.html"><img title="网页设计-海乐网" alt="网页设计-海乐网" src="uploadFiles/jc090311_1.jpg"></a></li>
+				<li><a target="_blank" href="http://www.sealee.com"><img title="网页设计-海乐网" alt="网页设计-海乐网" src="uploadFiles/3669590.gif"></a></li>
+				<li><a target="_blank" href="http://www.sealee.com/html/1007/index.html"><img title="网页设计-海乐网" alt="网页设计-海乐网" src="uploadFiles/3669644.gif"></a></li>
+				<li><a target="_blank" href="http://www.sealee.com/html/1003/index.html"><img title="网页设计-海乐网" alt="网页设计-海乐网" src="uploadFiles/3669703.gif"></a></li>
+				</ul>
+				</div>
+				-->
+				<script type="text/javascript">
+							TB.widget.SimpleSlide.decoration('SlidePlayer', {eventType:'mouse', effect:'scroll'});
+				</script>
+				</div>
+			</div>
+			<div id="right_info">
+				<li style="text-align:left;"  id="right_info_row_title">&nbsp;&nbsp;&nbsp; &nbsp;<B>行业新闻</B> </li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			23 日</span> 
+			<A href="html/1000/news-090423025721.html" target="_blank" class="STYLE10">
+				eeeeeee
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			23 日</span> 
+			<A href="html/1000/news-090423122042.html" target="_blank" class="STYLE10">
+				ddddd
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			19 日</span> 
+			<A href="html/1000/9ae0b543-ca77-4b65-8d30-0611276a8f4d.html" target="_blank" class="STYLE10">
+				《魔兽世界》签约网易3年
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			19 日</span> 
+			<A href="html/1000/99d6bbc1-2232-4c8c-8610-ba95dfd4dfaa.html" target="_blank" class="STYLE10">
+				从廉租房开始的技术人员创业心得
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			17 日</span> 
+			<A href="html/1000/53c01b56-99f1-470f-918e-16f0b2ea5fa0.html" target="_blank" class="STYLE10">
+				百度CEO李彦宏担任博鳌论坛青年领袖论坛
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			17 日</span> 
+			<A href="html/1000/cbc4e778-36c8-4887-8c40-996f94168601.html" target="_blank" class="STYLE10">
+				IDC峰会重视品牌服务,提供优质IDC服
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			13 日</span> 
+			<A href="html/1000/6fd1b987-f2ad-4eb2-975f-7bd79b399c4b.html" target="_blank" class="STYLE10">
+				纽曼防水可打印刻录光盘全面上市
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			13 日</span> 
+			<A href="html/1000/9dda8f43-ef68-4272-891f-f6002ba2b4ca.html" target="_blank" class="STYLE10">
+				谷歌、雅虎支持中文域名搜索 有助提升搜索
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			13 日</span> 
+			<A href="html/1000/67d370bc-687e-4f06-b3e6-def38e19ab75.html" target="_blank" class="STYLE10">
+				阿里巴巴在日本"复制"成功
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			11 日</span> 
+			<A href="html/1000/7134970b-1a92-49a2-96d4-74aa16f675b8.html" target="_blank" class="STYLE10">
+				据有关消息称IBM收购Sun谈判破裂
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			11 日</span> 
+			<A href="html/1000/cfeefc2d-981c-454b-a8de-448d4a96e1ab.html" target="_blank" class="STYLE10">
+				据分析雅虎可从微软搜索合作中获利4.5亿
+			</A>
+			</li>
+			</div>
+			<!----右侧广告位------>
+			
+			<div id="right_image_adv">
+				<img style="cursor:pointer" alt="网页设计教程"  src="image/right_adv1.bmp" height="60" width="298" onclick="return adv_left()">
+			</div>
+			<div id="right_info_2">
+				<li style="text-align:left;"  id="right_info_2_row_title">&nbsp;&nbsp;&nbsp; &nbsp;<B>精华导读</B> 
+				</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			19 日</span> 
+			<A href="html/1001/8f3c870e-84cd-46df-be78-2c53c0c4c8d8.html" target="_blank" class="STYLE10">
+				网站如何优化多个关键字？
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			19 日</span> 
+			<A href="html/1000/99d6bbc1-2232-4c8c-8610-ba95dfd4dfaa.html" target="_blank" class="STYLE10">
+				从廉租房开始的技术人员创业心得
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			18 日</span> 
+			<A href="html/1009/aba64d03-3038-4721-9068-a73c3c710d00.html" target="_blank" class="STYLE10">
+				JavaScript递增和递减运算符使用
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			18 日</span> 
+			<A href="html/1006/4ecd45a4-1863-4ec8-a005-cc165146a095.html" target="_blank" class="STYLE10">
+				网页设计中CSS属性简介
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			18 日</span> 
+			<A href="html/1006/faa7520e-b46f-4a9b-84c9-99bd90046898.html" target="_blank" class="STYLE10">
+				网页制作常用特殊符号汇总
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			18 日</span> 
+			<A href="html/1005/cd6166a2-0b2b-45bc-8383-7e0277a6ab4f.html" target="_blank" class="STYLE10">
+				mysql数据库(数据)导入导出
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			17 日</span> 
+			<A href="html/1000/53c01b56-99f1-470f-918e-16f0b2ea5fa0.html" target="_blank" class="STYLE10">
+				百度CEO李彦宏担任博鳌论坛青年领袖论坛
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			17 日</span> 
+			<A href="html/1000/cbc4e778-36c8-4887-8c40-996f94168601.html" target="_blank" class="STYLE10">
+				IDC峰会重视品牌服务,提供优质IDC服
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			14 日</span> 
+			<A href="html/1003/e32be6f4-6dcf-4c8a-97a0-1ca2ff855d1f.html" target="_blank" class="STYLE10">
+				JDBC连接(各种)数据库连接类汇总
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			14 日</span> 
+			<A href="html/1006/9f356800-53ee-47b6-b1b3-7f5375873164.html" target="_blank" class="STYLE10">
+				网页设计中的色彩的调和
+			</A>
+			</li>
+			<li style="text-align:left;" id="right_info_row">
+			&nbsp;&nbsp;<span class="STYLE6">&nbsp;
+			14 日</span> 
+			<A href="html/1004/e9523724-504a-4d83-aca0-e1d42304c2b9.html" target="_blank" class="STYLE10">
+				IIS HTTP500错误最终解决方法
+			</A>
+			</li>
+			</div>
+			
+			<div id="right_image_adv2">
+				<img style="cursor:pointer" alt="网页设计教程"  src="image/right_adv2.bmp" height="60" width="298" onclick="return adv_left()">
+			</div>
+			<div id="right_info_3">
+				<li style="text-align:left;"  id="right_info_3_row_title">&nbsp;&nbsp;&nbsp;<B>文档源码下载</B></li>
+				<li style="text-align:left;"  id="right_info_3_row">
+				&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			27 日</span> 
+			<A href="html/1011/a376cb13-0f54-44de-bcce-a6cc912aefae.html" target="_blank" class="STYLE10">
+				网站设计文档下载
+			</A>
+				</li>
+				<li style="text-align:left;"  id="right_info_3_row">
+				&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			09 日</span> 
+			<A href="html/1011/f3104f25-1767-47ec-9629-99846ba8db58.html" target="_blank" class="STYLE10">
+				struts原理、开发与项目示例教程下载
+			</A>
+				</li>
+				<li style="text-align:left;"  id="right_info_3_row">
+				&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			09 日</span> 
+			<A href="html/1011/8ab21d05-afce-4bc5-8e63-391eed502f32.html" target="_blank" class="STYLE10">
+				学籍管理系统需求文档下载
+			</A>
+				</li>
+				<li style="text-align:left;"  id="right_info_3_row">
+				&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			09 日</span> 
+			<A href="html/1011/dcd60a3f-70eb-4e38-9e25-b05b6b55ced4.html" target="_blank" class="STYLE10">
+				项目需求设计文档下载
+			</A>
+				</li>
+				<li style="text-align:left;"  id="right_info_3_row">
+				&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			09 日</span> 
+			<A href="html/1011/17a41104-16b0-4927-b589-ee2f8b378139.html" target="_blank" class="STYLE10">
+				SEO助手下载
+			</A>
+				</li>
+				<li style="text-align:left;"  id="right_info_3_row">
+				&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			09 日</span> 
+			<A href="html/1011/40ac6860-6972-4032-b1be-d49516f0c803.html" target="_blank" class="STYLE10">
+				jtds最新版本下载
+			</A>
+				</li>
+				<li style="text-align:left;"  id="right_info_3_row">
+				&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			24 日</span> 
+			<A href="html/1011/13ce558d-d48f-44e0-94b4-e046ed96a7a4.html" target="_blank" class="STYLE10">
+				javascript语法参考手册下载
+			</A>
+				</li>
+			</div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div align="center" id="bottom_adv">
+	<div id="bottom_adv_left">
+	<script type="text/javascript"><!--
+		google_ad_client = "pub-3815888257365205";
+		/* 728x90, 创建于 09-2-15 */
+		google_ad_slot = "1973839263";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+	
+	</div>
+	</div>
+	<div align="center">
+		<div id="bottom_adv_left">
+<div align="center" id="link_all">
+		<div align="left" style="width:80px; float:left; line-height:20px;">
+		<li style="float:left;text-align:center; list-style:none; width:70px;margin-top:8px; margin-left:4px;">友情链接：</li>
+		</div>
+		<div align="left" id="link_line" style="float:left" >
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.web2bar.cn target=_blank title='网页制作教程'>网页制作教程</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.51itwang.com target=_blank title='我要IT网'>我要IT网</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://down.beitiao.com target=_blank title='北条下载'>北条下载</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.dncheng.com target=_blank title='电脑硬件知识'>电脑硬件知识</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.supeihui.com target=_blank title='沥水倾杉'>沥水倾杉</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://jiuzo.com.cn target=_blank title='风行下载'>风行下载</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://39safe.com target=_blank title='三九安全网'>三九安全网</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://bbs.xy-365.com target=_blank title='芯友论坛'>芯友论坛</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.webth2.cn target=_blank title='WEB第二站'>WEB第二站</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.5i93.com target=_blank title='站长大学网'>站长大学网</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.dstraid.cn target=_blank title='raid数据恢复'>raid数据恢复</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.itxuetang.cn target=_blank title='IT学堂'>IT学堂</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.choulao.com target=_blank title='酬劳网'>酬劳网</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.pc135.com target=_blank title='电脑教程网'>电脑教程网</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.sw-web.cn/ target=_blank title='网页设计学院'>网页设计学院</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.cn-web.com target=_blank title='WEB开发技术'>WEB开发技术</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.icoding.org/ target=_blank title='杂志订阅网'><font color="blue">杂志订阅网</font></a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.020-web.com/ target=_blank title='广州网站建设'>广州网站建设</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.jzcss.com target=_blank title='网站制作教程'>网站制作教程</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.hzcnc.biz target=_blank title='杭州网通宽带'>杭州网通宽带</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.web-xy.cn target=_blank title='网页学院'>网页学院</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.5yew.cn/ target=_blank title='我要e文论坛'>我要e文论坛</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.sqlclub.cn/ target=_blank title='SQL学习社区'>SQL学习社区</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.knowmyit.cn target=_blank title='电脑知识'>电脑知识</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.laikanya.com target=_blank title='工作总结'>工作总结</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.webjx.com/web/ target=_blank title='网页制作教程'>网页制作教程</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.chinancre.com.cn target=_blank title='计算机等级考试'>计算机等级考试</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.dzwebs.net target=_blank title='大计算机学习网'><font color="red">大计算机学习网</font></a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.w689.cn target=_blank title='御龙工作室'>御龙工作室</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.xy-365.com target=_blank title='电脑视频教程'>电脑视频教程</a>
+		</li>
+		<li style="float:left;list-style:none; width:85px; margin-left:0px;margin-top:3px;line-height:20px;">
+		<a href=http://www.it3721.com target=_blank title='上海数据恢复'>上海数据恢复</a>
+		</li>
+		</div>		
+</div>
+		</div>
+	</div>
+<div align="center" id="bottom">
+		<div align="center" id="bottom_line"><a href="links.shtml" target="_self">友情链接</a>　-  
+		<a href="note.jsp" target="_self">网站声明</a>　- 
+		<a href="advertise.jsp" target="_self">广告服务</a> - 
+		<A href="javascript:QQChat('408199514')">建议反馈 有问必答</a>　-
+		<a href="contact.jsp" target="_self">联系我们</a></div>
+		<div align="center" id="bottom_line">Copyright @ 2008-2009 www.sealee.com <B>网页设计教程</B> All Rights Reserved		</div>
+		<div align="center" id="bottom_line"><a href="http://www.miibeian.gov.cn/" target="_blank">豫ICP备09000842号</a></div>
+		<div align="center" id="bottom_line">	海乐网为您提供<a href="http://">网页设计</a>、<a href="http://">网页设计教程</a>、<a href="">网页制作教程</a>、<a href="">网站制作教程</a>、<a href="">设计文档</a>、<a href="">网站设计文档</a>以及<a href="</a>。
+		<script src="http://s68.cnzz.com/stat.php?id=1205456&web_id=1205456" language="JavaScript" charset="gb2312"></script>
+		<script language="javascript" type="text/javascript" src="http://js.users.51.la/2463304.js"></script>
+<noscript><a href="http://www.51.la/?2463304" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/2463304.asp" style="border:none" /></a></noscript></div>
+</div>
+<script language="javascript">
+function QQChat(qqnumber) {
+    try {
+        new ActiveXObject("TimwpDll.TimwpCheck");
+        location.href = 'Tencent://Message/?menu=yes&exe=&uin=' + qqnumber + '&websiteName=bbsmax&info=';
+    } catch (e) {
+        alert("你没有安装QQ或浏览器不支持，不能与该用户直接对话");
+    }
+}
+</script></div>
+</body>
+</html>>>

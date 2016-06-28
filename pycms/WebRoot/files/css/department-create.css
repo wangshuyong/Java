@@ -1,0 +1,37 @@
+.form {
+    padding-top: 20px;
+}
+
+.form-control {
+    width: 200px;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+.form-group>* {
+    margin-left: 106px;
+}
+select.form-control {
+    width: auto;
+}
+.form-group>label {
+    margin-left: 0;
+    width: 90px;
+    text-align: right;
+    position: absolute;
+    line-height: 32px;
+    font-weight: normal;
+}
+
+.radio-group {
+    line-height: 32px;
+}
+.radio-group label {
+    margin: 0 16px 0 2px;
+    color: #666;
+}
+
+#btn-cancel {
+    margin-left: 20px;
+}

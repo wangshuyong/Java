@@ -1,0 +1,7 @@
+package com.bjsxt.proxy.test;
+
+import com.bjsxt.proxy.InvocationHandler;
+
+public class TransactionHandler implements InvocationHandler {
+
+}

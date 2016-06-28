@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans>
+  	<form-bean name="adminuserForm" type="com.web.form.AdminUserForm" />
+  	<form-bean name="siteTypeForm" type="com.web.form.SiteTypeForm" />
+  	<form-bean name="siteInformationForm" type="com.web.form.SiteInformationForm" />
+  	<form-bean name="advertiseForm" type="com.web.form.AdvertiseForm" />
+  	<form-bean name="memberForm" type="com.web.form.MemberForm" />
+  	<form-bean name="replyForm" type="com.web.form.InfoReplyForm" />
+  </form-beans>
+  <global-exceptions />
+  
+  <global-forwards />
+  <action-mappings>
+  	<action attribute="adminuserForm" input="/admin_login.jsp" name="adminuserForm" path="/userlogin" scope="request" type="com.web.action.UserLoginAction" >
+			<forward name="sucess" path="/manage/index.jsp"></forward>
+			<forward name="fail" path="/admin_login.jsp"></forward>
+	</action>
+  	<action attribute="adminuserForm"
+			input="/manage/main.jsp" name="adminuserForm"
+			path="/userlist" scope="request"
+			type="com.web.action.ListUserAction" >
+			<forward name="sucess" path="/manage/user/list.jsp" ></forward>
+	</action>
+  	<action attribute="adminuserForm"
+			input="/manage/user/edit.jsp" name="adminuserForm"
+			path="/userinfo" scope="request"
+			type="com.web.action.GetUserInfoAction" >
+			<forward name="sucess" path="/manage/user/edit.jsp"></forward>
+	</action>
+  	<action attribute="adminuserForm"
+			input="/userlist.shtml" name="adminuserForm"
+			path="/edituser" scope="request"
+			type="com.web.action.EditUserAction" >
+			<forward name="sucess" path="/succes.jsp"></forward>
+	</action>
+  	<action attribute="adminuserForm"
+			input="/manage/type/new.jsp" name="adminuserForm"
+			path="/newuser" scope="request"
+			type="com.web.action.NewUserAction" >
+			<forward name="sucess" path="/succes.jsp"></forward>
+	</action>
+  	<action attribute="adminuserForm"
+			input="/userlist.shtml" name="adminuserForm"
+			path="/deleteuser" scope="request"
+			type="com.web.action.DeleteUserAction" >
+			<forward name="sucess" path="/manage/user/list.jsp"></forward>
+	</action>
+	
+  	<action attribute="adminuserForm"
+			input="/userlist.shtml" name="adminuserForm"
+			path="/exituser" scope="request"
+			type="com.web.action.ExitUserAction" >
+			<forward name="sucess" path="/index.html" redirect="true"></forward>
+	</action>
+	
+	
+	<action attribute="siteTypeForm"
+			input="/manage/main.jsp" name="siteTypeForm"
+			path="/listsitetype" scope="request"
+			type="com.web.action.ListSiteTypeAction" >
+			<forward name="sucess" path="/manage/type/list.jsp"></forward>
+	</action>
+	<action attribute="siteTypeForm"
+			input="/manage/type/new.jsp" name="siteTypeForm"
+			path="/newsitetype" scope="request"
+			type="com.web.action.NewSiteTypeAction" >
+			<forward name="sucess" path="/succes.jsp"></forward>
+	</action>
+	<action attribute="siteTypeForm"
+			input="/listsitetype.shtml" name="siteTypeForm"
+			path="/sitetypeinfo" scope="request"
+			type="com.web.action.GetSiteTypeInfoAction" >
+			<forward name="sucess" path="/succes.jsp"></forward>
+	</action>
+	<action attribute="siteTypeForm"
+			input="/listsitetype.shtml" name="siteTypeForm"
+			path="/editsitetype" scope="request"
+			type="com.web.action.EditSiteTypeAction" >
+			<forward name="sucess" path="/succes.jsp"></forward>
+	</action>
+	<action attribute="siteTypeForm"
+			input="/listsitetype.shtml" name="siteTypeForm"
+			path="/deletesitetype" scope="request"
+			type="com.web.action.DeleteSiteTypeAction" >
+			<forward name="sucess" path="/succes.jsp"></forward>
+	</action>
+	
+	
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/listsiteinfo" scope="request"
+			type="com.web.action.ListSiteInformationAction" >
+			<forward name="sucess" path="/manage/info/list.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/info/new.jsp" name="siteInformationForm"
+			path="/newsiteinfo" scope="request"
+			type="com.web.action.NewSiteInformationAction" >
+			<forward name="sucess" path="/note.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/siteinfo" scope="request"
+			type="com.web.action.GetSiteInformationAction" >
+			<forward name="sucess" path="/manage/info/edit.jsp"></forward>
+	</action>
+
+	
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/editsiteinfo" scope="request"
+			type="com.web.action.EditSiteInformationAction" >
+			<forward name="sucess" path="/manage/info/sendurl.jsp"></forward>
+	</action>		
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/deletesiteinfo" scope="request"
+			type="com.web.action.DeleteSiteInformationAction" >
+			<forward name="sucess" path="/manage/info/sendurl.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/buildhtml" scope="request"
+			type="com.web.action.BuildHtmlAction" >
+			<forward name="sucess" path="/manage/info/sendurl.jsp"></forward>
+			<forward name="false" path="/manage/info/sendurl.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/buildindexhtml" scope="request"
+			type="com.web.action.BuildIndexHtmlAction" >
+			<forward name="sucess" path="/manage/main.jsp"></forward>
+			<forward name="false" path="/manage/main.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/buildlisthtml" scope="request"
+			type="com.web.action.BuildListHtmlAction" >
+			<forward name="sucess" path="/manage/info/sendurl.jsp"></forward>
+			<forward name="false" path="/manage/info/sendurl.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/buildsomehtml" scope="request"
+			type="com.web.action.BuildSomeHtmlAction" >
+			<forward name="sucess" path="/manage/info/sendurl.jsp"></forward>
+			<forward name="false" path="/manage/info/sendurl.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/buildtypehtml" scope="request"
+			type="com.web.action.BuildTypeAllHtmlAction" >
+			<forward name="sucess" path="/manage/info/buildhtml.jsp"></forward>
+			<forward name="false" path="/manage/info/buildhtml.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/ajaxclick" scope="request"
+			type="com.web.action.AjaxUpdateClickNumAction" >
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/ajaxuserstate" scope="request"
+			type="com.web.action.AjaxUserStateAction" >
+	</action>
+	<action attribute="siteInformationForm"
+			input="/index.html" name="siteInformationForm"
+			path="/ajaxgetreply" scope="request"
+			type="com.web.action.AjaxGetReplyAction" >
+	</action>
+	
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/viewinfo" scope="request"
+			type="com.web.action.ViewInformationAction" >
+			<forward name="sucess" path="/manage/info/sendurl.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/manage/main.jsp" name="siteInformationForm"
+			path="/viewnotinfo" scope="request"
+			type="com.web.action.ViewNotInformationAction" >
+			<forward name="sucess" path="/manage/info/sendurl.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/index.jsp" name="siteInformationForm"
+			path="/articleList" scope="request"
+			type="com.web.action.HttpListInformationAction" >
+			<forward name="sucess" path="/http/article/list.jsp"></forward>
+	</action>	
+	<action attribute="siteInformationForm"
+			input="/index.jsp" name="siteInformationForm"
+			path="/thread" scope="request"
+			type="com.web.action.HttpViewInformationAction" >
+			<forward name="sucess" path="/http/article/view.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/index.html" name="siteInformationForm"
+			path="/myreply" scope="request"
+			type="com.web.action.HttpViewReplyAction" >
+			<forward name="sucess" path="/http/article/reply.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/index.html" name="siteInformationForm"
+			path="/articles" scope="request"
+			type="com.web.action.HttpMemberInformationAction" >
+			<forward name="sucess" path="/http/article/httpview.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/main.html" name="siteInformationForm"
+			path="/newmemberarticle" scope="request"
+			type="com.web.action.MemberNewInformationAction" >
+			<forward name="sucess" path="/memberarticles.shtml"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/main.jsp" name="siteInformationForm"
+			path="/memberarticles" scope="request"
+			type="com.web.action.MemberAllInformationAction" >
+			<forward name="sucess" path="/member/allarticle.jsp"></forward>
+			<forward name="fail" path="/index.html" redirect="true"></forward>
+	</action>		
+	<action attribute="siteInformationForm"
+			input="/member/main.jsp" name="siteInformationForm"
+			path="/memberinfo" scope="request"
+			type="com.web.action.GetMemberInformationAction" >
+			<forward name="sucess" path="/member/editarticle.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/member/main.jsp" name="siteInformationForm"
+			path="/editmemberinfo" scope="request"
+			type="com.web.action.EditMemberInformationAction" >
+			<forward name="sucess" path="/memberarticles.shtml"></forward>
+	</action>		
+	<action attribute="siteInformationForm"
+			input="/member/main.jsp" name="siteInformationForm"
+			path="/deletememberinfo" scope="request"
+			type="com.web.action.DeleteMemberInformationAction" >
+			<forward name="sucess" path="/memberarticles.shtml"></forward>
+	</action>
+	
+	<action attribute="advertiseForm"
+			input="/manage/main.jsp" name="advertiseForm"
+			path="/listadvertise" scope="request"
+			type="com.web.action.ListAdvertiseAction" >
+			<forward name="sucess" path="/manage/advertise/list.jsp"></forward>
+	</action>
+	<action attribute="advertiseForm"
+			input="/manage/main.jsp" name="advertiseForm"
+			path="/newadvertise" scope="request"
+			type="com.web.action.NewAdvertiseAction" >
+			<forward name="sucess" path="/manage/advertise/sendurl.jsp"></forward>
+	</action>
+	<action attribute="advertiseForm"
+			input="/manage/main.jsp" name="advertiseForm"
+			path="/deleteadvertise" scope="request"
+			type="com.web.action.DeleteAdvertiseAction" >
+			<forward name="sucess" path="/manage/advertise/sendurl.jsp"></forward>
+	</action>
+	<action attribute="advertiseForm"
+			input="/manage/main.jsp" name="advertiseForm"
+			path="/getadvertise" scope="request"
+			type="com.web.action.GetAdvertiseAction" >
+			<forward name="sucess" path="/manage/advertise/edit.jsp"></forward>
+	</action>
+	<action attribute="advertiseForm"
+			input="/manage/main.jsp" name="advertiseForm"
+			path="/editadvertise" scope="request"
+			type="com.web.action.EditAdvertiseAction" >
+			<forward name="sucess" path="/manage/advertise/sendurl.jsp"></forward>
+	</action>
+	<action attribute="advertiseForm"
+			input="/links.jsp" name="advertiseForm"
+			path="/links" scope="request"
+			type="com.web.action.HttpListLinksAction" >
+			<forward name="sucess" path="/links.jsp"></forward>
+			<forward name="fail" path="/index.html" redirect="true"></forward>
+	</action>
+	
+	<action attribute="siteInformationForm"
+			input="/index.shtml" name="siteInformationForm"
+			path="/index" scope="request"
+			type="com.web.action.IndexAction" >
+			<forward name="sucess" path="/index.jsp"></forward>
+	</action>
+	<action attribute="siteInformationForm"
+			input="/index.shtml" name="siteInformationForm"
+			path="/searchinfo" scope="request"
+			type="com.web.action.HttpSearchInformationAction" >
+			<forward name="sucess" path="/http/article/result.jsp"></forward>
+	</action>
+	
+	<action attribute="MemberForm" input="/register.jsp" name="memberForm" path="/newmember" scope="request" type="com.web.action.NewMemberAction" >
+			<forward name="sucess" path="/index.html" redirect="true"></forward>
+			<forward name="fail" path="/register.jsp"></forward>
+	</action>
+	<action attribute="MemberForm" input="/login.jsp" name="memberForm" path="/memberlogin" scope="request" type="com.web.action.MemberLoginAction" >
+			<forward name="sucess" path="/index.html" redirect="true"></forward>
+			<forward name="fail" path="/login.jsp"></forward>
+	</action>
+	<action attribute="MemberForm"
+			input="/index.html" name="MemberForm"
+			path="/outlogin" scope="request"
+			type="com.web.action.ExitMemberAction" >
+			<forward name="sucess" path="/index.html" redirect="true"></forward>
+	</action>
+	<action attribute="MemberForm"
+			input="/index.html" name="MemberForm"
+			path="/editmember" scope="request"
+			type="com.web.action.GetMemberInfoAction" >
+			<forward name="sucess" path="/member/editinfo.jsp"></forward>
+	</action>
+	<action attribute="MemberForm"
+			input="/index.html" name="MemberForm"
+			path="/domember" scope="request"
+			type="com.web.action.EditMemberAction" >
+			<forward name="sucess" path="/member/main.jsp"></forward>
+	</action>
+	
+	
+	<action attribute="replyForm"
+			input="/index.html" name="replyForm"
+			path="/reply" scope="request"
+			type="com.web.action.NewInforReplyAction" >
+			<forward name="sucess" path="/http/article/sendurl.jsp"></forward>
+	</action>
+	
+  </action-mappings>
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+  
+  
+</struts-config>
+

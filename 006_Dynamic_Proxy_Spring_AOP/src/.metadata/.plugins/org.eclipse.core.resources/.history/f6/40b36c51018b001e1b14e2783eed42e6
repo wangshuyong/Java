@@ -1,0 +1,4 @@
+
+public class BeanFactory {
+	public Object getBean(String id);
+}

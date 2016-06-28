@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/myrepository/!svn/ver/1/src/com/server
+END
+BaseHibernateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/myrepository/!svn/ver/1/src/com/server/BaseHibernateDAO.java
+END
+IBaseHibernateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/myrepository/!svn/ver/1/src/com/server/IBaseHibernateDAO.java
+END

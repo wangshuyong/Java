@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IM-登录</title>
+	<link rel="stylesheet" href="<?php echo __DEFINE_THEMES__;?>/css/chat.css" />
+	<script type="text/javascript" src="<?php echo __DEFINE_THEMES__;?>/js/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="<?php echo __DEFINE_THEMES__;?>/js/jqueryqr.js"></script>
+	<script type="text/javascript" src="<?php echo __DEFINE_THEMES__;?>/js/pcweb.js"></script>
+</head>
+<body class="bg1">
+	<div class="qr_code">
+		<input type="hidden" id="jsval_code" value="<?php echo $key;?>" />
+		<p>
+			<div id="jsval_codebox" ><canvas width="235" height="235"></canvas></div>
+		</p>
+		<p class="txt" style="left:332px;top:80px">请使用新讯通扫描二维码进行登录</p>
+		<p class="txt" style="left:332px;top:212px"><!--帐号登录>>--></p>
+	</div>
+	<div class="footer">
+		<p>&copy;新讯通网页版</p>
+	</div>
+<script type="text/javascript">
+JWeb.QRCode();
+setTimeout('JWeb.Login()',2000);
+//JWeb.Login();
+</script>
+
+</body>
+</html>

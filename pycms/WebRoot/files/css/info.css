@@ -1,0 +1,120 @@
+.btnBox {
+    border: 1px #ccc solid;
+    line-height: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    padding-left: 16px;
+}
+.btn-primary {
+    border-radius: 0
+}
+.btn-publish {
+    padding: 5px 25px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.panel-default {
+    border-radius: 0;
+}
+.panel-body {
+    padding: 0;
+}
+.list {
+    height: 40px;
+    background: #f8f8f8;
+    line-height: 40px;
+    border-bottom: 1px #ccc solid;
+    margin-bottom: 31px;
+}
+.list li {
+    float: left;
+}
+.list li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 40px;
+    height: 40px;
+    display: block;
+}
+.on {
+    background: #fff;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    text-decoration: none;
+    font-weight: bold;
+}
+#bdBox form input {
+    margin-left: 20px;
+}
+/*=======个人资料=======*/
+.form-control {
+    width: 200px;
+}
+.infos>div {
+    display: none;
+}
+.infos .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+.infos .form-group>* {
+    margin-left: 100px;
+}
+#avatar-image {
+    width: 200px;
+}
+.avatar-tips {
+    margin: 10px 0 0;
+    color: #999;
+}
+.infos .form-group>label {
+    margin-left: 0;
+    width: 90px;
+    text-align: right;
+    position: absolute;
+    line-height: 32px;
+    font-weight: normal;
+}
+#info-birth {
+    width: 100px;
+}
+#btn-get-code {
+    position: absolute;
+    top: 0;
+    margin-left: 320px;
+}
+#info-mobile-code {
+    width: 100px;
+}
+#info-gender {
+    width: auto;
+}
+
+#btn-avatar-upload, #btn-avatar-submit {
+    margin-top: 20px;
+}
+
+/*preview*/
+#preview-pane {
+    display: none;
+    position: absolute;
+    padding: 6px;
+    left: 250px;
+    margin-top:  -114px;
+
+    border: 1px rgba(0,0,0,.4) solid;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* The Javascript code will set the aspect ratio of the crop
+   area based on the size of the thumbnail preview,
+   specified here */
+#preview-pane .preview-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}

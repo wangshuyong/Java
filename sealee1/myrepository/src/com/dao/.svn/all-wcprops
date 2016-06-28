@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/myrepository/!svn/ver/1/src/com/dao
+END
+TAdminUserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myrepository/!svn/ver/1/src/com/dao/TAdminUserDAO.java
+END
+TInfoReplyDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myrepository/!svn/ver/1/src/com/dao/TInfoReplyDAO.java
+END
+TMemberDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/src/com/dao/TMemberDAO.java
+END
+PagerDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/myrepository/!svn/ver/1/src/com/dao/PagerDAO.java
+END
+TSiteInformationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/myrepository/!svn/ver/1/src/com/dao/TSiteInformationDAO.java
+END
+TAdvertiseDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myrepository/!svn/ver/1/src/com/dao/TAdvertiseDAO.java
+END
+TSiteTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/myrepository/!svn/ver/1/src/com/dao/TSiteTypeDAO.java
+END

@@ -1,0 +1,9 @@
+package com.bjsxt.dp.factory;
+
+public class Test {
+	public static void main(String[] args) {
+		Car c = Car.getInstance();
+		Car c2 = Car.getInstance();
+		c.run();
+	}
+}

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/myrepository/!svn/ver/1/WebRoot/manage/info
+END
+buildhtml.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/myrepository/!svn/ver/1/WebRoot/manage/info/buildhtml.jsp
+END
+edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/myrepository/!svn/ver/1/WebRoot/manage/info/edit.jsp
+END
+拷贝于 list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/myrepository/!svn/ver/1/WebRoot/manage/info/%E6%8B%B7%E8%B4%9D%E4%BA%8E%20list.jsp
+END
+new.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/WebRoot/manage/info/new.jsp
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/myrepository/!svn/ver/1/WebRoot/manage/info/list.jsp
+END
+sendurl.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/myrepository/!svn/ver/1/WebRoot/manage/info/sendurl.jsp
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/myrepository/!svn/ver/1/WebRoot/member/info
+END
+edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/myrepository/!svn/ver/1/WebRoot/member/info/edit.jsp
+END
+new.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/WebRoot/member/info/new.jsp
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/myrepository/!svn/ver/1/WebRoot/member/info/list.jsp
+END
+sendurl.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/myrepository/!svn/ver/1/WebRoot/member/info/sendurl.jsp
+END

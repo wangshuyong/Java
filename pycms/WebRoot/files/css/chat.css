@@ -1,0 +1,9 @@
+.items {
+    cursor: pointer;
+}
+
+.new-message {
+    
+    height: 8px;
+    width: 8px;
+}

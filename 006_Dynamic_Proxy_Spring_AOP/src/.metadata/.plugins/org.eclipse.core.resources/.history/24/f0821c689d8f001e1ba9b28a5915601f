@@ -1,0 +1,16 @@
+package com.bjsxt.proxy;
+
+import java.lang.reflect.Method;
+
+public class TimeHandler implements InvocationHandler{
+
+	@Override
+	public void invoke(Object o, Method m) {
+		long start = System.currentTimeMillis();
+		System.out.println("starttime:" + start);
+		m.()
+		long end = System.currentTimeMillis();
+		System.out.println(\"time:\" + (end-start));
+	}
+
+}

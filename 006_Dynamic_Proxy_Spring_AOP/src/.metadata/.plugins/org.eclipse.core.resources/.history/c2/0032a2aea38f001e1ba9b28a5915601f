@@ -1,0 +1,10 @@
+package com.bjsxt.proxy.test;
+
+import com.bjsxt.proxy.InvocationHandler;
+
+public class Client {
+	public static void main(String[] args) {
+		UserMgr mgr = new UserMgrImpl();
+		InvocationHandler h = new TransactionHandler(mgr);
+	}
+}

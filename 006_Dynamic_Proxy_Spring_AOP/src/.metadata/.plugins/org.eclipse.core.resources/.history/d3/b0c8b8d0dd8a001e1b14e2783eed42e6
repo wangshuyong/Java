@@ -1,0 +1,23 @@
+import java.util.*;
+import org.jdom.*;
+import org.jdom.input.SAXBuilder;
+import org.jdom.xpath.XPath;
+
+public class Sample2 {
+	public static void main(String[] args) throws Exception {
+		SAXBuilder sb = new SAXBuilder();
+		Document doc = sb.build(Sample2.class.getClassLoader()
+				.getResourceAsStream("applicationContext.xml"));
+		// Document doc = sb.build("sample.xml");
+		Element root = doc.getRootElement();
+		List list = XPath.selectNodes(root, "/beans/bean");
+		//List list = XPath.selectNodes(root, "/beans/bean");
+		System.out.println(list.size());
+		for (int i = 0; i < list.size(); i++) {
+			Element bean = (Element) list.get(i);
+			String id = bean.getAttributeValue("id");
+			String clazz = bean.getAttributeValue("class");
+			System.out.println(id + " " + clazz);
+		}
+	}
+}

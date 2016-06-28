@@ -1,0 +1,581 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="网站推广教程">
+<meta name="description" content="网站推广教程">
+<title>网站推广教程|海乐网</title>
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+<link rel="stylesheet" href="../../css/css.css" type="text/css">
+<script src="../../js/yu.js" type="text/javascript"></script>
+<script src="../../js/tb.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+.STYLE2 {color: #0000FF}
+.STYLE3 {
+	color: #6C2D00;
+	font-size: 14px;
+}
+.STYLE4 {color: #000000}
+.STYLE6 {color: #999999}
+#Layer1 {
+	position:absolute;
+	width:145px;
+	height:18px;
+	z-index:0;
+	left: 652px;
+	top: 408px;
+}
+.STYLE8 {font-size: 16px}
+.STYLE9 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.STYLE10 {font-size: 14px; font-weight: bold; color: #2445ec; }
+.STYLE11 {font-size: 11px}
+.STYLE13 {color: #000000; font-size: 11px; }
+.STYLE14 {
+	color: #2445ec;
+	font-size: 12px;
+}
+-->
+</style>
+</head>
+<body topmargin=0 style="text-align:center;">
+<div id="kuang">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="Shortcut Icon" href="favicon.ico">
+<link rel="Bookmark" href="favicon.ico">
+<div align="center">
+<div id="topest">	
+	  <div align="right" style="width:400px; margin-left:550px;">
+	  <ul style=" text-align: right">
+		<li class="LiNoPointTop" style="border:none"><a href="../../login.jsp" target="_self">会员登录</a></li>
+		<li class="LiNoPointTop"><a href="../../register.jsp" target="_self">注册会员</a></li>
+		<li class="LiNoPointTop"><a href="javascript:bookmarkit()">添加收藏</a></li>
+	  </ul>
+	  </div>
+	</div>
+	<div id="divBorder">
+	  <div id="topLogo"></div>
+	  <div id="banner_right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1 style="font-size:12px; display:inline">海乐网为您提供网页设计教程、网页设计、网页制作教程、网站制作教程、设计文档、网站设计文档以及网站推广教程。</h1></div>
+	  <div id="banner"><img alt="网页设计教程-海乐网"  src="../../image/banne1_sealee.gif"  border="0" height="60" width="468"/></div>
+	</div>
+	<div id="top">	
+	  <ul style=" text-align:center; margin-left:0px;">
+		<li class="LiNoPoint" style="border:none;">
+		<a class="topLink" href="../../index.html" target="_self"><font color="#FFFFFF">主页</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1000/index.html" target="_self"><font color="#FFFFFF">行业动态</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1001/index.html" target="_self"><font color="#FFFFFF">网站推广</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1002/index.html" target="_self"><font color="#FFFFFF">PHP教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1003/index.html" target="_self"><font color="#FFFFFF">JAVA教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1004/index.html" target="_self"><font color="#FFFFFF">ASP教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1005/index.html" target="_self"><font color="#FFFFFF">数据库教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1006/index.html" target="_self"><font color="#FFFFFF">网页设计教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1007/index.html" target="_self"><font color="#FFFFFF">图形创意</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1008/index.html" target="_self"><font color="#FFFFFF">系统设计文档</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1009/index.html" target="_self"><font color="#FFFFFF">javascript教程</font></a>
+		</li>
+	  </ul>
+	</div>
+	<!------搜索栏----->
+	<form id="search_form" name="search_form" action="" method="post">
+	<div id="search">
+		<ul style=" text-align:center">
+			<li class="LiNoPointSearch" style="border:none">搜索热门：</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=jsp" target="_self">JSP源码</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=%CD%F8%D2%B3%C9%E8%BC%C6" target="_self">网页设计</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=%CD%F8%D5%BE%CD%C6%B9%E3" target="_self">网站推广</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=%C9%E8%BC%C6%CE%C4%B5%B5" target="_self">设计文档</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=java" target="_self">JAVA开发</a>
+			</li>
+			<li class="LiNoPointSearch" style="margin-left:200px; width:300px; line-height:27px;">
+			<nobr>智能搜索：<input align="absmiddle" type="text" name="condition" id="condition">
+			  <input type="image" src="../../image/btn_search.gif" name="button" value="提交" onclick="return searchcheck()"/>   </nobr>		
+			</li>
+	  </ul>
+	</div>
+	</form>
+</div>
+<script language="javascript">
+	function searchcheck(){
+		if(document.search_form.condition.value==''){
+			alert('对不起，请输入查询条件！');
+			return false;
+			document.search_form.condition.focus();
+		}else{
+			var tempurl = document.search_form.condition.value;
+			search_form.action = "../../searchinfo.shtml?urlcondition="+tempurl;
+			search_form.submit();
+		}
+	}
+	
+	function bookmarkit(){
+	window.external.addfavorite("/","专业的WEB开发技术，编程技术，网页设计，设计文档，网站推广教程")
+	}
+	function rundemo(k){
+		var democode=document.getElementById(k).value
+		var demowin=window.open()
+		
+		demowin.document.open();
+		demowin.document.write(democode)
+		demowin.document.close();
+	}
+
+</script><div id="listAdvertise">
+<!---------广告代码段----------->
+	<script type="text/javascript"><!--
+		google_ad_client = "pub-3815888257365205";
+		/* 728x90, 创建于 09-2-15 */
+		google_ad_slot = "1973839263";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+
+</div>
+
+	<div align="center" id="body_all">
+		
+		<!-----正文中间部分-------->
+		<div id="body_article" align="left">
+			<div id="list_info">
+				<div align="left" id="list_info_row_title">
+						<li id="list_line_li_title">
+						&nbsp;&nbsp;<span class="STYLE3">&nbsp;</span> <span class="STYLE9">
+						<a class="titleLink" href="../../index.html" target="_self">网站首页</a> &gt;&gt; &nbsp; 
+						网站推广教程&nbsp; <span class="STYLE4">&gt;&gt;</span> 列表</span></li>
+						
+				</div>
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="d93009f5-7acb-4a39-9c0f-391dd8800d6a.html" target="_blank" class="STYLE10">
+			网站推广中增加网站流量的七种有效方法
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-23 19:05:13
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			网站推广中增加网站流量的七种有效方法如果你开发管理着一个网站，做网站首先是想如何能把网站页面做的美观、直接、动人。然而当你网页内容版面规划设计的差不多的时候，你才会有足够的信心去推
+			
+			[<A href="d93009f5-7acb-4a39-9c0f-391dd8800d6a.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="26eed039-0bba-44b9-9329-88b02ff2bf55.html" target="_blank" class="STYLE10">
+			网站推广要做好前期的各项分析准备
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-23 18:51:33
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			网站推广要做好前期的各项分析准备，在明确了用户，和了解这些用户会出现在哪些地方的前提下，现在只需要想的是，如何去把这些用户从那些地方吸引过来。
+			
+			[<A href="26eed039-0bba-44b9-9329-88b02ff2bf55.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="7a8aa2f6-56b3-4fdb-998b-74acfdb53417.html" target="_blank" class="STYLE10">
+			SEO真的具备技术含量？
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-20 15:00:03
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			作为一个SEO，看的懂HTML代码应该是必须的，同时，看懂HTML也就达到基本要求了。从科技角度来看待技术这个词的话，SEO的技术含量也就这么多了。在有些人看来，这简直是狗屎�HT
+			
+			[<A href="7a8aa2f6-56b3-4fdb-998b-74acfdb53417.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="a7d9b6a0-6442-4ece-b7f0-dd38c268dc64.html" target="_blank" class="STYLE10">
+			如何提高网站搜索引擎排名
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-20 14:55:54
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			网站最重要的是什么?当然是赢利，流量是赢利的基础，而排名又很大程序上决定流量。所在，某种意义上说，做网站其实就是做排名。
+			
+			[<A href="a7d9b6a0-6442-4ece-b7f0-dd38c268dc64.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="902cc538-5a1e-4276-b2b7-f810a1d68662.html" target="_blank" class="STYLE10">
+			对百度快照跟新慢的一点看法
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-19 10:46:02
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			大家都知道百度最近好像更年期，最好不要惹它，至于为什么会这样，我想资深的老站长都知道，最愧祸首就是seo软件，哪类呢?侠客等自动生成的seo站惹的祸
+			
+			[<A href="902cc538-5a1e-4276-b2b7-f810a1d68662.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="4298b7d6-e7f6-458d-b238-a7bd51fd4419.html" target="_blank" class="STYLE10">
+			如何做对搜索引擎友好的网站设计
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-18 22:12:56
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			如何做对搜索引擎友好的网站设计
+			
+			[<A href="4298b7d6-e7f6-458d-b238-a7bd51fd4419.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="7ff5d3cc-c53a-4bfe-9cf3-8c2819df823c.html" target="_blank" class="STYLE10">
+			网站优化推广方案解析
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-16 09:36:44
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			网站优化推广方案解析,网站优化已经成为网络营销经营策略的必然要求。如果在网站建设中没有体现网站优化和搜索引擎优化的基本思想，在网络营销水平普遍提高的网络营销环境中是很难获得竞争优势
+			
+			[<A href="7ff5d3cc-c53a-4bfe-9cf3-8c2819df823c.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="81d5905c-c5d0-4d40-9ed2-46c198b5747f.html" target="_blank" class="STYLE10">
+			影响一个网站（首页）PR值的因素总结
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-16 09:30:48
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			PR值体现为从0到10的11个数值，在Google的工具栏上以一条横向绿色柱状图显示，0级情况下呈白色。它是针对网页而不是网站，因此一个网站的首页和内页往往有着迥然不同的PR值。由
+			
+			[<A href="81d5905c-c5d0-4d40-9ed2-46c198b5747f.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="ee9b6e10-6f37-40c6-bb9c-23ecbc8985ac.html" target="_blank" class="STYLE10">
+			新站被快速收录的经验分享
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-13 13:47:29
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			新站被快速收录的经验分享
+			
+			[<A href="ee9b6e10-6f37-40c6-bb9c-23ecbc8985ac.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="d7907aa3-da21-48eb-b029-9ea99074c9f9.html" target="_blank" class="STYLE10">
+			如何做网页301永久重定向
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-12 11:30:30
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			如何做网页301永久重定向
+
+			
+			[<A href="d7907aa3-da21-48eb-b029-9ea99074c9f9.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="55c714f2-757a-4317-a3cf-4ddd6dca3d1f.html" target="_blank" class="STYLE10">
+			网站推广中链接优化需要注意的方面
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-12 11:25:23
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			网站推广中链接优化需要注意的方面
+
+			
+			[<A href="55c714f2-757a-4317-a3cf-4ddd6dca3d1f.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="f45307cc-2623-47a6-b304-e4f0ef882b3f.html" target="_blank" class="STYLE10">
+			分析网站外部链接的工具和方法
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2009-03-11 13:56:08
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			分析网站外部链接的工具和方法,外部链接属于SEO中很重要的环节，不过很多SEOer并没有对外部链接进行细分的研究和分析，只是一味的去进行外部链接建设，下面推荐几个本人经常用的外部链
+			
+			[<A href="f45307cc-2623-47a6-b304-e4f0ef882b3f.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+
+				<div align="left" id="list_info_row" style="height:60px;">
+				<li style="text-align:center; list-style:none" class="STYLE9 STYLE14">
+				</li>
+				<li style="text-align:center;list-style:none" class="STYLE9 STYLE14">
+				<a href='index.html' class='STYLE10'>首页</a>      <a href='index.html' class='STYLE10'>上一页</a>  &nbsp;&nbsp;共有 <font color='red'>64</font> 篇文章    &nbsp;&nbsp;<a href='index.html' class='STYLE10'>[1]</a>    &nbsp;&nbsp;<a href='index-2.html' class='STYLE10'><font color='red'>[2]</font></a>  &nbsp;&nbsp;<a href='index-3.html' class='STYLE10'>[3]</a>  &nbsp;&nbsp;<a href='index-4.html' class='STYLE10'>[4]</a>  &nbsp;&nbsp;<a href='index-5.html' class='STYLE10'>[5]</a>  &nbsp;&nbsp;<a href='index-6.html' class='STYLE10'>[6]</a>  &nbsp;&nbsp;<a href='index-3.html' class='STYLE10'>下一页</a>    <a href='index-6.html' class='STYLE10'>末页</a>  
+				</li>
+				<li style="text-align:center; list-style:none" class="STYLE9 STYLE14">
+				</li>
+				</div>
+			</div>
+			
+			<div align="left" style="margin-top:5px; float:left;">
+			
+			</div>
+
+		</div>
+		<!-----正文右侧部分-------->
+		<div id="body_right" align="left">
+			<!---推荐信息--->
+			<div id="right_info" style="height:600px;">
+			<li id="right_info_row_title">&nbsp;&nbsp;&nbsp;&nbsp;<B>推荐信息</B> </li>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			<script type="text/javascript"><!--
+			google_ad_client = "pub-3815888257365205";
+			/* 160x600, 创建于 09-6-23 */
+			google_ad_slot = "3769138972";
+			google_ad_width = 160;
+			google_ad_height = 600;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+			</li>
+
+			</div>
+			<!----右侧广告位------>
+			
+			<div id="right_image_adv">
+				<a href="../../youxi-sealee.jsp" target="_blank"><img src="../../image/right_adv1.bmp" height="60" width="298" border="0"></a>
+			</div>
+			<div id="right_info_2">
+			<li id="right_info_2_row_title">&nbsp;&nbsp;&nbsp;&nbsp;<b>精品导读</b> </li>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			19 日</span> 
+			<a href="../../html/1001/8f3c870e-84cd-46df-be78-2c53c0c4c8d8.html">
+			网站如何优化多个关键字？
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			03 日</span> 
+			<a href="../../html/1001/67170f06-ddb9-423c-820c-f3c8262a02b6.html">
+			网站顶部文字对整体页面的影响
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			01 日</span> 
+			<a href="../../html/1001/312f99b4-4aa8-4e09-a2bc-bcf76a97e8ef.html">
+			应对google(谷歌)沙盒效应站长束
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			31 日</span> 
+			<a href="../../html/1001/16134943-c3ea-4430-87b9-7bba4e870cad.html">
+			网站初期要靠外链带来权重
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			29 日</span> 
+			<a href="../../html/1001/2a83c512-5de1-4732-9581-05e204d1766e.html">
+			海乐网的SEO经验总结
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			23 日</span> 
+			<a href="../../html/1001/d93009f5-7acb-4a39-9c0f-391dd8800d6a.html">
+			网站推广中增加网站流量的七种有效方法
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			20 日</span> 
+			<a href="../../html/1001/7a8aa2f6-56b3-4fdb-998b-74acfdb53417.html">
+			SEO真的具备技术含量？
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			20 日</span> 
+			<a href="../../html/1001/a7d9b6a0-6442-4ece-b7f0-dd38c268dc64.html">
+			如何提高网站搜索引擎排名
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			16 日</span> 
+			<a href="../../html/1001/7ff5d3cc-c53a-4bfe-9cf3-8c2819df823c.html">
+			网站优化推广方案解析
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			16 日</span> 
+			<a href="../../html/1001/81d5905c-c5d0-4d40-9ed2-46c198b5747f.html">
+			影响一个网站（首页）PR值的因素总结
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			12 日</span> 
+			<a href="../../html/1001/55c714f2-757a-4317-a3cf-4ddd6dca3d1f.html">
+			网站推广中链接优化需要注意的方面
+			</a>
+			</A>
+			</li>
+			</div>		
+		</div>
+	</div>
+	<div align="center">
+		<div id="bottom_adv_left">
+		
+		</div>
+	</div>
+	<div id="clear"></div>
+<div align="center" id="bottom">
+		<div align="center" id="bottom_line"><a href="../../links.shtml" target="_self">友情链接</a>　-  
+		<a href="../../note.jsp" target="_self">网站声明</a>　- 
+		<a href="../../advertise.jsp" target="_self">广告服务</a> - 
+		<A href="javascript:QQChat('408199514')">建议反馈 有问必答</a>　-
+		<a href="../../contact.jsp" target="_self">联系我们</a></div>
+		<div align="center" id="bottom_line">Copyright @ 2008-2009 www.sealee.com <B>网页设计教程网 </B> All Rights Reserved		</div>
+		<div align="center" id="bottom_line">豫ICP备09000842号</div>
+		<div align="center" id="bottom_line">为您提供<a href="">网页设计</a>、<a href="">网页设计教程</a>、<a href="">网页制作教程</a>、<a href="">网站制作教程</a>、<a href="">设计文档</a>、<a href="">网站设计文档</a>以及<a href="">网站推广教程</a>。
+		<script src="http://s68.cnzz.com/stat.php?id=1205456&web_id=1205456" language="JavaScript" charset="gb2312"></script>
+		<script language="javascript" type="text/javascript" src="http://js.users.51.la/2463304.js"></script>
+<noscript><a href="http://www.51.la/?2463304" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/2463304.asp" style="border:none" /></a></noscript></div>
+</div>
+<script language="javascript">
+function QQChat(qqnumber) {
+    try {
+        new ActiveXObject("TimwpDll.TimwpCheck");
+        location.href = 'Tencent://Message/?menu=yes&exe=&uin=' + qqnumber + '&websiteName=bbsmax&info=';
+    } catch (e) {
+        alert("你没有安装QQ或浏览器不支持，不能与该用户直接对话");
+    }
+}
+</script></div>
+</body>
+</html>

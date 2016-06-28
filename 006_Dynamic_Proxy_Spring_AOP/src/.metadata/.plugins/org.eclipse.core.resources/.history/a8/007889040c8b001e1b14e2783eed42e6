@@ -1,0 +1,7 @@
+package com.bjsxt.dp.factory.abstractfactory;
+
+public class MagicFactory {
+	public Broom createBroom() {
+		return new Broom();
+	}
+}

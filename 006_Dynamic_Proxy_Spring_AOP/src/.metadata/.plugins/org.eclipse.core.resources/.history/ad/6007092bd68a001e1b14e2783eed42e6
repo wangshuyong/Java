@@ -1,0 +1,10 @@
+import com.bjsxt.spring.Car;
+import com.bjsxt.spring.Moveable;
+
+
+public class Test {
+	public static void main(String[] args) {
+		Moveable m = new Car();
+		m.run();
+	}
+}

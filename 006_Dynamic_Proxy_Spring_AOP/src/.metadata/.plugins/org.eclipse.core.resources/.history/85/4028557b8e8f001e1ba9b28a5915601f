@@ -1,0 +1,12 @@
+package com.bjsxt.proxy;
+
+public class Client {
+	public static void main(String[] args) {
+		Tank t = new Tank();
+		
+		TankLogProxy tlp = new TankLogProxy(t);
+		TankTimeProxy ttp = new TankTimeProxy(tlp);
+		Moveable m = ttp;
+		m.move();
+	}
+}

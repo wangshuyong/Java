@@ -1,0 +1,49 @@
+10
+
+dir
+29923
+svn://svn.feedss.com/goat/server/pcweb
+svn://svn.feedss.com
+
+
+
+2015-06-02T08:24:24.666661Z
+29850
+huangdeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f81803e5-8007-4397-8d2c-58c7efa865dc
+
+log
+dir
+
+webroot
+dir
+
+application
+dir
+
+config
+dir
+
+doc
+dir
+
+crontab
+dir
+
+framework
+dir
+

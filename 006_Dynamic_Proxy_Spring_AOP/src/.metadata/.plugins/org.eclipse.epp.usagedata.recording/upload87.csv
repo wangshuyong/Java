@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250583749593
+java.specification.version,sysinfo,,,"1.6",1250583749593
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1250583749593
+java.version,sysinfo,,,"1.6.0_14",1250583749593
+java.vm.info,sysinfo,,,"mixed mode",1250583749593
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1250583749593
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1250583749593
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250583749593
+java.vm.specification.version,sysinfo,,,"1.0",1250583749593
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1250583749593
+java.vm.version,sysinfo,,,"14.0-b16",1250583749593
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.commons.ui",1250583749703
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1250583749890
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1250583749906
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.bugzilla.core",1250583750390
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1250583750562
+started,bundle,org.eclipse.ui.forms,3.4.0.v20090526,"org.eclipse.ui.forms",1250583750750
+started,bundle,org.eclipse.team.cvs.ui,3.3.200.I20090521-1750,"org.eclipse.team.cvs.ui",1250583750968
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.tasks.ui",1250583751312
+started,bundle,org.eclipse.mylyn.team.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.team.ui",1250583751390
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1250583751390
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1250583751484
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.monitor.ui",1250583751562
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250583905062
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250583907359

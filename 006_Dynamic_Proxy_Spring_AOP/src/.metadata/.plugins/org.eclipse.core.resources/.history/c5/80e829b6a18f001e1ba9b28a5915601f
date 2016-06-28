@@ -1,0 +1,12 @@
+package com.bjsxt.proxy;
+
+
+public class Client {
+	public static void main(String[] args) throws Exception {
+		Tank t = new Tank();
+				
+		Moveable m = (Moveable)Proxy.newProxyInstance(Moveable.class, new TimeHandler());
+		
+		m.move();
+	}
+}

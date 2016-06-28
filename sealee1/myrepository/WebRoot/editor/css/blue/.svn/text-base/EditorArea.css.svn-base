@@ -1,0 +1,11 @@
+body,a,table,div,span,td,th,input,select{font-size:9pt;font-family:"ËÎÌו,Verdana,Arial";Color:#000000;}
+body {
+	background-color:#FFFFFF;
+	scrollbar-face-color: #D8E2E7;
+	scrollbar-shadow-color: #D8E2E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #96AABD;
+	scrollbar-darkshadow-color: #96AABD;
+	scrollbar-track-color: #C2CACF;
+	scrollbar-arrow-color: #606D79;
+}

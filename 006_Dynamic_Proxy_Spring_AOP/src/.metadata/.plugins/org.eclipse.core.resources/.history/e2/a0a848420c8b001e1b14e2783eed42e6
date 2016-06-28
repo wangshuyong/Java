@@ -1,0 +1,13 @@
+package com.bjsxt.dp.factory.abstractfactory;
+
+public class Test {
+	public static void main(String[] args) {
+		DefaultFactory f = new DefaultFactory();
+		Car c = f.createCar();
+		c.run();
+		AK47 ak = f.createAK47();
+		ak.shoot();
+		Apple a = f.createApple();
+		a.printName();
+	}
+}

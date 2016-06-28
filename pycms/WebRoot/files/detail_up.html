@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh-CN"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="zh-CN"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+<title>动态管理</title>
+<link rel="dns-prefetch" href="//static.peiyu100.com">
+<link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/reset.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/bootstrap.min.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/jquery.fileupload.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/metisMenu.min.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/sb-admin-2.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/font-awesome.min.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/dataTables.bootstrap.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/bootstrap-datetimepicker.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/common.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/notice-create.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/homework-create.css?v=1448013132"><link rel="stylesheet" type="text/css" href="http://static.peiyu100.com/pycms/css/notice.css?v=1448013132"><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+
+<script type="text/javascript" src="http://static.peiyu100.com/pycms/js/html5shiv.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/respond.min.js?v=1448013132"></script><link href="http://static.peiyu100.com/pycms/html/respond-proxy.html" id="respond-proxy" rel="respond-proxy">
+<link href="http://cms.peiyu100.com/static/img/respond.proxy.gif" id="respond-redirect" rel="respond-redirect">
+<script src="http://cms.peiyu100.com/static/js/respond.proxy.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper" data-static="http://static.peiyu100.com/pycms/" data-host="http://cms.peiyu100.com" data-role="school_admin">
+    <!-- Navigation -->
+    <nav class="navbar navbar-cms navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://cms.peiyu100.com/">陪育CMS（产品测试学校）</a>
+        </div>
+                <div class="nav navbar-top-links navbar-right" style="margin-right:0;">
+            <li><span>欢迎您！测试</span></li>
+                        <li><a href="http://cms.peiyu100.com/signout"><i class="fa fa-power-off"></i>退出</a></li>
+        </div>
+
+        <!-- /.navbar-top-links -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <ul class="nav" id="side-menu">
+                                        <li >
+                        <a href="#"><i class="fa fa-bullhorn fa-fw"></i> 动态管理<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level hide">
+                                                        <li>
+                                <a  href="http://cms.peiyu100.com/notice/all">全校动态监控</a>
+                            </li>
+                                                    </ul>
+                    </li>
+                                                                                <li class="active">
+                        <a href="#"><i class="fa fa-newspaper-o fa-fw"></i> 学校动态管理<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level hide">
+                            <li>
+                                <a class="active" href="http://cms.peiyu100.com/notice/school">学校动态列表</a>
+                            </li>
+                            <li>
+                                <a  href="http://cms.peiyu100.com/notice/create/school">发送学校动态</a>
+                            </li>
+                        </ul>
+                    </li>
+                                                            <li >
+                        <a href="#"><i class="fa fa-image fa-fw"></i> Banner管理<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level hide">
+                            <li>
+                                <a  href="http://cms.peiyu100.com/notice/banner">Banner列表</a>
+                            </li>
+                            <li>
+                                <a  href="http://cms.peiyu100.com/notice/create/banner">创建Banner</a>
+                            </li>
+                        </ul>
+                    </li>
+                                                            <li >
+                        <a href="#"><i class="fa fa-columns fa-fw"></i> Tab管理<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level hide">
+                            <li>
+                                <a  href="http://cms.peiyu100.com/tab/main">主Tab管理</a>
+                            </li>
+                            <li>
+                                <a  href="http://cms.peiyu100.com/tab">学校动态Tab管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a  href="http://cms.peiyu100.com/toggle"><i class="fa fa-toggle-on fa-fw"></i> 功能开关</a>
+                    </li>
+                    
+                                                            <li >
+                        <a href="#"><i class="fa fa-line-chart fa-fw"></i> 统计分析<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level hide">
+                            <li>
+                                <a  href="http://cms.peiyu100.com/statistical/school_basic">学校统计</a>
+                            </li>
+                            <li>
+                                <a  href="http://cms.peiyu100.com/statistical/teacher_basic">教师统计</a>
+                            </li>
+                            <li>
+                                <a  href="http://cms.peiyu100.com/statistical/notice_send_basic">通知发送统计</a>
+                            </li>
+                        </ul>
+                    </li>
+                                                                                <li >
+                        <a href="#"><i class="fa fa-database fa-fw"></i> 数据管理<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level hide">
+                                                                                                                <li>
+                                <a  href="http://cms.peiyu100.com/department">部门管理</a>
+                            </li>
+                                                                                                                <li>
+                                <a  href="http://cms.peiyu100.com/data/school/classes">班级列表</a>
+                            </li>
+                            <li>
+                                <a  href="http://cms.peiyu100.com/data/school/teachers">教师列表</a>
+                            </li>
+                            <li>
+                                <a  href="http://cms.peiyu100.com/data/school/grade_teacher">年级主任</a>
+                            </li>
+                                                    </ul>
+                    </li>
+                                                                                <li>
+                        <a  href="http://cms.peiyu100.com/chat"><i class="fa fa-comment-o fa-fw"></i> 私信聊天 <i class="new-message"><img id="newmessage" style="display:none;" src="http://static.peiyu100.com/pycms/img/icon-red-dot.png"></i></a>
+                    </li>
+                                                                                <li>
+                        <a  href="http://cms.peiyu100.com/info"><i class="fa fa-male fa-fw"></i> 个人资料</a>
+                    </li>
+                                    </ul>
+            </div>
+            <!-- /.sidebar-collapse -->
+        </div>
+        <!-- /.navbar-static-side -->
+    </nav>
+    <div id="page-wrapper" data-role="school_admin" data-type="school" data-is-banner="0" feed-id="7134">
+    <div style='display:none' id='is_edit'>0</div>
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- btn-heading end -->
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div>
+    <ul class="list"><li class="notice on" style="border-left:none"><a href="#">发送学校动态</a></li></ul>
+                        <div class='forms'>
+                            <div class="notice list-1">
+                                                                <div id="form-1">
+                                    <label class="col-sm-2 control-label">学校动态标题</label>
+                                    <input id="notice-title" type="text" class="form-control" maxlength="50" value="wertwert" >
+                                    <br>
+                                </div>
+                                                                <div id="form-2">
+                                    <label class="col-sm-2 control-label">学校动态内容</label>
+                                                                        <textarea id="notice-content" maxlength="2000" class="form-control textarea" rows="6">wetwert</textarea>
+                                                                    </div>
+                                                                <div id="form-uni-code" class="notice-live-show" style="display: none">
+                                    <label class="col-sm-2 control-label">唯一标识</label>
+                                    <input type="text" class="form-control" id="notice-uni-code" value="">
+                                </div>
+                                <div id="form-live-end-time" class="notice-live-show" style="display: none">
+                                    <label class="col-sm-2 control-label">直播结束时间</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                        <input type="text" class="form-control" id="notice-live-end-time" value="">
+                                    </div>
+                                </div>
+                                                                <div id="form-5">
+                                    <label class="col-sm-2 control-label">上传图片</label>
+                                    <span class="btn btn-default fileinput-button">
+                                        <i class="glyphicon glyphicon-plus"></i>
+                                        <span>选择图片</span>
+                                        <input id="notice-image-upload" type="file" name="file" multiple="multiple">
+                                    </span>
+                                    <p>只支持png、jpg、jpeg、gif文件，最大体积10M</p>
+                                </div>
+                                <div id="notice-file-progress">
+                                                                    <div class="progress-bar progress-bar-success progress-bar-striped"  aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                <ul id="files">
+                                                                
+                                    <li data-file-id="b11d49ce00d8016a6c54ba8fa7477782c164dae78389ad5b508b377162793414c4620712802bec027ed7d84c4bd40065caba02bfb1e57f3fb9c453ab2b11af9583eec7c254e78c2ebad68ea5b7950c48">
+                                        <i class="icon-clip fa fa-paperclip"></i>
+                                        <span>2f0722c2-a744-4c44-9ec5-779eef5101c8.gif&nbsp;</span>
+                                        <i class="btn-file-del fa fa-remove"></i>
+                                    </li>
+                                    
+                                                                        
+                                    <li data-file-id="b11d49ce00d8016a6c54ba8fa74777820e16c0d50cee5ab3a5d65b1b9e2aad4f07a866b3f2f7307cbb327e4e6030fbbf46b2fe1e8f49de98f05f085eb874562983eec7c254e78c2ebad68ea5b7950c48">
+                                        <i class="icon-clip fa fa-paperclip"></i>
+                                        <span>813fa1df-5d63-4dca-a5e1-285bc01a11f4.gif&nbsp;</span>
+                                        <i class="btn-file-del fa fa-remove"></i>
+                                    </li>
+                                    
+                                                                        </ul>
+                                                                                                                                <div class="form-6" style='display:none'>
+                                     <label class="col-sm-2 control-label ">关闭评论</label>
+                                     <div class="notice-need-reply" style="margin-top:23px;">
+                                        <input id="notice-is-reply" type="checkbox">
+                                        <label for="notice-is-reply">如勾选此项，则任何用户不允许在该条通知下进行评论。</label>
+                                    </div>
+                                </div>
+                                                                <button id="notice-submit-compile" type="button" data-loading-text="发布中…" class="btn btn-primary btn-publish notice-live-hide">重新发布</button>
+                                <button id="notice-submit-compile-cancel" type="button" data-loading-text="发送中…" class="btn btn-primary btn-publish notice-live-hide">取消</button>
+                                <button id="notice-live-submit" type="button" data-loading-text="发送中…" class="btn btn-primary btn-publish notice-live-show" style="display: none">发送视频直播</button>
+                            </div>
+                            <div>
+                                <span class='zhuan_juhua2' style="display:none;">
+                                    <img class='zhuan_juhua2' style="width:25px;" src='http://static.peiyu100.com/pycms/img/zhuan_ju.gif' />
+                                </span>
+                            </div>
+                            <!-- list-1 消息通知 end -->
+                            <div class='homework list-4'>
+                                <div class="panel-body">
+                                                                        <form id="homework-form" role="form">
+                                        <div class="form-group">
+                                            <label>科目</label>
+                                            <select id="homework-subject" class="form-control">
+                                                                                                <option value="">选择科目</option>
+                                                                                                                                        </select>
+                                        </div>
+                                        <!-- div class="form-group">
+                                            <label>标题</label>
+                                            <input id="homework-title" class="form-control" type="text">
+                                        </div-->
+                                        <div class="form-group">
+                                            <label>作业内容</label>
+                                            <textarea id="homework-content" class="form-control"></textarea>
+                                        </div>
+                                                                                <div class="form-group" id='homework-wcsj'>
+                                            <label>提交时间</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                                <input type="text" class="form-control" id="homework-deadline" value="2015-12-07 08:00">
+                                            </div>
+                                        </div>
+                                                                                <div class="form-group">
+                                            <label>定时发送</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                                <input type="text" class="form-control" id="homework-send-time" value="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>附件</label>
+                                            <div>
+                                                <span class="btn btn-default fileinput-button">
+                                                    <i class="glyphicon glyphicon-plus"></i>
+                                                    <span>选择附件</span>
+                                                    <input id="homework-file-upload" type="file" name="file">
+                                                </span>
+                                                <span class='loading_homework' style="display:none;">
+                                                    <img style="width:25px;" src='http://static.peiyu100.com/pycms/img/zhuan_ju.gif' />
+                                                    <i style="color:red;cursor:pointer;" class="btn-file-del fa fa-remove"></i>
+                                                </span>
+                                                <p class="upload-tips">只支持doc/docx、xls/xlsx、ppt/pptx、rar、zip，文件最大体积70M</p>
+                                                <ul id="homework-files">
+                                                                                                    </ul>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>图片</label>
+                                            <div>
+                                                <span class="btn btn-default fileinput-button">
+                                                    <i class="glyphicon glyphicon-plus"></i>
+                                                    <span>选择图片</span>
+                                                    <input id="homework-image-upload" type="file" name="file" multiple="multiple">
+                                                </span>
+                                                                                                <p class="upload-tips">只支持jpeg/jpg、png、gif文件，最大体积5M</p>
+                                                <ul id="homework-images">
+                                                                                                </ul>
+                                            </div>
+                                        </div>
+                                                                                <div class="form-group">
+                                            <span class="btn btn-primary" data-loading-text="创建中…" id="btn-submit">发送作业</span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- list-2 发送作业 end -->
+                            <!-- list-2 发起提问 end -->
+                            <!-- list-3问卷调查 end -->
+                            <!-- 问卷模板库 start -->
+                                                    
+                        </div>
+                        <!-- forms 发送通知 end -->
+                    </div>
+                    <!-- /.bdbox -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            
+            <!-- >>>>>>>>>>ming开始写选择模板后，直接到已经绑好页面中去。------------------------ -->
+                        <div id='banner_been5' style='display:none'>
+                <span id='banner_been5_1' style='float:left;display:block;min-width:300px;color:#C2672C;'></span>
+                <input class="banner_been5" type="button" value="更改">
+                <div>
+                    <button style='padding:3px 30px;font-weight:600;margin:10px 15px 0 0;' class="btn btn-primary btn-publish" data-loading-text="发送中…" type="button" id="notice-submit2">发送</button>
+                    <button style='padding:3px 30px;font-weight:600;margin:10px 0 0 0;background:#EAEFF2;border:1px solid #E3E5E8;color:#656667;' class="btn btn-primary btn-publish" data-loading-text="发送中…" type="button" id="notice-submit3">取消</button>
+                </div>
+                <div style='display:none' id='json_select_list'></div>
+            </div>
+                        <!-- ------------------------ <<<<<<<<<<-->
+            
+            <!-- /.panel -->
+        </div>
+    </div>
+    <!-- /.row -->
+    <!-- 弹出插件 -->
+    <div class="modal fade survey-preview-modal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <dl id="survey-area"></dl>
+                </div>
+                <div class="modal-footer">
+                    <button id="btn-choose" type="button" class="btn btn-primary">选择该模板</button>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    <div class="data">
+        <textarea id="data-survey-single">
+            <li class="survey-question">
+                <div class="survey-drop-area"></div>
+                <div class="left">
+                    <p><span class="survey-question-type" data-question-type="1">单选</span><span class="question-order"></span></p>
+                </div>
+                <div class="right">
+                    <div class="question-edit">
+                        <span class="btn-copy fa fa-copy"></span>
+                        <span class="btn-del fa fa-remove"></span>
+                    </div>
+                    <div class="input-group in-none">
+                        <input class="survey-question-title form-control" type="text" maxlength="30" placeholder="单选题标题">
+                    </div>
+                    <div class="survey-options"></div>
+                    <div class="add-option">
+                        <img src="http://static.peiyu100.com/pycms/img/icon-add.png" alt="">
+                        <span>加选项</span>
+                    </div>
+                </div>
+            </li>
+        </textarea>
+        <textarea id="data-survey-multi">
+            <li class="survey-question">
+                <div class="survey-drop-area"></div>
+                <div class="left">
+                    <p><span class="survey-question-type" data-question-type="2">多选</span><span class="question-order"></span></p>
+                </div>
+                <div class="right">
+                    <div class="question-edit">
+                        <span class="btn-copy fa fa-copy"></span>
+                        <span class="btn-del fa fa-remove"></span>
+                    </div>
+                    <div class="input-group in-none">
+                        <input class="survey-question-title form-control" type="text" maxlength="30" placeholder="多选题标题">
+                    </div>
+                    <div class="survey-options"></div>
+                    <div class="add-option">
+                        <img src="http://static.peiyu100.com/pycms/img/icon-add.png" alt="">
+                        <span>加选项</span>
+                    </div>
+                </div>
+            </li>
+        </textarea>
+        <textarea id="data-survey-text">
+            <li class="survey-question">
+                <div class="survey-drop-area"></div>
+                <div class="left">
+                    <p><span class="survey-question-type" data-question-type="3">填空</span><span class="question-order"></span></p>
+                </div>
+                <!-- left end -->
+                <div class="right">
+                    <div class="question-edit">
+                        <span class="btn-copy fa fa-copy"></span>
+                        <span class="btn-del fa fa-remove"></span>
+                    </div>
+                    <div class="input-group">
+                        <input class="survey-question-title form-control" type="text" maxlength="30" placeholder="填空题标题">
+                    </div>
+                </div>
+                <!-- right end -->
+            </li>
+        </textarea>
+    </div>
+</div>
+</div>
+<div id="download-client-modal" class="modal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog">
+        <button class="dialog-close" data-dismiss="modal"></button>
+        <a class="btn-download-client" href="http://cms.peiyu100.com/download/client" target="_blank"></a>
+    </div>
+</div>
+<script type="text/javascript" src="http://static.peiyu100.com/pycms/js/jquery.min.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/jquery-ui.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/bootstrap.min.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/metisMenu.min.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/jquery.dataTables.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/dataTables.bootstrap.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/bootstrap-datetimepicker.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/bootstrap-datetimepicker.zh-CN.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/jquery.ui.widget.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/jquery.iframe-transport.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/jquery.fileupload.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/metisMenu.min.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/bootstrap-datetimepicker.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/bootstrap-datetimepicker.zh-CN.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/common.js?v=1448013132"></script><script type="text/javascript" src="http://static.peiyu100.com/pycms/js/notice-create.js?v=1448013132"></script></body>
+</html>

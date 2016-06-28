@@ -1,0 +1,25 @@
+欢迎使用www.sealee.com的java原版内容管理系统
+
+本系统仅供参考使用
+
+本软件采用jsp+sqlserver+ hibernate+struts实现，并使用了freemarker静态化、会员登录的状态以及文章点击使用ajax动态处理。本系统以学习技术为目的开发。本系统开放源代码，只为了能给jsp学习者带来一点帮助。
+
+相信能对很多jsp学习者能有所帮助。由于网站为个人工作之余开发，可能功能不是很健全，仅作学习参考。
+
+安装步骤如下：
+
+1、首先系统运行环境，JDK5.0 运行环境TOMCAT5.5、sqlserver2000，环境的配置相信java学习者应该有，没有的可以配置一下。
+
+2、数据库文件sealee_sql恢复到sqlserver数据库中。数据库名称sealee
+
+3、将WebRoot目录下的文件复制到TOMCAT的项目文件夹下
+
+4、配置WebRoot\WEB-INF\classes目录下hibernate.cfg.xml配置数据库链接的相关参数，templates为freemarker模板目录，html为系统生成的HTML目录，member为会员相关页面
+
+5、启动TOMCAT。在浏览器中输入测试路径下的URL进行测试。
+
+6、后台管理URL/manage/，管理员账号密码请到恢复后的数据库进行查询
+
+备注：可能较长时间没有进行程序开发，系统不完善，仅作学习之用！
+
+

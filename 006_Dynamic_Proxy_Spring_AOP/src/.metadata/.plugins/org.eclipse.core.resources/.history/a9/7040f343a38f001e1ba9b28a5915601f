@@ -1,0 +1,17 @@
+package com.bjsxt.proxy.test;
+
+import java.lang.reflect.Method;
+
+import com.bjsxt.proxy.InvocationHandler;
+
+public class TransactionHandler implements InvocationHandler {
+	
+	private Object target;
+	
+	@Override
+	public void invoke(Object o, Method m) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

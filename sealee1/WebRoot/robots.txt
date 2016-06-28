@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /http/
+Disallow: /editor/
+Disallow: /sealee_login.jsp
+Disallow: /main.jsp
+Disallow: /templates
+Disallow: /manage

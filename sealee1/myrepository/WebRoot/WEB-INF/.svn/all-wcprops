@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF
+END
+Style.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/Style.xml
+END
+struts-template.tld
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/struts-template.tld
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/struts-logic.tld
+END
+urlrewrite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/urlrewrite.xml
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/struts-tiles.tld
+END
+struts-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/struts-config.xml
+END
+struts-nested.tld
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/struts-nested.tld
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/struts-html.tld
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/struts-bean.tld
+END
+Button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/Button.xml
+END
+validator-rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/validator-rules.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/web.xml
+END
+静态复件 web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/%E9%9D%99%E6%80%81%E5%A4%8D%E4%BB%B6%20web.xml
+END

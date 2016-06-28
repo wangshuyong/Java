@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/myrepository/!svn/ver/1/WebRoot/editor
+END
+upload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/myrepository/!svn/ver/1/WebRoot/editor/upload.jsp
+END
+vssver.scc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/myrepository/!svn/ver/1/WebRoot/editor/vssver.scc
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/myrepository/!svn/ver/1/WebRoot/editor/index.jsp
+END
+eWebEditor.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/myrepository/!svn/ver/1/WebRoot/editor/eWebEditor.jsp
+END
+submit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/myrepository/!svn/ver/1/WebRoot/editor/submit.jsp
+END

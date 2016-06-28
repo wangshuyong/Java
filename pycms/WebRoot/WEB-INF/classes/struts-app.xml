@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<!-- 
+package：类似于java中的包
+name：只得的是包的名字，可以自定义
+namespace：书面值得命名空间，默认为'/'，如果未填，当你页面请求action时就会到根目录寻找包名为login下的action,如果你填写了namespace为'/system'，就会到相应的目录下寻找，如果没找到，还会到根目录下继续寻找对应的action，如果还是未找到就会报错extends：类似于java中的继承特征，
+extends="struts-default"就是继承struts-default.xml，它里面定义了许多跳转类型、拦截器等一些常用的东西
+ -->
+	<package name="app_services" extends="struts-default" namespace="/">
+       
+       <result-types>
+			<result-type name="json" class="org.apache.struts2.json.JSONResult" />
+		</result-types>
+		<interceptors>
+			<interceptor name="json"
+				class="org.apache.struts2.json.JSONInterceptor" />
+		</interceptors>
+		
+        <!-- 控制台管理页面配置 -->	  
+        <action name="login" class="com.pycms.action.ConsoleSignin">
+       		<result name="success">files/login.jsp</result>
+        </action>
+        <action name="mcservices" class="consoleServices">
+        	<result name="success" >files/all.jsp</result>
+       		<result name="showmessage">files/login.jsp</result>        
+        </action>	
+        
+        <action name="all_*" class="allAction" method="{1}">
+			<!-- <result name="success">files/all.jsp</result> -->
+			<result name="success" type="json">
+				<!-- 这里指定将被Struts2序列化的属性，该属性在action中必须有对应的getter方法 -->
+				<param name="root">mapdata</param>
+			</result>
+			
+		</action>
+
+		<!-- <action name="*_*" class="com.pycms.action.{1}Action" method="{2}"> 
+			<result name="allInfo">files/all.jsp</result> </action> -->
+
+		<action name="ajaxtest" class="com.pycms.action.ConsoleServices"
+			method="getJsonData">
+			<result name="success" type="json">
+				<!-- 这里指定将被Struts2序列化的属性，该属性在action中必须有对应的getter方法 -->
+				<param name="root">entities</param>
+			</result>
+		</action>
+
+        
+	</package>
+</struts>  
+
+
+		    
+                    

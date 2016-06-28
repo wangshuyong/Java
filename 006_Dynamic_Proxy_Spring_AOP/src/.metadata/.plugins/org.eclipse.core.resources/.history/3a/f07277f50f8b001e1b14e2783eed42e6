@@ -1,0 +1,12 @@
+package com.bjsxt.spring.factory;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Moveable m = new Car();
+	}
+
+}

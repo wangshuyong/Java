@@ -1,0 +1,6 @@
+package com.bjsxt.spring;
+
+public interface Moveable {
+	void run();
+	void getSpeed();
+}

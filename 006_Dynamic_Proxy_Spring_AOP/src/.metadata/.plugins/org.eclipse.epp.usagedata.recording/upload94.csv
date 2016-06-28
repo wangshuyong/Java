@@ -1,0 +1,17 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584437734
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584445359
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584446093
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584446828
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584447000
+error,log,,,"Transfer Exception",1250584683890
+error,log,,,"Unable to load the repository http://download.eclipse.org/releases/galileo",1250584683953
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584684000
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584701906
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584702296
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584703000
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584703140
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584703859
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.ide.ant",1250584704125
+stopped,bundle,org.eclipse.ant.ui,3.4.0.v20090520,"org.eclipse.ant.ui",1250584704140
+stopped,bundle,org.eclipse.compare.win32,1.0.0.I20090430-0408,"org.eclipse.compare.win32",1250584704156

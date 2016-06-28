@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/myrepository/!svn/ver/1/WebRoot/templates
+END
+list.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/myrepository/!svn/ver/1/WebRoot/templates/list.ftl
+END
+view_top.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/myrepository/!svn/ver/1/WebRoot/templates/view_top.html
+END
+view_bottom.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/myrepository/!svn/ver/1/WebRoot/templates/view_bottom.html
+END
+top.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/myrepository/!svn/ver/1/WebRoot/templates/top.html
+END
+bottom.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/myrepository/!svn/ver/1/WebRoot/templates/bottom.html
+END
+top.html5
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/WebRoot/templates/top.html5
+END
+index.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/WebRoot/templates/index.ftl
+END
+view.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/myrepository/!svn/ver/1/WebRoot/templates/view.ftl
+END

@@ -1,0 +1,7 @@
+package com.bjsxt.dp.factory.abstractfactory;
+
+public class Apple {
+	public void printName() {
+		System.out.println("apple");
+	}
+}

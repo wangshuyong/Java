@@ -1,0 +1,10 @@
+.panel-body label {
+    font-weight: normal;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.panel-body .tips {
+    margin-left: 20px;
+    color: #999;
+}

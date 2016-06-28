@@ -1,0 +1,11 @@
+package com.bjsxt.dp.factory;
+
+public class Broom implements Moveable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

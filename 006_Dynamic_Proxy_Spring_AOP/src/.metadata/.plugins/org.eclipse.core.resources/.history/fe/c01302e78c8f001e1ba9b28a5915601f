@@ -1,0 +1,21 @@
+package com.bjsxt.proxy;
+
+public class TankTimeProxy implements Moveable {
+	public TankTimeProxy(Tank t) {
+		super();
+		this.t = t;
+	}
+
+
+	Tank t;
+	
+	
+	@Override
+	public void move() {
+		long start = System.currentTimeMillis();
+		t.move();
+		long end = System.currentTimeMillis();
+		System.out.println("time:" + (start-end));
+	}
+	
+}

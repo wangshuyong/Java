@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/myrepository/!svn/ver/1/src
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/myrepository/!svn/ver/1/src/hibernate.cfg.xml
+END

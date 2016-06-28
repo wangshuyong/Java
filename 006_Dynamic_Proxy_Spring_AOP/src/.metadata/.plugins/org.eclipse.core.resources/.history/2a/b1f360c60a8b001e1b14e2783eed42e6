@@ -1,0 +1,5 @@
+package com.bjsxt.dp.factory.abstractfactory;
+
+public abstract class VehicleFactory {
+	abstract Moveable create();
+}

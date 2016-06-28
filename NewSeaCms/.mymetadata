@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="NewSeaCms"
+  id="myeclipse.1448356039279"
+  context-root="/SeaCms"
+  j2ee-spec="6.0"
+  archive="NewSeaCms.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

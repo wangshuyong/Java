@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.equinox.p2.metadata,1.0.100.v20090525,"org.eclipse.equinox.p2.metadata",1250584005156
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584005765
+error,log,,,"Unable to load the repository http://download.eclipse.org/technology/epp/packages/galileo/R/",1250584007375
+started,bundle,org.eclipse.equinox.p2.extensionlocation,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.extensionlocation",1250584041234
+started,bundle,org.eclipse.equinox.p2.artifact.repository,1.0.100.v20090527-1812,"org.eclipse.equinox.p2.artifact.repository",1250584061640
+started,bundle,org.eclipse.equinox.p2.updatesite,1.0.100.v20090525,"org.eclipse.equinox.p2.updatesite",1250584061765
+started,bundle,org.eclipse.equinox.p2.publisher,1.0.0.v20090527-1812,"org.eclipse.equinox.p2.publisher",1250584061781
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584067687
+executed,command,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.install",1250584067734
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584069093
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584069750
+error,log,,,"Unable to load the repository http://download.eclipse.org/eclipse/updates/3.5",1250584233234
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584387250
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584389046
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584390296
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584390750
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584391859
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584392234
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584397562
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584409390
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584409671
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584410578
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584410593
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584435859
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250584436531

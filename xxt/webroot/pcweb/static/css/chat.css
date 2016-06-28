@@ -1,0 +1,164 @@
+  html,body{height:100%;overflow:hidden;}
+	body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+	body,button,input,select,textarea{font:12px/1.5em microsoft yahei,sans-serif;}
+	h1,h2,h3,h4,h5,h6{font-size:100%}
+	address,cite,dfn,em,i,var{font-style:normal}
+	dl,ol,ul,li{list-style-type:none}
+	a{text-decoration:none;outline:0;cursor:pointer;color:#565656}
+	a:hover{text-decoration: none;color:#d90110}
+	button,input,select,textarea{font-size:100%;outline:0;margin:0}
+	input[type=submit],input[type=reset],input[type=button],button{-webkit-appearance:none}
+	textarea{resize:none}
+	table{border-collapse:collapse;border-spacing:0}
+	img{border:0;vertical-align:top}
+	article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+	audio,canvas,video{display:inline-block}
+	.fl{float:left}
+	.fr{float:right}
+	.cl{*zoom:1}
+	.cl:after{content:'';display:table;clear:both;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden}
+    .bg1{background-color:#313131}
+	.main{width:980px;margin:0 auto;height:86%;position:relative;top:5%}
+	.col1{float:left;background-color:#fff;width:300px;border-radius:4px;overflow:hidden;height:100%}
+	.col2{float:right;background-color:#fff;width:660px;border-radius:4px;overflow:hidden;height:100%}
+	.nav{background-color:#ebebeb;width:72px;float:left;height:100%;position:relative;}
+	.nav .myface{width:60px;height:60px;margin:18px auto 30px}
+	.nav .myface img{width:56px;height:56px;border:2px #b7b8ba solid;border-radius:100%}
+	.nav .list{}
+	.nav .list li{width:72px;height:72px;background:url(../images/icons21.png) no-repeat;position:Relative;cursor:pointer}
+	.nav .list li.icon_dialog{background-position:0 0}
+	.nav .list li.icon_dialog.hover{background-position:-72px 0}
+	.nav .list li.icon_at{background-position:0 -72px}
+	.nav .list li.icon_at.hover{background-position:-72px -72px}
+	.nav .list li.icon_group{background-position:0 -144px}
+	.nav .list li.icon_group.hover{background-position:-72px -144px}
+	.nav .list li.icon_add{background-position:0 -216px;position:absolute;bottom:0}
+	.nav .list li.icon_add:hover{background-position:-72px -216px}
+	.nav .list li em{background-color:Red;color:#fff;position:absolute;right:10px;top:10px;border-radius:100%;transform:scale(0.8);}
+.firend{width:228px;float:left;}
+.firend .search{margin:10px 14px;position:relative;}
+.firend .search input{width:163px;border:1px #cdcdcd solid;border-radius:3px;height:30px;line-height:30px;padding-left:10px;padding-right:25px;color:#999}
+.firend .search .icon_search{position:absolute;right:8px;top:8px;width:15px;height:15px;background:url(../images/icons21.png) -144px -39px no-repeat}
+
+.chat_target{text-align:center;border-bottom:1px #ebebeb solid;font-size:18px;height:50px;line-height:50px}
+.chat_area_left{width:492px;float:left;}
+.chat_area_right{border-left:1px #ebebeb solid;width:167px;float:right;height:100%}
+.members{overflow:auto;height:100%}
+.members li{height:24px;line-height:24px;padding:3px 8px;cursor:pointer}
+.members li:hover{background-color:#f7f7f7}
+.members li .pic{float:left;margin-right:10px;}
+.members li .pic img{width:24px;height:24px;border-radius:100%;}
+
+.chat_tool{border-top:1px #ebebeb solid;height:26px;padding:6px 8px}
+.chat_tool a{width:26px;height:26px;float:left;background:url(../images/icons21.png) -144px -54px no-repeat;}
+.chat_tool a.face{background-position:-144px -13px}
+
+.dialogue{overflow:auto}
+.dialogue .time{text-align:center;color:#bcbcbc;padding-top:8px}
+.dialogue .bubble{margin:12px;overflow:hidden;}
+.dialogue .bubble .pic{float:left;margin-right:17px}
+.dialogue .bubble .pic img{width:36px;height:36px;border-radius:100%}
+.dialogue .bubble .txt{float:left;background-color:#ebebeb;border-radius:7px;padding:7px;position:relative;max-width:240px;line-height:1.58em}
+.dialogue .bubble .txt .msg{overflow:hidden;}
+.dialogue .bubble .arrow{  position:Absolute;left:-7px;top:8px;width: 0;    height: 0;   border-bottom: 7px solid transparent; border-top: 7px solid transparent;border-right: 7px solid #ebebeb; font-size: 0;line-height: 0;} 
+.dialogue .bubble_right .pic{float:right;margin-left:17px;margin-right:0}
+.dialogue .bubble_right .txt{float:right;background-color:#31c549;color:#fff}
+.dialogue .bubble_right .arrow{border-right: 7px solid transparent; border-left:7px solid #31c549;left:auto;right:-14px}
+
+.dialogue .bubble .auido  .dur{overflow:hidden;position:Absolute;right:-32px;top:8px;width:32px;text-align:center;color:#3a3a3a}
+.dialogue .bubble .auido .msg{background:url(../images/icons24.png) no-repeat;height:25px;width:46px;}
+.dialogue .bubble_right .auido  .dur{left:-32px;}
+.dialogue .bubble_right .auido .msg{background:url(../images/icons25.png) right no-repeat;}
+
+.face_list{border:1px #bebebe solid;background-color:#fff;position:absolute;top:100px;left:750px;width:425px;display:none;box-shadow:0 0 8px 0px rgba(0,0,0,0.3);border-radius:3px}
+.face_wrap{width:405px;overflow:hidden;background:url(../images/qqFace_110928.png) no-repeat;margin:10px;    border-left: 1px solid #dfe6f6; border-top: 1px solid #dfe6f6;}
+.face_wrap a{border-bottom: 1px solid #dfe6f6; border-right: 1px solid #dfe6f6;display: block; float: left; height: 26px; line-height: 26px;width: 26px;}
+
+.inputbox{margin:10px;overflow:hidden;}
+.inputbox textarea{background-color:#fff;border:0;width:100%;height:100px}
+.nomembers .chat_area_left{width:100%;height:704px}
+
+.group_info{height:755px}
+.group_info .title{height:156px;border-bottom:1px #ebebeb solid}
+.group_info .group_name{float:left;line-height:156px;font-size:24px;margin-left:75px}
+.group_info .group_icon{float:right;width:106px;height:106px;margin:25px 75px 25px 0}
+.group_info .group_icon img{width:106px;height:106px;border-radius:100%;}
+.group_members{height:400px;overflow:auto}
+.group_members table{width:90%;margin:0 auto}
+.group_members tr:hover{background-color:#f2f2f2;}
+.group_members th,.group_members td{text-align:center;border-bottom:1px #ebebeb solid;font-weight:normal;line-height:30px}
+.group_members th{color:#999}
+.group_info .btns{text-align:center;padding-top:30px}
+.group_info .btns a{background-color:#31c549;padding:0px 20px;line-height:36px;font-size:14px;height:36px;color:#fff;display:inline-block;border-radius:4px}
+
+.members_info{width:245px;margin:0 auto ;overflow:hidden;}
+.members_info .ava{text-align:center;border-bottom:2px #ebebeb solid;margin-top:90px;margin-bottom:20px}
+.members_info .ava img{width:150px;height:150px;border-radius:100%;}
+.members_info .ava  h3{font-size:18px;padding: 30px 0;font-weight:normal}
+.members_info .text{padding-left:50px;font-size:13px;line-height:2em}
+.members_info .text span{color:#999}
+
+	.qr_code{width:557px;height:235px;background:url(../images/qrcode.png) no-repeat;position:Absolute;top:50%;left:50%;margin-top:-168px;margin-left:-278px;}
+	.qr_code .txt{font-size:14px;color:#9b9b9b;text-shadow:1px 1px 3px #000;position:absolute;}
+	.footer{position:Absolute;bottom:0;text-align:center;font-size:14px;color:#8e8e8e;text-shadow:1px 1px 3px #000;width:100%;padding-bottom:36px}
+
+#_Mask{background-color:rgba(0,0,0,0.4);width:100%;height:100%;position:absolute;top:0;left:0;display:none;}
+.popwin{position:absolute;top:200px;left:600px;width:473px;border-radius:8px;overflow:hidden;display:none}
+.poptitle{background-color:#ebebeb;font-size:14px;position:relative;height:45px;line-height:45px;padding-left:12px}
+.poptitle em{width:21px;height:21px;background:#b8b8b8;color:#e9e9e9;position:absolute;right:12px;top:12px;border-radius:100%;text-align:center;line-height:21px;}
+.popcontent{background-color:#f9f9f9;padding:12px;overflow:hidden;}
+
+.popwin .btns span{float:right;border-radius:4px;padding:4px 20px;border:1px #ddd solid;font-size:14px;margin-left:12px}
+.popwin .btns span.confirm{color:#fff;background-color:#2dcb42;border-color:#2dcb42}
+.createGroup{margin-bottom:10px}
+.createGroup .blc{background-color:#fff;border:1px #dadada solid}
+.createGroup .m img,.createGroup .s .c img{width:21px;height:21px;border-radius:100%}
+.createGroup .g{float:left;width:198px;height:245px;overflow:auto}
+.createGroup .m{float:right;width:230px;height:245px}
+.createGroup .m label{margin-left:10px;padding-top:7px;float:left;}
+.createGroup .m label input{vertical-align:middle;margin-right:8px}
+.createGroup .m ul{clear:both}
+.createGroup .m li{height:21px;line-height:21px;padding:3px 10px;overflow:hidden;}
+.createGroup .m li input,.createGroup .m li img{vertical-align:middle;margin-right:6px}
+.createGroup .s{clear:both;}
+.createGroup .s h2{line-height:30px;font-weight:normal}
+.createGroup .s .c{height:120px;}
+.createGroup .s .c table{width:100%;margin-top:6px}
+.createGroup .s .c td{padding-left:12px;}
+
+.friend-list{border-top:1px #ebebeb solid;overflow:auto;cursor:pointer;}
+.friend-list dl dd{display:none}
+.friend-list dt{height:40px;line-height:40px;overflow:hidden;border-bottom:1px #ecebeb solid;font-weight:bold}
+.friend-list dt em{width:13px;height:13px;float:left;margin-top:13px;background:url(../images/icons21.png) -144px -54px no-repeat;margin-right:8px;margin-left:14px}
+.friend-list dt span{font-size:14px}
+.friend-list dl.active dt em{background-position:-144px -67px }
+.friend-list dl.active dd{display:block}
+
+.friend-list dd{}
+.friend-list h3{position:relative;border-bottom:1px #ecebeb solid;background-color:#fbfbfb;color:#4d4d4d;padding-left:37px;height:40px;line-height:40px;}
+.friend-list h3 em{width:14px;height:14px;position:absolute;right:10px;top:13px;background:url(../images/icons22.png) no-repeat -14px 0;}
+.friend-list dd h3:first-child{border-top:0}
+.fr-item{height:42px;padding:12px 4px 12px 37px;overflow:hidden;}
+.fr-item:hover{background-color:#f7f7f7}
+.fr-item .pic{float:left;width:42px;margin-right:12px}
+.fr-item .pic img{width:42px;height:42px;border-radius:100%}
+.fr-item .txt{float:left;color:#888;width:133px;overflow:hidden;}
+.fr-item .txt b{display:block;color:#000;font-size:14px;font-weight:normal;margin-bottom:1px}
+
+.gr-item .txt{line-height:42px;}
+
+.friend-list dd .fr-item{display:none;}
+.friend-list dd.active .fr-item{display:block;}
+.friend-list dd.active h3 em{background-position:0 0;}
+
+.friend-list .search-list dd{display:block}
+.friend-list .search-list dd .fr-item{display:block}
+.friend-list .search-list h3{border:0;font-size:14px;font-weight:normal;color:#999}
+.friend-list .search-list h3 em{background-position:0 0}
+
+.cat_tree li{cursor:pointer}
+.cat_tree{padding:8px}
+.cat_tree li ul{display:none;margin-left:16px;background:url(../images/icons23.png) bottom left no-repeat;}
+.cat_tree li ul li{padding-left:12px;line-height:20px}
+
+

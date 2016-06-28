@@ -1,0 +1,203 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x000000006d6ac8ed, pid=34828, tid=34900
+#
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (11.3-b02 mixed mode windows-amd64)
+# Problematic frame:
+# C  [net.dll+0xc8ed]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000055d400):  JavaThread "main" [_thread_in_native, id=34900, stack(0x0000000002790000,0x0000000002890000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x0000000000000063
+
+Registers:
+EAX=0xffffffffffffffff, EBX=0x0000000000000000, ECX=0x0000000000000d40, EDX=0x00000000d7ff8348
+ESP=0x000000000288dc00, EBP=0x000000000288dd08, ESI=0x000000000288dd20, EDI=0x0000000000000012
+EIP=0x000000006d6ac8ed, EFLAGS=0x0000000000010286
+
+Top of Stack: (sp=0x000000000288dc00)
+0x000000000288dc00:   000000000288dc48 000000008068fb28
+0x000000000288dc10:   0000000000001bc0 000000008068a6e0
+0x000000000288dc20:   0000000000000000 000000006d6a1c5f
+0x000000000288dc30:   000000000288dc90 00000000028933c2
+0x000000000288dc40:   00000000d7ff81e8 00000000d7ff8278
+0x000000000288dc50:   000000008067d3e0 0000000002893269
+0x000000000288dc60:   000000008068ead8 000000000288dcf8
+0x000000000288dc70:   000000008067c670 000000000289ee6a
+0x000000000288dc80:   0000000000000000 000000000288dca0
+0x000000000288dc90:   000000000288dd00 00000000028933c2
+0x000000000288dca0:   0000000000000000 00000000d7ff81e8
+0x000000000288dcb0:   00000000d7ff8278 000000000288dcb8
+0x000000000288dcc0:   0000000000000000 000000000288dd20
+0x000000000288dcd0:   000000008067d4c8 0000000000000000
+0x000000000288dce0:   000000008067c670 0000000000000000
+0x000000000288dcf0:   000000000288dd18 000000000288dd68 
+
+Instructions: (pc=0x000000006d6ac8ed)
+0x000000006d6ac8dd:   20 41 8b d1 33 db e8 cc f7 ff ff 48 3b c3 74 11
+0x000000006d6ac8ed:   83 78 64 18 75 0b 48 8b c8 b3 01 ff 15 22 1a 00 
+
+
+Stack: [0x0000000002790000,0x0000000002890000],  sp=0x000000000288dc00,  free space=1015k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [net.dll+0xc8ed]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  java.net.NetworkInterface.isLoopback0(Ljava/lang/String;I)Z+0
+j  java.net.NetworkInterface.isLoopback()Z+8
+j  org.openqa.selenium.net.NetworkInterface.<init>(Ljava/net/NetworkInterface;)V+17
+j  org.openqa.selenium.net.DefaultNetworkInterfaceProvider.createInterface(Ljava/net/NetworkInterface;)Lorg/openqa/selenium/net/NetworkInterface;+5
+j  org.openqa.selenium.net.DefaultNetworkInterfaceProvider.<init>()V+45
+j  org.openqa.selenium.net.NetworkUtils.<init>()V+5
+j  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.<clinit>()V+4
+v  ~StubRoutines::call_stub
+j  org.openqa.selenium.firefox.FirefoxDriver.connectTo(Lorg/openqa/selenium/firefox/FirefoxBinary;Lorg/openqa/selenium/firefox/FirefoxProfile;Ljava/lang/String;)Lorg/openqa/selenium/firefox/ExtensionConnection;+54
+j  org.openqa.selenium.firefox.FirefoxDriver.startClient()V+25
+j  org.openqa.selenium.remote.RemoteWebDriver.<init>(Lorg/openqa/selenium/remote/CommandExecutor;Lorg/openqa/selenium/Capabilities;Lorg/openqa/selenium/Capabilities;)V+65
+j  org.openqa.selenium.firefox.FirefoxDriver.<init>(Lorg/openqa/selenium/firefox/FirefoxBinary;Lorg/openqa/selenium/firefox/FirefoxProfile;Lorg/openqa/selenium/Capabilities;Lorg/openqa/selenium/Capabilities;)V+48
+j  org.openqa.selenium.firefox.FirefoxDriver.<init>(Lorg/openqa/selenium/firefox/FirefoxBinary;Lorg/openqa/selenium/firefox/FirefoxProfile;Lorg/openqa/selenium/Capabilities;)V+5
+j  org.openqa.selenium.firefox.FirefoxDriver.<init>(Lorg/openqa/selenium/firefox/FirefoxBinary;Lorg/openqa/selenium/firefox/FirefoxProfile;)V+6
+j  org.openqa.selenium.firefox.FirefoxDriver.<init>()V+9
+j  com.edu.cms.driver.ExploreDriver.StartFireFoxByDefault()V+13
+j  com.edu.test.login.TestLogin.setUp()V+9
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+87
+j  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+6
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+161
+j  org.junit.runners.model.FrameworkMethod$1.runReflectiveCall()Ljava/lang/Object;+15
+j  org.junit.internal.runners.model.ReflectiveCallable.run()Ljava/lang/Object;+1
+j  org.junit.runners.model.FrameworkMethod.invokeExplosively(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+10
+j  org.junit.internal.runners.statements.RunBefores.evaluate()V+38
+j  org.junit.internal.runners.statements.RunAfters.evaluate()V+12
+j  org.junit.runners.ParentRunner.runLeaf(Lorg/junit/runners/model/Statement;Lorg/junit/runner/Description;Lorg/junit/runner/notification/RunNotifier;)V+17
+j  org.junit.runners.BlockJUnit4ClassRunner.runChild(Lorg/junit/runners/model/FrameworkMethod;Lorg/junit/runner/notification/RunNotifier;)V+32
+j  org.junit.runners.BlockJUnit4ClassRunner.runChild(Ljava/lang/Object;Lorg/junit/runner/notification/RunNotifier;)V+6
+j  org.junit.runners.ParentRunner$3.run()V+12
+j  org.junit.runners.ParentRunner$1.schedule(Ljava/lang/Runnable;)V+1
+j  org.junit.runners.ParentRunner.runChildren(Lorg/junit/runner/notification/RunNotifier;)V+40
+j  org.junit.runners.ParentRunner.access$000(Lorg/junit/runners/ParentRunner;Lorg/junit/runner/notification/RunNotifier;)V+2
+j  org.junit.runners.ParentRunner$2.evaluate()V+8
+j  org.junit.runners.ParentRunner.run(Lorg/junit/runner/notification/RunNotifier;)V+20
+j  org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(Lorg/eclipse/jdt/internal/junit/runner/TestExecution;)V+72
+j  org.eclipse.jdt.internal.junit.runner.TestExecution.run([Lorg/eclipse/jdt/internal/junit/runner/ITestReference;)V+17
+j  org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests([Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jdt/internal/junit/runner/TestExecution;)V+61
+j  org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(Lorg/eclipse/jdt/internal/junit/runner/TestExecution;)V+10
+j  org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run()V+70
+j  org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main([Ljava/lang/String;)V+14
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000000006fb2400 JavaThread "ReaderThread" [_thread_in_native, id=35644, stack(0x0000000007240000,0x0000000007340000)]
+  0x0000000006458000 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=34460, stack(0x0000000006c40000,0x0000000006d40000)]
+  0x0000000006455400 JavaThread "CompilerThread1" daemon [_thread_blocked, id=34920, stack(0x0000000006b40000,0x0000000006c40000)]
+  0x000000000644e400 JavaThread "CompilerThread0" daemon [_thread_blocked, id=34912, stack(0x0000000006a40000,0x0000000006b40000)]
+  0x000000000644bc00 JavaThread "Attach Listener" daemon [_thread_blocked, id=35600, stack(0x0000000006940000,0x0000000006a40000)]
+  0x000000000644ac00 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=35608, stack(0x0000000006840000,0x0000000006940000)]
+  0x00000000063e5000 JavaThread "Finalizer" daemon [_thread_blocked, id=34872, stack(0x0000000006740000,0x0000000006840000)]
+  0x00000000063e4400 JavaThread "Reference Handler" daemon [_thread_blocked, id=34944, stack(0x0000000006640000,0x0000000006740000)]
+=>0x000000000055d400 JavaThread "main" [_thread_in_native, id=34900, stack(0x0000000002790000,0x0000000002890000)]
+
+Other Threads:
+  0x00000000063e0400 VMThread [stack: 0x0000000006540000,0x0000000006640000] [id=34832]
+  0x00000000063fa400 WatcherThread [stack: 0x0000000006d40000,0x0000000006e40000] [id=34928]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ PSYoungGen      total 36800K, used 8266K [0x00000000d77f0000, 0x00000000da100000, 0x00000001009f0000)
+  eden space 31552K, 26% used [0x00000000d77f0000,0x00000000d8002a68,0x00000000d96c0000)
+  from space 5248K, 0% used [0x00000000d9be0000,0x00000000d9be0000,0x00000000da100000)
+  to   space 5248K, 0% used [0x00000000d96c0000,0x00000000d96c0000,0x00000000d9be0000)
+ PSOldGen        total 84224K, used 0K [0x00000000853f0000, 0x000000008a630000, 0x00000000d77f0000)
+  object space 84224K, 0% used [0x00000000853f0000,0x00000000853f0000,0x000000008a630000)
+ PSPermGen       total 21248K, used 6783K [0x000000007fff0000, 0x00000000814b0000, 0x00000000853f0000)
+  object space 21248K, 31% used [0x000000007fff0000,0x000000008068fc08,0x00000000814b0000)
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042e000 	C:\Users\Administrator\AppData\Local\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_64_1.6.0.013\bin\javaw.exe
+0x0000000077640000 - 0x00000000777e8000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077420000 - 0x000000007753f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd670000 - 0x000007fefd6dc000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefdaf0000 - 0x000007fefdbcb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefd8e0000 - 0x000007fefd97f000 	C:\Windows\system32\msvcrt.dll
+0x000007feff660000 - 0x000007feff67f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefe960000 - 0x000007fefea8d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077540000 - 0x000000007763a000 	C:\Windows\system32\USER32.dll
+0x000007fefef40000 - 0x000007fefefa7000 	C:\Windows\system32\GDI32.dll
+0x000007feff640000 - 0x000007feff64e000 	C:\Windows\system32\LPK.dll
+0x000007fefee70000 - 0x000007fefef39000 	C:\Windows\system32\USP10.dll
+0x000007feff2a0000 - 0x000007feff2ce000 	C:\Windows\system32\IMM32.DLL
+0x000007feff350000 - 0x000007feff459000 	C:\Windows\system32\MSCTF.dll
+0x000007fefd320000 - 0x000007fefd364000 	C:\Windows\system32\nvinitx.dll
+0x000000000f000000 - 0x000000000f006000 	C:\Program Files\NVIDIA Corporation\CoProcManager\_etoured.dll
+0x000007fefa370000 - 0x000007fefa3b5000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvd3d9wrapx.dll
+0x000007feff460000 - 0x000007feff637000 	C:\Windows\system32\SETUPAPI.dll
+0x000007fefd460000 - 0x000007fefd496000 	C:\Windows\system32\CFGMGR32.dll
+0x000007fefefb0000 - 0x000007feff087000 	C:\Windows\system32\OLEAUT32.dll
+0x000007feff090000 - 0x000007feff293000 	C:\Windows\system32\ole32.dll
+0x000007fefd440000 - 0x000007fefd45a000 	C:\Windows\system32\DEVOBJ.dll
+0x000007fefa250000 - 0x000007fefa287000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvdxgiwrapx.dll
+0x000000006d890000 - 0x000000006de48000 	C:\Users\Administrator\AppData\Local\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_64_1.6.0.013\jre\bin\server\jvm.dll
+0x000007fefb400000 - 0x000007fefb43b000 	C:\Windows\system32\WINMM.dll
+0x000000006d3b0000 - 0x000000006d3ba000 	C:\Users\Administrator\AppData\Local\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_64_1.6.0.013\jre\bin\hpi.dll
+0x0000000077800000 - 0x0000000077807000 	C:\Windows\system32\PSAPI.DLL
+0x000000006d800000 - 0x000000006d80e000 	C:\Users\Administrator\AppData\Local\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_64_1.6.0.013\jre\bin\verify.dll
+0x000000006d450000 - 0x000000006d477000 	C:\Users\Administrator\AppData\Local\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_64_1.6.0.013\jre\bin\java.dll
+0x000000006d850000 - 0x000000006d862000 	C:\Users\Administrator\AppData\Local\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_64_1.6.0.013\jre\bin\zip.dll
+0x000000006d6a0000 - 0x000000006d6b7000 	C:\Users\Administrator\AppData\Local\MyEclipse\Common\binary\com.sun.java.jdk.win32.x86_64_1.6.0.013\jre\bin\net.dll
+0x000007fefd980000 - 0x000007fefd9cd000 	C:\Windows\system32\WS2_32.dll
+0x000007feff650000 - 0x000007feff658000 	C:\Windows\system32\NSI.dll
+0x000007fefcb50000 - 0x000007fefcba5000 	C:\Windows\system32\mswsock.dll
+0x000007fefcb40000 - 0x000007fefcb47000 	C:\Windows\System32\wship6.dll
+0x000007fefc550000 - 0x000007fefc557000 	C:\Windows\System32\wshtcpip.dll
+0x000007fefc9d0000 - 0x000007fefca2b000 	C:\Windows\system32\DNSAPI.dll
+0x0000000072520000 - 0x0000000072546000 	C:\Program Files\Bonjour\mdnsNSP.dll
+0x000007fefb1c0000 - 0x000007fefb1e7000 	C:\Windows\system32\Iphlpapi.DLL
+0x000007fefb1a0000 - 0x000007fefb1ab000 	C:\Windows\system32\WINNSI.DLL
+0x000007fef8d80000 - 0x000007fef8d88000 	C:\Windows\system32\rasadhlp.dll
+0x000007fefa3c0000 - 0x000007fefa413000 	C:\Windows\System32\fwpuclnt.dll
+0x000007fefa870000 - 0x000007fefa881000 	C:\Windows\system32\dhcpcsvc6.DLL
+0x000007fefa850000 - 0x000007fefa868000 	C:\Windows\system32\dhcpcsvc.DLL
+
+VM Arguments:
+jvm_args: -Djava.library.path=E:\home\server\workspace\CmsTest\lib -Dfile.encoding=UTF-8 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 29741 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.edu.test.login.TestLogin
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jdk1.6.0_21
+CLASSPATH=.;C:\Program Files (x86)\Java\jdk1.6.0_21\lib;C:\Program Files (x86)\Java\jdk1.6.0_21\lib\tools.jar
+PATH=C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Java\jdk1.6.0_21\bin;C:\Program Files (x86)\Java\jdk1.6.0_21\jre\bin;E:\home\server\maven\bin;E:\home\server\mysql\MySQL Utilities 1.3.4\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\VisualSVN Server\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;E:\home\android-sdk-windows\tools;E:\home\android-sdk-windows\platform-tools;C:\Program Files (x86)\OpenVPN\bin
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 8, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7601 Service Pack 1
+
+CPU:total 4 (8 cores per cpu, 2 threads per core) family 6 model 10 stepping 8, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, ht
+
+Memory: 4k page, physical 8078984k(2893108k free), swap 16156116k(10169132k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (11.3-b02) for windows-amd64 JRE (1.6.0_13-b03), built on Mar  9 2009 10:50:19 by "java_re" with MS VC++ 8.0
+
+time: Wed Apr 29 17:44:46 2015
+elapsed time: 0 seconds
+

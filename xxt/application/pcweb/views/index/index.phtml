@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IM</title>
+	<link rel="stylesheet" href="<?php echo __DEFINE_THEMES__;?>/css/chat.css" />
+	<script type="text/javascript" src="<?php echo __DEFINE_THEMES__;?>/js/jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="<?php echo __DEFINE_THEMES__;?>/js/insertContent.js"></script>
+	<script type="text/javascript" src="<?php echo __DEFINE_THEMES__;?>/js/xwDialog.js"></script>
+	<script type="text/javascript" src="<?php echo __DEFINE_THEMES__;?>/js/common.js"></script>
+	<script src="<?php echo __DEFINE_THEMES__;?>/js/punycode.min.js"></script>
+	<script src="<?php echo __DEFINE_THEMES__;?>/js/emoji-list-with-image.js"></script>
+	<script src="<?php echo __DEFINE_THEMES__;?>/js/emoji.js"></script>
+
+</head>
+<body class="bg1">
+
+
+
+<div class="main cl">
+	<div class="col1 cl">
+		<div class="nav">
+			<div class="myface">
+			<img src="<?php echo __DEFINE_USERLOGO__.$UserInfo['userid'];?>" border="0" alt="">
+			</div>
+		<ul class="list">
+			<li class="icon_dialog hover" onClick="JWeb.ChatList(this)"><em id="jsval_chatUnreadNum"></em></li>
+			<li class="icon_at" onClick="JWeb.UserList(this)"></li>
+			<li class="icon_group" onClick="JWeb.GroupList(this)"></li>
+			<li class="icon_add" onClick="JWeb.ShowGroupMask()"></li>
+		</ul>
+		</div>
+		<div class="firend">
+			<div class="search">
+				<input type="text" id="jsval_search_input" placeholder="搜索" maxlength="12" class="input_search" />
+				<em class="icon_search" onClick="JWeb.SearchGroup()" ></em>
+			</div>
+			<!--FriendBox-->
+			<div id="jsval_friend_list" class="friend-list">
+			</div>
+		</div>
+	</div>
+
+	<!--ContentBox-->
+	<div id="jsval_content_detail" class="col2">
+		<div class="group_info"></div>
+	</div>
+
+</div>
+
+<div class="face_list" id="face_list">
+	<div class="face_wrap">
+		<div><a title="微笑" href="javascript:;"></a><a title="撇嘴" href="javascript:;"></a><a title="色" href="javascript:;"></a><a title="发呆" href="javascript:;"></a><a title="得意" href="javascript:;"></a><a title="流泪" href="javascript:;"></a><a title="害羞" href="javascript:;"></a><a title="闭嘴" href="javascript:;"></a><a title="睡" href="javascript:;"></a><a title="大哭" href="javascript:;"></a><a title="尴尬" href="javascript:;"></a><a title="发怒" href="javascript:;"></a><a title="调皮" href="javascript:;"></a><a title="呲牙" href="javascript:;"></a><a title="惊讶" href="javascript:;"></a><a title="难过" href="javascript:;"></a><a title="酷" href="javascript:;"></a><a title="冷汗" href="javascript:;"></a><a title="抓狂" href="javascript:;"></a><a title="吐" href="javascript:;"></a><a title="偷笑" href="javascript:;"></a><a title="可爱" href="javascript:;"></a><a title="白眼" href="javascript:;"></a><a title="傲慢" href="javascript:;"></a><a title="饥饿" href="javascript:;"></a><a title="困" href="javascript:;"></a><a title="惊恐" href="javascript:;"></a><a title="流汗" href="javascript:;"></a><a title="憨笑" href="javascript:;"></a><a title="大兵" href="javascript:;"></a><a title="奋斗" href="javascript:;"></a><a title="咒骂" href="javascript:;"></a><a title="疑问" href="javascript:;"></a><a title="嘘" href="javascript:;"></a><a title="晕" href="javascript:;"></a><a title="折磨" href="javascript:;"></a><a title="衰" href="javascript:;"></a><a title="骷髅" href="javascript:;"></a><a title="敲打" href="javascript:;"></a><a title="再见" href="javascript:;"></a><a title="擦汗" href="javascript:;"></a><a title="抠鼻" href="javascript:;"></a><a title="鼓掌" href="javascript:;"></a><a title="糗大了" href="javascript:;"></a><a title="坏笑" href="javascript:;"></a><a title="左哼哼" href="javascript:;"></a><a title="右哼哼" href="javascript:;"></a><a title="哈欠" href="javascript:;"></a><a title="鄙视" href="javascript:;"></a><a title="委屈" href="javascript:;"></a><a title="快哭了" href="javascript:;"></a><a title="阴险" href="javascript:;"></a><a title="亲亲" href="javascript:;"></a><a title="吓" href="javascript:;"></a><a title="可怜" href="javascript:;"></a><a title="菜刀" href="javascript:;"></a><a title="西瓜" href="javascript:;"></a><a title="啤酒" href="javascript:;"></a><a title="篮球" href="javascript:;"></a><a title="乒乓" href="javascript:;"></a><a title="咖啡" href="javascript:;"></a><a title="饭" href="javascript:;"></a><a title="猪头" href="javascript:;"></a><a title="玫瑰" href="javascript:;"></a><a title="凋谢" href="javascript:;"></a><a title="示爱" href="javascript:;"></a><a title="爱心" href="javascript:;"></a><a title="心碎" href="javascript:;"></a><a title="蛋糕" href="javascript:;"></a><a title="闪电" href="javascript:;"></a><a title="炸弹" href="javascript:;"></a><a title="刀" href="javascript:;"></a><a title="足球" href="javascript:;"></a><a title="瓢虫" href="javascript:;"></a><a title="便便" href="javascript:;"></a><a title="月亮" href="javascript:;"></a><a title="太阳" href="javascript:;"></a><a title="礼物" href="javascript:;"></a><a title="拥抱" href="javascript:;"></a><a title="强" href="javascript:;"></a><a title="弱" href="javascript:;"></a><a title="握手" href="javascript:;"></a><a title="胜利" href="javascript:;"></a><a title="抱拳" href="javascript:;"></a><a title="勾引" href="javascript:;"></a><a title="拳头" href="javascript:;"></a><a title="差劲" href="javascript:;"></a><a title="爱你" href="javascript:;"></a><a title="NO" href="javascript:;"></a><a title="OK" href="javascript:;"></a><a title="爱情" href="javascript:;"></a><a title="飞吻" href="javascript:;"></a><a title="跳跳" href="javascript:;"></a><a title="发抖" href="javascript:;"></a><a title="怄火" href="javascript:;"></a><a title="转圈" href="javascript:;"></a><a title="磕头" href="javascript:;"></a><a title="回头" href="javascript:;"></a><a title="跳绳" href="javascript:;"></a><a title="挥手" href="javascript:;"></a><a title="激动" href="javascript:;"></a><a title="街舞" href="javascript:;"></a><a title="献吻" href="javascript:;"></a><a title="左太极" href="javascript:;"></a><a title="右太极" href="javascript:;"></a></div>
+	</div>
+</div>
+
+<!--MASK START-->
+<div id="_Mask"></div>
+<div class="popwin" id="pop_add_member">
+<div class="poptitle"><em class="close">X</em>创建群组</div>
+<div class="popcontent">
+	<div class="createGroup">
+		<div class="blc g">
+			<div id="jsval_MaskGroup" class="cat_tree">
+				<ul>
+				</ul>
+			</div>
+		</div>
+
+		<div id="jsval_MaskUserBox" class="blc m" >
+		</div>
+
+		<div class="s">
+			<h2>已添加成员</h2>
+			<div class="blc c">
+				<table id="jsval_MaskGroupAddUser">
+				</table>
+			</div>
+		</div>
+
+	</div>
+	<div class="btns"></div>
+</div>
+</div>
+<!--MASK END-->
+
+
+<script type="text/javascript" src="<?php echo __DEFINE_THEMES__;?>/js/pcweb.js?id=<?php echo time().rand();?>"></script>
+<script type="text/javascript">
+JWeb.ini 	= {
+				"NowTime"			: '<?php echo time();?>',//初始化时间
+				"ContentBox"		: 'jsval_content_detail',//内容ID
+				"FriendBox"			: 'jsval_friend_list',//朋友列表ID
+				"MaskGroupBox"		: 'jsval_MaskGroup',//群列表ID
+				"MaskGroupUser"		: 'jsval_groupUserCheck',//蒙层列表checkbox(CLASS)
+				"MaskGroupUserBox"	: 'jsval_MaskUserBox',//蒙层展示用户Box
+				"MaskGroupAddUser"	: 'jsval_MaskGroupAddUser',//蒙层展示已添加用户
+				"MaskGroupAddUsetTr": 'jsval_MaskAddUserTr_',//已添加用户Tr(CLASS)
+				"ChatContentbox"	: 'jsval_chatContentBox',//聊天展示框
+				"GroupMemberBox"	: 'jsval_groupMemberBox',//群聊成员框
+				"ChatTook"			: 'jsval_chatTook',//聊天工具条
+				"ChatUnreadBox"		: 'jsval_chatUnreadNum',//未读消息数
+				"ChatSend"			: '<?php echo $chatsend;?>',//发送聊天消息
+				"NearChatUrl"		: '<?php echo $nearchatUrl;?>',//最近聊天URL
+				"UserListUrl"		: '<?php echo $userUrl;?>',//通讯录列表URL
+				"UserDetail"		: '<?php echo $userDetail;?>',//用户详情URL
+				"SearchUrl"			: '<?php echo $searchUrl;?>',//搜索地址
+				"GroupUrl"			: '<?php echo $groupUrl;?>',//群列表地址
+				"GroupUserListUrl"	: '<?php echo $groupUserListUrl;?>',//群用户列表URL
+				"GroupAddUrl"		: '<?php echo $groupaddUrl;?>',//添加群组
+				"ChatUrl"			: '<?php echo $chatUrl;?>',//聊天URL
+				"UserList"			: [],//通讯录信息
+				"GroupList"			: [],//群列表信息
+				"ChatList"			: [],//聊天列表
+				"AddGroupUser"		: {},//已添加群成员
+				"ApiLogo"			: '<?php echo __DEFINE_USERLOGO__;?>',//用户头像接口
+				"GroupLogo"			: '<?php echo __DEFINE_THEMES__;?>/images/grouplogo.png'//群头像
+			  };
+//获取聊天列表
+JWeb.ChatList();
+
+/*
+var dialog=$("#pop_add_member").xwDialog();
+dialog.insertBtn("好","confirm",function(){alert("点了好")})
+dialog.insertBtn("取消","",dialog.hide)
+*/
+/*
+$(".chat_tool .face").click(function(event){
+	event.stopPropagation()
+   var _x=$(this).offset().left, _y=$(this).offset().top;
+   $("#face_list").show().css({
+      top:function(){return _y - $(this).height() - 15},
+	  left:_x
+   })
+})
+*/
+
+$("#face_list .face_wrap a").click(function(){
+	var symbol="["+$(this).attr("title")+"]"
+   $("#sendbox").insertAtCaret(symbol);
+})
+$(document.body).bind("click",function(){
+     $("#face_list").hide()
+})
+
+/*
+$(".cat_tree li").click(function(event){
+	event.stopPropagation()
+    if($(this).find("ul").length > 0){
+	   $(this).find("ul").toggle()
+	}
+})
+*/
+
+</script>
+
+ </body>
+</html>

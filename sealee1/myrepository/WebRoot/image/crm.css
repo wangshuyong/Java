@@ -1,0 +1,408 @@
+.HeadBg {
+	BACKGROUND-COLOR: darkred
+}
+BODY {
+	BACKGROUND-COLOR: white
+}
+.SiteTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #cccc99; FONT-FAMILY: Verdana Bold, Helvetica, sans-serif
+}
+.TabBg {
+	BORDER-LEFT-COLOR: white; BORDER-BOTTOM-COLOR: white; BORDER-TOP-COLOR: white; BACKGROUND-COLOR: white; BORDER-RIGHT-COLOR: white
+}
+.OtherTabsBg {
+	BORDER-LEFT-COLOR: black; BORDER-BOTTOM-COLOR: black; BORDER-TOP-COLOR: black; BACKGROUND-COLOR: dimgray; BORDER-RIGHT-COLOR: black
+}
+.SelectedTab {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+.OtherTabs {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: gainsboro; FONT-FAMILY: Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.OtherTabs:link {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.OtherTabs:visited {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.OtherTabs:active {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.OtherTabs:hover {
+	COLOR: white; TEXT-DECORATION: underline
+}
+.SiteLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+A.SiteLink:link {
+	COLOR: white; TEXT-DECORATION: none
+}
+A.SiteLink:visited {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.SiteLink:active {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.SiteLink:hover {
+	COLOR: white; TEXT-DECORATION: underline
+}
+.Accent {
+	FONT-WEIGHT: bold; COLOR: red
+}
+.Message {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Helvetica, sans-serif; BACKGROUND-COLOR: #eeeeee
+}
+.ItemTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+.Head {
+	FONT-WEIGHT: normal; FONT-SIZE: 20px; COLOR: #666644; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+.SubHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+.SubSubHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+.Normal {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; LINE-HEIGHT: 12px; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+.NormalTextBox {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+.NormalRed {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: red; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+.NormalBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+.CommandButton {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+A.CommandButton:link {
+	COLOR: darkred; TEXT-DECORATION: underline
+}
+A.CommandButton:visited {
+	COLOR: darkred; TEXT-DECORATION: underline
+}
+A.CommandButton:active {
+	COLOR: darkred; TEXT-DECORATION: underline
+}
+A.CommandButton:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 20px; COLOR: #666644; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 20px; COLOR: #666644; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+H4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+DT {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+H6 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+TFOOT {
+	FONT-SIZE: 12px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+THEAD {
+	FONT-SIZE: 12px; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; VERTICAL-ALIGN: baseline; COLOR: darkred; FONT-FAMILY: Verdana, Helvetica, sans-serif
+}
+SMALL {
+	FONT-SIZE: 8px
+}
+BIG {
+	FONT-SIZE: 14px
+}
+BLOCKQUOTE {
+	FONT-FAMILY: Lucida Console, monospace
+}
+PRE {
+	FONT-FAMILY: Lucida Console, monospace
+}
+UL LI {
+	LIST-STYLE-TYPE: square
+}
+UL LI LI {
+	LIST-STYLE-TYPE: disc
+}
+UL LI LI LI {
+	LIST-STYLE-TYPE: circle
+}
+OL LI {
+	LIST-STYLE-TYPE: decimal
+}
+OL OL LI {
+	LIST-STYLE-TYPE: lower-alpha
+}
+OL OL OL LI {
+	LIST-STYLE-TYPE: lower-roman
+}
+HR {
+	HEIGHT: 1pt; TEXT-ALIGN: left
+}
+.CenterTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: red; FONT-FAMILY: 宋体
+}
+.BorderLine {
+	BORDER-LEFT: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 1px solid
+}
+.BorderRectangle {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; BORDER-LEFT: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 1px solid
+}
+.Borderleft {
+	BORDER-LEFT: #ff9900 1px solid
+}
+.Borderleftright {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-LEFT: #ff9900 1px solid
+}
+.Borderleftrightbottom {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-LEFT: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 1px solid
+}
+.Borderrighttop {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid
+}
+.Borderrighttopbottom2 {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 2px solid
+}
+.BorderBottom {
+	BORDER-BOTTOM: #ff9900 1px solid
+}
+.BorderBottom3 {
+	BORDER-BOTTOM: #ff9900 3px solid
+}
+.BorderBottomrdgl {
+	BORDER-RIGHT: #602b2b 1px solid; BORDER-TOP: #602b2b 1px solid; BORDER-LEFT: #602b2b 1px solid
+}
+.BorderBottomrdgl1 {
+	BORDER-TOP: #602b2b 1px solid
+}
+.BorderBottomrdgl2 {
+	BORDER-BOTTOM: #602b2b 1px solid
+}
+.Borderrightyajy {
+	BORDER-RIGHT: #602b2b 1px solid
+}
+.BodyFont {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.TempBodyFont {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.DbFont {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 20px; FONT-FAMILY: 宋体
+}
+.BodyCounter {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff0000; FONT-FAMILY: 宋体
+}
+.BodyTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #ff0000; FONT-FAMILY: 宋体
+}
+.ImageTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff9900; FONT-FAMILY: 宋体
+}
+.ErrorFont {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: 宋体
+}
+.InfoViewTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 25px; COLOR: #ad4724; FONT-FAMILY: 宋体
+}
+.CnpuTitle {
+	FONT-SIZE: 16px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.CnpuBoldTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.BigTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.InfoViewBody {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.BodyTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; FONT-FAMILY: 宋体
+}
+A:link {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.ErrorFont:link {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.ErrorFont:visited {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.ErrorFont:active {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.ErrorFont:hover {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.CreateNew {
+	FONT-WEIGHT: bolder; FONT-SIZE: 13px; CURSOR: hand; COLOR: #00319c; FONT-FAMILY: 宋体
+}
+A.CreateNew:link {
+	FONT-WEIGHT: bolder; FONT-SIZE: 13px; CURSOR: hand; COLOR: #00319c; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.CreateNew:visited {
+	FONT-WEIGHT: bolder; FONT-SIZE: 13px; CURSOR: hand; COLOR: #00319c; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.CreateNew:active {
+	FONT-WEIGHT: bolder; FONT-SIZE: 13px; CURSOR: hand; COLOR: #00319c; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.CreateNew:hover {
+	FONT-WEIGHT: bolder; FONT-SIZE: 13px; CURSOR: hand; COLOR: #0099ff; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.CommandButton {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+A.CommandButton:link {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.CommandButton:visited {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.CommandButton:active {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.CommandButton:hover {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.BodyScroll {
+	SCROLLBAR-FACE-COLOR: #f1f1f1; SCROLLBAR-HIGHLIGHT-COLOR: #9e9e9e; SCROLLBAR-SHADOW-COLOR: #9e9e9e; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #9e9e9e; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+.tabPage {
+	BORDER-RIGHT: #639ace 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #639ace 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #639ace 1px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #639ace 1px solid; BACKGROUND-COLOR: #f7f7f7
+}
+.rightTab {
+	BORDER-RIGHT: #639ace 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #f7f7f7
+}
+.leftTab {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #639ace 1px solid; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #f7f7f7
+}
+.HandOver {
+	CURSOR: hand
+}
+.ChannelTitle {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.leftLine {
+	BORDER-LEFT: #93846d 1px solid
+}
+.bottomLine {
+	BORDER-BOTTOM: #663333 1px solid
+}
+.InfoBoxTitleStyle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: 宋体
+}
+.InfoBoxYMStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.InfoBoxMainStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.InfoBoxYJStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.InfoBoxBodyStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.QuestionListTitleStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #fb0917; FONT-FAMILY: 宋体
+}
+.QuestionListYMStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.QuestionListMainStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.QuestionListYJStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.QuestionListStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.edbox {
+	BORDER-RIGHT: #a0a0a0 1px solid; BORDER-TOP: #a0a0a0 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #a0a0a0 1px solid; BORDER-BOTTOM: #a0a0a0 1px solid; BACKGROUND-COLOR: transparent
+}
+.EditBoxline {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; BORDER-BOTTOM: #a0a0a0 1px solid; BACKGROUND-COLOR: transparent
+}
+.ednone {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #d4e4d8
+}
+.edboxdisable {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #aaaaaa 1px solid; COLOR: #555555; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: transparent
+}
+.edlinedisable {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; COLOR: #555555; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: transparent
+}
+.ednonedisable {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; COLOR: #777777; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent
+}
+.tabTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.tabTitle:link {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.tabTitle:visited {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.tabTitle:active {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.tabTitle:hover {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: #fff000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.dl {
+	FONT-SIZE: 13px; FONT-FAMILY: 宋体
+}
+A.dl:link {
+	FONT-SIZE: 13px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.dl:visited {
+	FONT-SIZE: 13px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.dl:active {
+	FONT-SIZE: 13px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.dl:hover {
+	FONT-SIZE: 13px; CURSOR: hand; COLOR: #ff0000; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.PagerStyle {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: 宋体
+}
+.calculate {
+	FONT-SIZE: 12px; BEHAVIOR: url(../../css/htc/calculate.htc)
+}
+.number {
+	FONT-SIZE: 12px; BEHAVIOR: url(../../css/htc/number.htc)
+}
+.datebox {
+	FONT-SIZE: 12px; BEHAVIOR: url(../../css/htc/selectdate.htc)
+}
+.lwdp {
+	FONT-SIZE: 12px; BEHAVIOR: url(../../css/htc/lwdp.htc)
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>fenye.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<style type="text/css">
+.pager a { 
+display: block; 
+float: left; 
+width: 16px; 
+height: 16px; 
+margin: 5px; 
+} 
+.pager a.pageA{ 
+background:url("../images/grid/page.png") no-repeat left 0px transparent; 
+display:inline-block; 
+font-size:14px; 
+margin:0 3px; 
+padding-left:6px; 
+text-align:center; 
+vertical-align:bottom; 
+height:auto; 
+width:auto; 
+cursor:pointer; 
+} 
+.pager a.pageA span{ 
+background:url("../images/grid/page.png") no-repeat right 0px transparent; 
+display:inline-block; 
+height:24px; 
+line-height:22px; 
+padding-right:6px; 
+} 
+.pager a.pageActive{ 
+background:url("../images/grid/page.png") no-repeat left -24px transparent; 
+} 
+
+</style>
+
+<script type="text/javascript"
+	src="http://localhost:8080/pycms/files/js/jquery-1.9.0.js"></script>
+
+
+</head>
+
+<body>
+	<!--存储数据的容器-->
+	<div class="tableData"></div>
+	<!--分页控件显示-->
+	<div class="pageBar"></div>
+
+<script type="text/javascript">
+
+
+//为了我们的控件可以随意使用，我们将其写成插件的形式，首先搭个框架，我们将插件命名为simplePage 
+(function($){ 
+	$.fn.simplePage=function(o){ 
+	var options={ 
+	pager: '.pager',//表格控件的容器 
+	container: '.tableData',//放置表格数据的容器 
+	form: '#form',//放置查询条件的表单 
+	pageForm: '#pageForm',//放置隐藏与的Div 
+	url: 'http://localhost:8080/pycms/all_allInfo',//发送请求的地址 
+	currentPage: 1, 
+	pageSize: 2 ,
+	
+	pageShow:7 
+	}; 
+	return //sth 
+	} 
+})(jQuery) 
+
+//options所需要的参数
+//由于需要发送当前页，每页显示数量，所以需要 currentPage，pageSize 两个基本参数； 
+//由于需要查询表格内容，所以需要一个放置查询条件的表单 form； 
+//由于需要修改删除后记住当前页，所以需要一个标志指示当前进行的是何操作type； 
+//为了使我们的程序更具有灵活性，加上获取数据后需要加载到的container，还有就是分页控件加载的pager， 
+
+//为了便于维护，我们声明一个独立的对象来进行获取数据，绑定事件的操作，我们将这个函数命名为$.page
+$.page = { 
+// 
+setPage: function(o){ 
+}, 
+//获取当前页 
+getCurrentPage: function(o){ 
+}, 
+//获取每页显示数量 
+getPageSize: function(o){ 
+}, 
+//生成发送所需要的json数据 
+genData: function(o){ 
+}, 
+//发送数据 
+loadData: function(o){ 
+} 
+} 
+
+//实现以上所声明的函数，当分页第一次加载的时候，我们需要从服务器获取总页数来生成分页控件，所以首先实现loadData函数 
+loadData: function(o){ 
+var that = this; 
+var data = that.genData(o); 
+$.ajax({ 
+url: o.url, 
+data: data, 
+type: 'post', 
+dataType: 'html', 
+cache: false, 
+success: function(result){ 
+var res = $(result).find('tbody').html(); 
+var totalPage = $(result).find('#totalPage').val(); 
+var currentPage = $(result).find('#currentPage').val(); 
+o.currentPage=currentPage; 
+o.pager.empty(); 
+$.line.setLine(totalPage,o); //调用生成分页控件的函数 
+}, 
+error: function(){ 
+alert("error"); 
+} 
+}) 
+} 
+
+//下面我们实现上面生成分页控件的函数$.line.setLine 
+
+$.line={ 
+setLine:function(totalPage,o){ 
+for(var i=0;i<totalPage;i++){ 
+var a=$('<a/>').html('<span>'+(i+1)+'</span>').addClass('pageA').bind('click',function(){ 
+var s=$(this); 
+s.siblings().removeClass('pageActive'); 
+s.addClass('pageActive'); 
+o.currentPage=s.text(); 
+$.page.loadData(o); 
+}); 
+if(o.currentPage==i+1){ 
+a.addClass('pageActive'); 
+} 
+o.pager.append(a); 
+} 
+var limit=this.getLimit(o,totalPage); 
+var aPage=o.pager.find('a.pageA').not('a.previous,a.nextAll,a.record'); 
+aPage.hide(); 
+aPage.slice(limit.start,limit.end).show(); 
+var prev=$('<a/>').html('<span>上一页</span>').addClass('pageA previous').unbind('click').bind('click',function(){ 
+var pageActive=o.pager.find('a.pageActive'); 
+var s=$(this); 
+if(pageActive.prev().text()=='上一页'){ 
+alert('已经是第一页!'); 
+return false; 
+} 
+pageActive.removeClass('pageActive'); 
+pageActive.prev().addClass('pageActive'); 
+o.currentPage=pageActive.prev().text(); 
+$.page.loadData(o); 
+}); 
+var next=$('<a/>').html('<span>下一页</span>').addClass('pageA nextAll').unbind('click').bind('click',function(){ 
+var pageActive=o.pager.find('a.pageActive'); 
+var s=$(this); 
+if(pageActive.next().text()=='下一页'){ 
+alert('已经是最后一页!'); 
+return false; 
+} 
+pageActive.removeClass('pageActive'); 
+pageActive.next().addClass('pageActive'); 
+o.currentPage=pageActive.next().text(); 
+$.page.loadData(o); 
+}); 
+var pageActiveText=o.pager.find('a.pageActive').text(); 
+var record=$('<a/>').html('<span>'+pageActiveText+'/'+totalPage+'</span>').addClass('pageA record'); 
+o.pager.prepend(prev).prepend(record).append(next); 
+} 
+} 
+
+//在上面的代码中我们给当前的页面加上了pageActive类，所以现在我们可以实现$.page的getCurrentPage函数，非常简单 
+getcurrentPage: function(o){ 
+var p = o.pager.find("a.pageActive").text(); 
+return p; 
+} 
+
+//接着我们实现生成json数据的genData函数，json格式为{key:value,key:value} 
+genData: function(o){ 
+var sdata = $.extend({}, { "currentPage": o.currentPage, 
+"pageSize": o.pageSize}, $.jsonObj(o.pageForm)); 
+return sdata; 
+}, 
+
+//上面的$.jsonObj为自定义的函数，为了生成我们需要的json格式以便发送查询的数据，只支持input，select 
+$.jsonObj = function(form){ 
+//判断是否有序列化的东东 
+if (!$(form).html() || $(form).html() == null || $.trim($(form).html()) == "") { 
+return null; 
+} 
+var formEl = $(form).find('input[type="text"]'); 
+var formselect = $(form).find('select'); 
+var json = "{"; 
+for (var i = 0; i < formEl.length - 1; i++) { 
+var name = formEl.eq(i).attr('name'); 
+var val = "'" + formEl.eq(i).val() + "'"; 
+json += name; 
+json += ":"; 
+json += val; 
+json += ","; 
+} 
+var lname = formEl.eq(formEl.length - 1).attr('name'); 
+var lval = "'" + formEl.eq(formEl.length - 1).val() + "'"; 
+json += lname; 
+json += ":"; 
+json += lval; 
+if (formselect) { 
+json += ","; 
+for (var i = 0; i < formselect.length - 1; i++) { 
+var name = formselect.eq(i).attr('name'); 
+var val = "'" + formselect.eq(i).val() + "'"; 
+json += name; 
+json += ":"; 
+json += val; 
+json += ","; 
+} 
+var lname = formselect.eq(formselect.length - 1).attr('name'); 
+var lval = "'" + formselect.eq(formselect.length - 1).val() + "'"; 
+json += lname; 
+json += ":"; 
+json += lval; 
+} 
+json += "}"; 
+var jsonObj = eval("(" + json + ")") 
+return jsonObj; 
+} 
+
+handleQueryLine:function(o){ 
+$(o.form).find(".query").click(function(){ 
+//$(o.pageForm).append($(o.form).clone(true)); 
+$(o.pageForm).empty(); 
+$(o.form).find('input[type="text"]').each(function(){ 
+var vals = $(this).val(); 
+var s = $(this).clone().val(vals); 
+$(o.pageForm).append(s); 
+}); 
+$(o.form).find('select').each(function(){ 
+var vals = $(this).val(); 
+var s = $(this).clone().val(vals); 
+$(o.pageForm).append(s); 
+}); 
+$.page.query(o); 
+}); 
+}
+
+
+
+$.fn.simplePage = function(os){ 
+var options = { 
+pager: '.pager',//表格控件的容器 
+container: '.tableData',//放置表格数据的容器 
+form: '#form',//放置查询条件的表单 
+pageForm: '#pageForm',//放置隐藏与的Div 
+url: '',//发送请求的地址 
+currentPage: 1, 
+pageSize: 2, 
+type: null,//可选：action, 
+pageShow:7//, 
+}; 
+var o = $.extend(options, os); 
+return this.each(function(){ 
+o.pager = $(this).find(o.pager); 
+o.container = $(this).find(o.container); 
+//首先清除click事件 
+o.pager.unbind('click'); 
+if (o.type == 'action') { 
+//指定的动作，比如删除时的事件，这时需要在当前页刷新数据 
+o.currentPage = $.page.getPageSize(o); 
+o.pageSize = $.page.getCurrentPage(o); 
+$.page.loadData(o); 
+return; 
+} 
+$.page.loadData(o); 
+$.line.handleQueryLine(o); 
+}) 
+} 
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

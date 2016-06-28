@@ -1,0 +1,7 @@
+package com.bjsxt.dp.factory;
+
+public class Car {
+	public void run() {
+		System.out.println("Ã°×ÅÑÌ±¼ÅÜÖĞcar.......");
+	}
+}

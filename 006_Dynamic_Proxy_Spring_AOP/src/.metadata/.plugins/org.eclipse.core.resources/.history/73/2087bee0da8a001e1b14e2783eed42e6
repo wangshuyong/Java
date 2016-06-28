@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HD>
+ <bean name="C">
+  <capacity>8G</capacity>
+  <directories>200</directories>
+  <files>1580</files>
+ </bean>
+ <bean name="D"> 
+  <capacity>10G</capacity>
+  <directories>500</directories>
+  <files>3000</files> 
+ </bean>
+</HD>

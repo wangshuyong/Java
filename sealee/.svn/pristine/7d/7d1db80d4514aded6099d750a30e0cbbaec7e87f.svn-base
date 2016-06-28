@@ -1,0 +1,419 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="网站推广教程">
+<meta name="description" content="网站推广教程">
+<title>网站推广教程|海乐网</title>
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+<link rel="stylesheet" href="../../css/css.css" type="text/css">
+<script src="../../js/yu.js" type="text/javascript"></script>
+<script src="../../js/tb.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+.STYLE2 {color: #0000FF}
+.STYLE3 {
+	color: #6C2D00;
+	font-size: 14px;
+}
+.STYLE4 {color: #000000}
+.STYLE6 {color: #999999}
+#Layer1 {
+	position:absolute;
+	width:145px;
+	height:18px;
+	z-index:0;
+	left: 652px;
+	top: 408px;
+}
+.STYLE8 {font-size: 16px}
+.STYLE9 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.STYLE10 {font-size: 14px; font-weight: bold; color: #2445ec; }
+.STYLE11 {font-size: 11px}
+.STYLE13 {color: #000000; font-size: 11px; }
+.STYLE14 {
+	color: #2445ec;
+	font-size: 12px;
+}
+-->
+</style>
+</head>
+<body topmargin=0 style="text-align:center;">
+<div id="kuang">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="Shortcut Icon" href="favicon.ico">
+<link rel="Bookmark" href="favicon.ico">
+<div align="center">
+<div id="topest">	
+	  <div align="right" style="width:400px; margin-left:550px;">
+	  <ul style=" text-align: right">
+		<li class="LiNoPointTop" style="border:none"><a href="../../login.jsp" target="_self">会员登录</a></li>
+		<li class="LiNoPointTop"><a href="../../register.jsp" target="_self">注册会员</a></li>
+		<li class="LiNoPointTop"><a href="javascript:bookmarkit()">添加收藏</a></li>
+	  </ul>
+	  </div>
+	</div>
+	<div id="divBorder">
+	  <div id="topLogo"></div>
+	  <div id="banner_right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1 style="font-size:12px; display:inline">海乐网为您提供网页设计教程、网页设计、网页制作教程、网站制作教程、设计文档、网站设计文档以及网站推广教程。</h1></div>
+	  <div id="banner"><img alt="网页设计教程-海乐网"  src="../../image/banne1_sealee.gif"  border="0" height="60" width="468"/></div>
+	</div>
+	<div id="top">	
+	  <ul style=" text-align:center; margin-left:0px;">
+		<li class="LiNoPoint" style="border:none;">
+		<a class="topLink" href="../../index.html" target="_self"><font color="#FFFFFF">主页</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1000/index.html" target="_self"><font color="#FFFFFF">行业动态</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1001/index.html" target="_self"><font color="#FFFFFF">网站推广</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1002/index.html" target="_self"><font color="#FFFFFF">PHP教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1003/index.html" target="_self"><font color="#FFFFFF">JAVA教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1004/index.html" target="_self"><font color="#FFFFFF">ASP教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1005/index.html" target="_self"><font color="#FFFFFF">数据库教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1006/index.html" target="_self"><font color="#FFFFFF">网页设计教程</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1007/index.html" target="_self"><font color="#FFFFFF">图形创意</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1008/index.html" target="_self"><font color="#FFFFFF">系统设计文档</font></a>
+		</li>
+		<li class="LiNoPoint">
+		<a class="topLink" href="../1009/index.html" target="_self"><font color="#FFFFFF">javascript教程</font></a>
+		</li>
+	  </ul>
+	</div>
+	<!------搜索栏----->
+	<form id="search_form" name="search_form" action="" method="post">
+	<div id="search">
+		<ul style=" text-align:center">
+			<li class="LiNoPointSearch" style="border:none">搜索热门：</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=jsp" target="_self">JSP源码</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=%CD%F8%D2%B3%C9%E8%BC%C6" target="_self">网页设计</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=%CD%F8%D5%BE%CD%C6%B9%E3" target="_self">网站推广</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=%C9%E8%BC%C6%CE%C4%B5%B5" target="_self">设计文档</a>
+			</li>
+			<li class="LiNoPointSearch">
+			<a href="../../searchinfo.shtml?urlcondition=java" target="_self">JAVA开发</a>
+			</li>
+			<li class="LiNoPointSearch" style="margin-left:200px; width:300px; line-height:27px;">
+			<nobr>智能搜索：<input align="absmiddle" type="text" name="condition" id="condition">
+			  <input type="image" src="../../image/btn_search.gif" name="button" value="提交" onclick="return searchcheck()"/>   </nobr>		
+			</li>
+	  </ul>
+	</div>
+	</form>
+</div>
+<script language="javascript">
+	function searchcheck(){
+		if(document.search_form.condition.value==''){
+			alert('对不起，请输入查询条件！');
+			return false;
+			document.search_form.condition.focus();
+		}else{
+			var tempurl = document.search_form.condition.value;
+			search_form.action = "../../searchinfo.shtml?urlcondition="+tempurl;
+			search_form.submit();
+		}
+	}
+	
+	function bookmarkit(){
+	window.external.addfavorite("http://www.sealee.com/","海乐网-专业的WEB开发技术，编程技术，网页设计，设计文档，网站推广教程")
+	}
+	function rundemo(k){
+		var democode=document.getElementById(k).value
+		var demowin=window.open()
+		
+		demowin.document.open();
+		demowin.document.write(democode)
+		demowin.document.close();
+	}
+
+</script><div id="listAdvertise">
+<!---------广告代码段----------->
+	<script type="text/javascript"><!--
+		google_ad_client = "pub-3815888257365205";
+		/* 728x90, 创建于 09-2-15 */
+		google_ad_slot = "1973839263";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+
+</div>
+
+	<div align="center" id="body_all">
+		
+		<!-----正文中间部分-------->
+		<div id="body_article" align="left">
+			<div id="list_info">
+				<div align="left" id="list_info_row_title">
+						<li id="list_line_li_title">
+						&nbsp;&nbsp;<span class="STYLE3">&nbsp;</span> <span class="STYLE9">
+						<a class="titleLink" href="../../index.html" target="_self">网站首页</a> &gt;&gt; &nbsp; 
+						网站推广教程&nbsp; <span class="STYLE4">&gt;&gt;</span> 列表</span></li>
+						
+				</div>
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="57d8388b-ad5c-44ec-9301-0602b261118d.html" target="_blank" class="STYLE10">
+			从接吻看软文的营销
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2008-12-17 14:16:14
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			营销在一个公司里很重要，可是你的营销是不是步步为环呢，那个扣扣不上了，都有可能影响到你整个营销的效果和进展。
+			
+			[<A href="57d8388b-ad5c-44ec-9301-0602b261118d.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="c6a7bb07-1477-473c-8d07-657d0af4d995.html" target="_blank" class="STYLE10">
+			经验分享：定位是网络营销的灵魂
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2008-12-17 14:15:11
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			　　在国内营销界和企业界，定位理论已经越来越被重视，也产生了非常多因为定位准确而使产品和品牌异军突起的成功案例，比如真功夫定位于蒸式连锁快餐，王老吉定位于可以去火的凉茶饮料，雅客定
+			
+			[<A href="c6a7bb07-1477-473c-8d07-657d0af4d995.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="57aa1f7e-86df-433c-bb31-a4067ef4fc0d.html" target="_blank" class="STYLE10">
+			做小县城的地方论坛的经验
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2008-12-17 14:14:20
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			　　这年头做垃圾站越来越不容易，闲来无趣，也就打算做个地方论坛了。别人做大的范围，我做小的范围。据统计我们这个县有106万人口，上面的市级已经有一个很不错的论坛。并且已经商业化运作
+			
+			[<A href="57aa1f7e-86df-433c-bb31-a4067ef4fc0d.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+		<div align="left" id="list_info_row">
+			<li id="list_line_li_title">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			<A href="50ee6dd4-9312-4efe-a242-f3324634879d.html" target="_blank" class="STYLE10">
+			推一把：给乐奇坊的网站推广建议
+			</A>
+			</li>
+			<li class="STYLE4 STYLE11" id="list_line_li_time">
+			2008-12-17 14:13:22
+			</li>
+		</div>
+		<div align="left" id="list_info_row_content">
+			<li id="list_line_li_content">
+			&nbsp;&nbsp;&nbsp;<span class="STYLE8">&nbsp;</span>
+			乐奇坊 http://wzm1982.com.cn/，已经一个多月了，主要是介绍一些稀奇古怪的事物、古灵精怪的东西和趣味数码，在SEO和网络推广方面，请推一把论坛网站诊断的各位高手
+			
+			[<A href="50ee6dd4-9312-4efe-a242-f3324634879d.html" target="_blank" class="STYLE10"><font style="font-size:11px">阅读全文</font></A>]
+			</li>		
+		</div>
+				
+
+				<div align="left" id="list_info_row" style="height:60px;">
+				<li style="text-align:center; list-style:none" class="STYLE9 STYLE14">
+				</li>
+				<li style="text-align:center;list-style:none" class="STYLE9 STYLE14">
+				<a href='index.html' class='STYLE10'>首页</a>      <a href='index-5.html' class='STYLE10'>上一页</a>  &nbsp;&nbsp;共有 <font color='red'>64</font> 篇文章    &nbsp;&nbsp;<a href='index.html' class='STYLE10'>[1]</a>    &nbsp;&nbsp;<a href='index-2.html' class='STYLE10'>[2]</a>  &nbsp;&nbsp;<a href='index-3.html' class='STYLE10'>[3]</a>  &nbsp;&nbsp;<a href='index-4.html' class='STYLE10'>[4]</a>  &nbsp;&nbsp;<a href='index-5.html' class='STYLE10'>[5]</a>  &nbsp;&nbsp;<a href='index-6.html' class='STYLE10'><font color='red'>[6]</font></a>  &nbsp;&nbsp;<a href='index-6.html' class='STYLE10'>下一页</a>    <a href='index-6.html' class='STYLE10'>末页</a>  
+				</li>
+				<li style="text-align:center; list-style:none" class="STYLE9 STYLE14">
+				</li>
+				</div>
+			</div>
+			
+			<div align="left" style="margin-top:5px; float:left;">
+			
+			</div>
+
+		</div>
+		<!-----正文右侧部分-------->
+		<div id="body_right" align="left">
+			<!---推荐信息--->
+			<div id="right_info" style="height:600px;">
+			<li id="right_info_row_title">&nbsp;&nbsp;&nbsp;&nbsp;<B>推荐信息</B> </li>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			<script type="text/javascript"><!--
+			google_ad_client = "pub-3815888257365205";
+			/* 160x600, 创建于 09-6-23 */
+			google_ad_slot = "3769138972";
+			google_ad_width = 160;
+			google_ad_height = 600;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+			</li>
+
+			</div>
+			<!----右侧广告位------>
+			
+			<div id="right_image_adv">
+				<a href="../../youxi-sealee.jsp" target="_blank"><img src="../../image/right_adv1.bmp" height="60" width="298" border="0"></a>
+			</div>
+			<div id="right_info_2">
+			<li id="right_info_2_row_title">&nbsp;&nbsp;&nbsp;&nbsp;<b>精品导读</b> </li>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			19 日</span> 
+			<a href="../../html/1001/8f3c870e-84cd-46df-be78-2c53c0c4c8d8.html">
+			网站如何优化多个关键字？
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			03 日</span> 
+			<a href="../../html/1001/67170f06-ddb9-423c-820c-f3c8262a02b6.html">
+			网站顶部文字对整体页面的影响
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			01 日</span> 
+			<a href="../../html/1001/312f99b4-4aa8-4e09-a2bc-bcf76a97e8ef.html">
+			应对google(谷歌)沙盒效应站长束
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			31 日</span> 
+			<a href="../../html/1001/16134943-c3ea-4430-87b9-7bba4e870cad.html">
+			网站初期要靠外链带来权重
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			29 日</span> 
+			<a href="../../html/1001/2a83c512-5de1-4732-9581-05e204d1766e.html">
+			海乐网的SEO经验总结
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			23 日</span> 
+			<a href="../../html/1001/d93009f5-7acb-4a39-9c0f-391dd8800d6a.html">
+			网站推广中增加网站流量的七种有效方法
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			20 日</span> 
+			<a href="../../html/1001/7a8aa2f6-56b3-4fdb-998b-74acfdb53417.html">
+			SEO真的具备技术含量？
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			20 日</span> 
+			<a href="../../html/1001/a7d9b6a0-6442-4ece-b7f0-dd38c268dc64.html">
+			如何提高网站搜索引擎排名
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			16 日</span> 
+			<a href="../../html/1001/7ff5d3cc-c53a-4bfe-9cf3-8c2819df823c.html">
+			网站优化推广方案解析
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			16 日</span> 
+			<a href="../../html/1001/81d5905c-c5d0-4d40-9ed2-46c198b5747f.html">
+			影响一个网站（首页）PR值的因素总结
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			12 日</span> 
+			<a href="../../html/1001/55c714f2-757a-4317-a3cf-4ddd6dca3d1f.html">
+			网站推广中链接优化需要注意的方面
+			</a>
+			</A>
+			</li>
+			</div>		
+		</div>
+	</div>
+	<div align="center">
+		<div id="bottom_adv_left">
+		
+		</div>
+	</div>
+	<div id="clear"></div>
+<div align="center" id="bottom">
+		<div align="center" id="bottom_line"><a href="../../links.shtml" target="_self">友情链接</a>　-  
+		<a href="../../note.jsp" target="_self">网站声明</a>　- 
+		<a href="../../advertise.jsp" target="_self">广告服务</a> - 
+		<A href="javascript:QQChat('408199514')">建议反馈 有问必答</a>　-
+		<a href="../../contact.jsp" target="_self">联系我们</a></div>
+		<div align="center" id="bottom_line">Copyright @ 2008-2009 www.sealee.com <B>网页设计教程网 </B> All Rights Reserved		</div>
+		<div align="center" id="bottom_line">豫ICP备09000842号</div>
+		<div align="center" id="bottom_line">海乐网为您提供<a href="http://www.sealee.com">网页设计</a>、<a href="http://www.sealee.com">网页设计教程</a>、<a href="http://www.sealee.com">网页制作教程</a>、<a href="http://www.sealee.com">网站制作教程</a>、<a href="http://www.sealee.com">设计文档</a>、<a href="http://www.sealee.com">网站设计文档</a>以及<a href="http://www.sealee.com/html/1001">网站推广教程</a>。
+		<script src="http://s68.cnzz.com/stat.php?id=1205456&web_id=1205456" language="JavaScript" charset="gb2312"></script>
+		<script language="javascript" type="text/javascript" src="http://js.users.51.la/2463304.js"></script>
+<noscript><a href="http://www.51.la/?2463304" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/2463304.asp" style="border:none" /></a></noscript></div>
+</div>
+<script language="javascript">
+function QQChat(qqnumber) {
+    try {
+        new ActiveXObject("TimwpDll.TimwpCheck");
+        location.href = 'Tencent://Message/?menu=yes&exe=&uin=' + qqnumber + '&websiteName=bbsmax&info=';
+    } catch (e) {
+        alert("你没有安装QQ或浏览器不支持，不能与该用户直接对话");
+    }
+}
+</script></div>
+</body>
+</html>

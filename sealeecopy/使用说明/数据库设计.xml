@@ -1,0 +1,85 @@
+网站数据库设计(逐步更新中)：
+
+1、用户表
+	
+	t_member{
+		id varchar 50,                   主键
+		username varchar 50,             账号
+		password varchar 50,             密码
+		petname varchar 100,             昵称
+		email varchar 100,               邮箱
+		
+		birthday date 8,                 生日
+		bodily_form int 4，              体型
+		stature int 4,                   身高
+		work_type int 4,                      职业
+		area varchar 200,                地区
+		is_show int 2,                   是否显示联系方式
+		my_index varchar 200,            我的主页
+		qq varchar 20,                   QQ号码
+		phone varchar 50,                电话号码
+		address varchar	200,             详细地址
+		show text，                      个人说明
+		remark text，                    详细介绍
+	}
+
+2.信息内容表
+	
+	t_site_information{
+		id varchar 50,                   主键
+		title varchar 200，              标题
+		source varchar 50,               来源
+		source_link varchar 200,         来源链接
+		author varchar 100,              作者
+		type int 4，                     类别
+		show varchar 500 ，              内容概要
+		content text ，                  内容
+		date_created varchar 20 ,        创建时间
+		is_show int 4,                   是否为类型头条
+		remark varchar 500 ，            备注
+
+	}
+
+3.信息类别表
+
+	t_site_type{
+		id varchar 50,                   主键
+		name varchar 100,                类别名称
+		name_value varchar 50,           类别编码值
+		type_level int 4，               类别等级
+	}
+
+4.管理员用户表
+
+	t_admin_user{
+		id varchar 50,                   主键
+		username varchar 50,             账号
+		password varchar 50,             密码
+		power varchar 100，              权限
+	}
+
+5.评论信息表
+	t_infor_reply{
+		id varchar 50,                  主键
+		infor_id varchar 50,            文章ID
+		reply_author varchar 100,       回复作者
+		reply_content text,             回复内容
+		reply_date datetime,           回复时间
+		reply_state                     状态
+	}
+
+6.广告信息、友情链接表
+	t_advertise{
+		id varchar 50,
+		adv_type int 4,               广告类型  文字：0 图片：1 友情链接文字：2 友情链接图片： 3
+		adv_title varchar 100,        广告文字
+		adv_link  varchar 100,        广告链接
+		link_color varchar 50,        链接文字颜色
+		adv_image varchar 100,        图片广告图片
+		image_height int 4,           图片高
+		image_width  int 4,           图片宽
+		add_date datetime,            添加日期
+		take_effect_date datetime     生效时间
+		ineffective_date datetime     失效时间
+		auditing int 4                审核 未：0 审 ：1
+	}

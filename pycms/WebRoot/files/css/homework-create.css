@@ -1,0 +1,65 @@
+.contacts {
+    border: 1px #ccc solid;
+    line-height: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    padding-left: 16px;
+}
+.contacts .btn {
+    margin-right: 16px;
+}
+.panel-default {
+    border-radius: 0;
+}
+
+#homework-form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+#homework-form .form-group>* {
+    margin-left: 120px;
+}
+#homework-form .form-group>label {
+    margin-left: 0;
+    width: 105px;
+    text-align: right;
+    position: absolute;
+    line-height: 32px;
+    font-weight: normal;
+}
+
+#homework-subject {
+    width: auto;
+}
+#homework-title {
+    width: 366px;
+}
+#homework-content {
+    width: 366px;
+    height: 150px;
+    resize: none;
+}
+#homework-deadline, #homework-send-time {
+    width: 160px;
+}
+.upload-tips {
+    color: #999;
+    margin: 10px 0 4px;
+}
+
+#homework-images .icon-clip, #homework-files .icon-clip ,#homework-audio .icon-clip{
+    font-size: 20px;
+    color: #465b69;
+    margin-right: 10px;
+}
+
+#homework-images li>*, #homework-files li>* ,#homework-audio li>*{
+    line-height: 30px;
+}
+
+#homework-images .btn-file-del, #homework-files .btn-file-del ,#homework-audio .btn-file-del{
+    color: #ff6600;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}

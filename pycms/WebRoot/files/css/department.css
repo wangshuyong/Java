@@ -1,0 +1,7 @@
+.panel-heading {
+    overflow: hidden;
+    line-height: 34px;
+}
+.panel-heading .btn {
+    float: right;
+}

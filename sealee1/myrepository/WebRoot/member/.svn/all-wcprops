@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/myrepository/!svn/ver/1/WebRoot/member
+END
+bottom.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/myrepository/!svn/ver/1/WebRoot/member/bottom.jsp
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/myrepository/!svn/ver/1/WebRoot/member/main.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/myrepository/!svn/ver/1/WebRoot/member/index.jsp
+END
+editarticle.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myrepository/!svn/ver/1/WebRoot/member/editarticle.jsp
+END
+allarticle.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/myrepository/!svn/ver/1/WebRoot/member/allarticle.jsp
+END
+sendurl.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/myrepository/!svn/ver/1/WebRoot/member/sendurl.jsp
+END
+newarticle.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/myrepository/!svn/ver/1/WebRoot/member/newarticle.jsp
+END
+editinfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/WebRoot/member/editinfo.jsp
+END
+top.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/myrepository/!svn/ver/1/WebRoot/member/top.jsp
+END

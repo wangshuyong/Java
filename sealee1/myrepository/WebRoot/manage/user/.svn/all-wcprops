@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/myrepository/!svn/ver/1/WebRoot/manage/user
+END
+edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/myrepository/!svn/ver/1/WebRoot/manage/user/edit.jsp
+END
+new.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/WebRoot/manage/user/new.jsp
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/myrepository/!svn/ver/1/WebRoot/manage/user/list.jsp
+END

@@ -1,0 +1,318 @@
+<%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
+<%@ page language="java" pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="网页设计，网页设计教程">
+<meta name="description" content="提供网页设计相关教程资料">
+<title></title>
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+<link rel="stylesheet" href="../../css/css.css" type="text/css">
+<script src="../../js/yu.js" type="text/javascript"></script>
+<script src="../../js/tb.js" type="text/javascript"></script>
+<script src="../../js/ajax.js" type="text/javascript"></script>
+<script src="../../js/prototype.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.STYLE1 {color:#FF0000}
+.STYLE2 {color:#0000FF}
+.STYLE6 {color:#999999}
+#Layer1 {
+	position:absolute;
+	width:145px;
+	height:18px;
+	z-index:0;
+	left: 652px;
+	top: 408px;
+}
+.STYLE9 {
+	font-size:14px;
+	font-weight:bold;
+	color: #c4290a;
+}
+.STYLE15 {font-size:14px}
+.STYLE16 {color: #16387c}
+.STYLE17 {
+	font-size: 12px;
+	color: #000000;
+}
+.STYLE19 {font-size: 14px; font-weight: bold; }
+.reply_bottom {
+	border: thin none #16387c;
+	background-color: #2782D6;
+	width:55px;
+	text-align:center;
+	color:#FFFFFF;
+}
+-->
+</style>
+</head>
+<body style="text-align:center;">
+<div id="kuang">
+
+<%@ include file="../../top.html" %>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="Shortcut Icon" href="favicon.ico">
+<link rel="Bookmark" href="favicon.ico">
+
+<script language="javascript">
+	function searchcheck(){
+		if(document.search_form.condition.value==''){
+			alert('对不起，请输入查询条件！');
+			return false;
+			document.search_form.condition.focus();
+		}else{
+			var tempurl = document.search_form.condition.value;
+			search_form.action = "../../searchinfo.shtml?urlcondition="+tempurl;
+			search_form.submit();
+		}
+	}
+	
+	function bookmarkit(){
+	window.external.addfavorite("/","")
+	}
+	function rundemo(k){
+		var democode=document.getElementById(k).value
+		var demowin=window.open()
+		
+		demowin.document.open();
+		demowin.document.write(democode)
+		demowin.document.close();
+	}
+
+</script><div id="daohang">
+	<li class="LiNoPointSearch" style="border:none">栏目导航：</li>
+	<li class="Lidaohang">
+	<a href="../../index.html" target="_self">主页</a> >> 
+	</li>
+	<li class="Lidaohang">
+	<a href="index.html" target="_self">行业动态</a> >> 
+	</li>
+	<li class="Lidaohang">
+	eeeeeee
+	</li>
+</div>
+	<div align="center" id="body_all">
+		
+		<!-----正文中间部分-------->
+		<div id="body_article" align="left">
+			<!---经验分析信息--->
+			<div id="view_info">
+				<li class="STYLE9" id="view_title">
+				<h1 style="font-size:14px;">eeeeeee</h1>
+				</li>
+				<li id="view_title_remark">
+					来源：<a href="eeee">eee</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;作者：
+					&nbsp;&nbsp;&nbsp;&nbsp;时间：
+					&nbsp;&nbsp;&nbsp;&nbsp;浏览量：<font color="#999999"><span id="view_num"></span></font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../../member/newarticle.jsp" target="_blank"><b><font color="#c4290a">我要投稿</font></b></a> 
+				</li>
+				<li id="view_content">
+				<div style="float:right;width:336px;height:280px;">
+				<script type="text/javascript"><!--
+				google_ad_client = "pub-3815888257365205";
+				/* 336x280, 创建于 09-3-12 */
+				google_ad_slot = "4493444479";
+				google_ad_width = 336;
+				google_ad_height = 280;
+				//-->
+				</script>
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+				</div>
+				eee
+				<p align="center">
+				<script type="text/javascript"><!--
+				google_ad_client = "pub-3815888257365205";
+				/* 468x60, 创建于 09-4-11 */
+				google_ad_slot = "7480993349";
+				google_ad_width = 468;
+				google_ad_height = 60;
+				//-->
+				</script>
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>				
+				</p>
+				<p align="center">
+				<script src="../../ad/ad.js" language="JavaScript"></script>
+				</p>
+				</li>
+				<li  id="view_line">
+					<span class="STYLE9"><span class="STYLE16">相关文章</span></span>
+				</li>
+				<li id="view_line_left"><img src="../../image/member_002.gif" border="0" align="absmiddle"/>
+				<span class="STYLE17">
+				<a href="../../html/1000/news-090423122042.html">ddddd</a>
+				</span>
+				</li>
+				<li id="view_line_right">2009-04-23 12:20:42</li>
+				<li id="view_line_left"><img src="../../image/member_002.gif" border="0" align="absmiddle"/>
+				<span class="STYLE17">
+				<a href="../../html/1000/9ae0b543-ca77-4b65-8d30-0611276a8f4d.html">《魔兽世界》签约网易3年</a>
+				</span>
+				</li>
+				<li id="view_line_right">2009-04-19 10:08:33</li>
+				<li id="view_line_left"><img src="../../image/member_002.gif" border="0" align="absmiddle"/>
+				<span class="STYLE17">
+				<a href="../../html/1000/99d6bbc1-2232-4c8c-8610-ba95dfd4dfaa.html">从廉租房开始的技术人员创业心得</a>
+				</span>
+				</li>
+				<li id="view_line_right">2009-04-19 09:46:12</li>
+				
+	      </div>
+		  <div id="clear"></div>
+		</div>
+		<!-----正文右侧部分-------->
+		<div id="body_right" align="left">
+			<div id="right_image_adv">
+				<a href="../../youxi-sealee.jsp" target="_blank"><img src="../../image/right_adv1.bmp" height="60" width="298" border="0"></a>
+			</div>
+			<!---新闻信息--->
+			<div id="right_info">
+				<li id="right_info_row_title">&nbsp;&nbsp;&nbsp;&nbsp;<B>推荐信息</B></li>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <script type="text/javascript"><!--
+			google_ad_client = "pub-3815888257365205";
+			/* 250x250, 创建于 09-4-20 */
+			google_ad_slot = "5195640875";
+			google_ad_width = 250;
+			google_ad_height = 250;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+			</li>
+			</div>
+			<!----右侧广告位------>
+			
+			<div id="right_image_adv">
+				<a href="../../youxi-sealee.jsp" target="_blank"><img src="../../image/right_adv1.bmp" height="60" width="298" border="0"></a>
+			</div>
+			<div id="right_info_2">
+			<li id="right_info_2_row_title">&nbsp;&nbsp;&nbsp;&nbsp;<b>精品导读</b> </li>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			19 日</span> 
+			<a href="../../html/1000/99d6bbc1-2232-4c8c-8610-ba95dfd4dfaa.html">
+			从廉租房开始的技术人员创业心得
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			17 日</span> 
+			<a href="../../html/1000/53c01b56-99f1-470f-918e-16f0b2ea5fa0.html">
+			百度CEO李彦宏担任博鳌论坛青年领袖论坛
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			17 日</span> 
+			<a href="../../html/1000/cbc4e778-36c8-4887-8c40-996f94168601.html">
+			IDC峰会重视品牌服务,提供优质IDC服
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			13 日</span> 
+			<a href="../../html/1000/67d370bc-687e-4f06-b3e6-def38e19ab75.html">
+			阿里巴巴在日本"复制"成功
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			11 日</span> 
+			<a href="../../html/1000/7134970b-1a92-49a2-96d4-74aa16f675b8.html">
+			据有关消息称IBM收购Sun谈判破裂
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			10 日</span> 
+			<a href="../../html/1000/f06bfbd3-c91e-4286-b613-550aa87d68fa.html">
+			未来几年程序员应当具备的必要技能
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			09 日</span> 
+			<a href="../../html/1000/bf51d800-735d-4c33-85d3-955c8507331a.html">
+			百度发布不含任何商业推广信息老年搜索
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			09 日</span> 
+			<a href="../../html/1000/a9d8693b-e0db-4f47-b86b-f2dddfacdb47.html">
+			中国知名景区通过一网站发放4亿元旅游消费
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			09 日</span> 
+			<a href="../../html/1000/66f7cf1f-2859-4961-b191-5ad6d6f810e4.html">
+			社交网络变卖网民资料牟利
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			08 日</span> 
+			<a href="../../html/1000/fa3ff195-9873-4a71-984b-1bdaf2c9bf6c.html">
+			百度CEO李彦宏再度问计网友：如何衡量贴
+			</a>
+			</A>
+			<li id="right_info_row">
+			&nbsp;&nbsp;&nbsp; <span class="STYLE6">
+			08 日</span> 
+			<a href="../../html/1000/aae2a3e9-f255-4e3c-8175-adba7b53d0ae.html">
+			强化SNS属性后，天涯社区新版今日正式上
+			</a>
+			</A>
+			</li>
+			</div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div align="center">
+		<div id="bottom_adv_left">
+		
+		</div>
+	</div>
+<div align="center" id="bottom">
+		<div align="center" id="bottom_line"><a href="../../links.shtml" target="_self">友情链接</a>　-  
+		<a href="../../note.jsp" target="_self">网站声明</a>　- 
+		<a href="../../advertise.jsp" target="_self">广告服务</a> - 
+		<A href="javascript:QQChat('408199514')">建议反馈 有问必答</a>　-
+		<a href="../../contact.jsp" target="_self">联系我们</a></div>
+		<div align="center" id="bottom_line"> All Rights Reserved		</div>
+		<div align="center" id="bottom_line"></div>
+		<div align="center" id="bottom_line">	为您提供<a href="">网页设计</a>、<a href="">网页设计教程</a>、<a href="">网页制作教程</a>、<a href="">网站制作教程</a>、<a href="">设计文档</a>、<a href="">网站设计文档</a>以及<a href="">网站推广教程</a>。
+		<script src="http://s68.cnzz.com/stat.php?id=1205456&web_id=1205456" language="JavaScript" charset="gb2312"></script>
+		<script language="javascript" type="text/javascript" src="http://js.users.51.la/2463304.js"></script>
+<noscript><a href="http://www.51.la/?2463304" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/2463304.asp" style="border:none" /></a></noscript></div>
+</div>
+<script language="javascript">
+function QQChat(qqnumber) {
+    try {
+        new ActiveXObject("TimwpDll.TimwpCheck");
+        location.href = 'Tencent://Message/?menu=yes&exe=&uin=' + qqnumber + '&websiteName=bbsmax&info=';
+    } catch (e) {
+        alert("你没有安装QQ或浏览器不支持，不能与该用户直接对话");
+    }
+}
+</script>
+</div>
+</body>
+<script language='javascript'>
+	var XMLSender = new ActiveXObject("Microsoft.XMLHTTP" );
+        XMLSender.Open("POST","../../ajaxclick.shtml?article=news-090423025721",false);
+        XMLSender.send();
+	var tempNum =  XMLSender.responseText;
+	document.getElementById('view_num').innerHTML = tempNum;
+</script>
+</html>

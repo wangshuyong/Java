@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib
+END
+msbase.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/msbase.jar
+END
+jakarta-oro.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/jakarta-oro.jar
+END
+jdbc2_0-stdext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/jdbc2_0-stdext.jar
+END
+msutil.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/msutil.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/jta.jar
+END
+cglib-2.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/cglib-2.1.3.jar
+END
+log4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/log4j.jar
+END
+sqljdbc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/sqljdbc.jar
+END
+freemarker.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/freemarker.jar
+END
+mssqlserver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/mssqlserver.jar
+END
+jdom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/jdom.jar
+END
+commons-lang.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/commons-lang.jar
+END
+log4j-1.2.11.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/log4j-1.2.11.jar
+END
+commons-fileupload.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/commons-fileupload.jar
+END
+commons-validator.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/commons-validator.jar
+END
+jspsmart.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/jspsmart.jar
+END
+struts.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/struts.jar
+END
+urlrewrite-2.6.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/urlrewrite-2.6.0.jar
+END
+struts-legacy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/struts-legacy.jar
+END
+asm-attrs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/asm-attrs.jar
+END
+jaxen-1.1-beta-7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/jaxen-1.1-beta-7.jar
+END
+commons-digester.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/commons-digester.jar
+END
+asm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/asm.jar
+END
+slf4j-nop-1.5.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/slf4j-nop-1.5.8.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/hibernate3.jar
+END
+commons-collections-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/commons-collections-3.1.jar
+END
+mysql-connector-java-5.1.6-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar
+END
+antlr-2.7.6rc1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/antlr-2.7.6rc1.jar
+END
+commons-beanutils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/commons-beanutils.jar
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/commons-logging.jar
+END
+postgresql-8.1-405.jdbc2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/postgresql-8.1-405.jdbc2.jar
+END
+slf4j-api-1.5.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/myrepository/!svn/ver/1/WebRoot/WEB-INF/lib/slf4j-api-1.5.8.jar
+END

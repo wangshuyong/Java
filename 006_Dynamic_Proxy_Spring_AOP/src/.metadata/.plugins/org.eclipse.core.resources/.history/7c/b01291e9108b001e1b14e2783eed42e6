@@ -1,0 +1,19 @@
+package com.bjsxt.spring.factory;
+
+import java.util.Properties;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Properties props = new Properties();
+		props.load(Test.class.getClassLoader().
+				getResourceAsStream("com/bjsxt/spring/factory/spring.properties"));
+		String vehicleTypeName = props.getProperty("VehicleType");
+		Moveable m = ;
+		m.run();
+	}
+
+}

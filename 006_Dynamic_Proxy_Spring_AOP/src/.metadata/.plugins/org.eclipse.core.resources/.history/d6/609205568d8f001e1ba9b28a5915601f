@@ -1,0 +1,20 @@
+package com.bjsxt.proxy;
+
+public class TankLogProxy implements Moveable {
+	public TankLogProxy(Tank t) {
+		super();
+		this.t = t;
+	}
+
+
+	Moveable t;
+	
+	
+	@Override
+	public void move() {
+		System.out.println("Tank Start....");
+		t.move();
+		System.out.println("Tank Stop....");
+	}
+	
+}

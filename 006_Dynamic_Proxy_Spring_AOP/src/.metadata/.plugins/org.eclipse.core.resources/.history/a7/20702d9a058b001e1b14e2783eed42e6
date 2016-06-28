@@ -1,0 +1,14 @@
+package com.bjsxt.dp.factory;
+
+public class Car {
+	
+	private Car(){}
+	
+	public static Car getInstance() {
+		
+	}
+	
+	public void run() {
+		System.out.println("Ã°×ÅÑÌ±¼ÅÜÖĞcar.......");
+	}
+}

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/myrepository/!svn/ver/1/src/com/model
+END
+TAdminUser.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/myrepository/!svn/ver/1/src/com/model/TAdminUser.hbm.xml
+END
+TMember.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/myrepository/!svn/ver/1/src/com/model/TMember.hbm.xml
+END
+TInforReply.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/myrepository/!svn/ver/1/src/com/model/TInforReply.hbm.xml
+END
+TSiteInformation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/myrepository/!svn/ver/1/src/com/model/TSiteInformation.hbm.xml
+END
+PagerHelp.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/myrepository/!svn/ver/1/src/com/model/PagerHelp.java
+END
+TAdvertise.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/myrepository/!svn/ver/1/src/com/model/TAdvertise.java
+END
+TSiteType.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/myrepository/!svn/ver/1/src/com/model/TSiteType.java
+END
+TAdminUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/myrepository/!svn/ver/1/src/com/model/TAdminUser.java
+END
+TMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/myrepository/!svn/ver/1/src/com/model/TMember.java
+END
+TInforReply.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/myrepository/!svn/ver/1/src/com/model/TInforReply.java
+END
+Pager.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/myrepository/!svn/ver/1/src/com/model/Pager.java
+END
+TAdvertise.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/myrepository/!svn/ver/1/src/com/model/TAdvertise.hbm.xml
+END
+TSiteInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/myrepository/!svn/ver/1/src/com/model/TSiteInformation.java
+END
+TSiteType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/myrepository/!svn/ver/1/src/com/model/TSiteType.hbm.xml
+END

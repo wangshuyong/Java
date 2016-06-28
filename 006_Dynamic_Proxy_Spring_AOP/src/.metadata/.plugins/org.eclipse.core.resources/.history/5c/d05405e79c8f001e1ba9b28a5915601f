@@ -1,0 +1,5 @@
+package com.bjsxt.proxy;
+
+public interface InvocationHandler {
+	public void invoke(Method m);
+}
