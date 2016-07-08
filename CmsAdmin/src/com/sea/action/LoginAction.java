@@ -1,6 +1,11 @@
 package com.sea.action;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import javax.annotation.Resource;
+
+import net.sf.json.JSONObject;
 
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ModelDriven;
@@ -15,7 +20,8 @@ public class LoginAction extends BaseAction implements ModelDriven{
 	private UserService userService;
 	private UserForm userForm =null;
 	private User user ;
-	private String message;
+	private String result;
+	private Map<String,Object> dataMap = new HashMap<String,Object>();
 	
 	public String adminLogin(){
 		String phone = userForm.getPhone();
@@ -23,47 +29,62 @@ public class LoginAction extends BaseAction implements ModelDriven{
 		if(!("".equals(phone)) && phone !=null && !("".equals(pwd)) && pwd !=null) {
 			user = userService.login(phone,pwd);
 		} else {
-			message="请输入用户名、密码";
+			result="请输入用户名、密码";
 			return "fail";//检查输入用户名、密码
 		}
 
 		if(user==null || "".equals(user)){
-			message="请输入正确的用户名、密码";
+			result="请输入正确的用户名、密码";
 			return "error"; //用户名、密码错误
 			//user.equals("")
 		} else if ( user.getPower().equals("1")) {
 			session.put("loginUser",user);
 			return "adminLogin";//管理员登录，进入后台
 		} else 
-			message="您没有权限登录，请联系管理员";
+			result="您没有权限登录，请联系管理员";
 			return "noPower";//普通用户登录 进入前端
 	}
 	
 	public String login(){
 		String phone = userForm.getPhone();
 		String pwd = userForm.getPassword();
-		if(!("".equals(phone)) && phone !=null && !("".equals(pwd)) && pwd !=null) {
-			user = userService.login(phone,pwd);
+		user = userService.login(phone,pwd);
+		
+		if("".equals(phone) || phone ==null ) {
+			dataMap.put("message", "手机号码不能为空");
+			dataMap.put("flag","fail");
+			JSONObject jo = JSONObject.fromObject(dataMap);
+			result = jo.toString();
+		} else if (!userService.exists(phone)) {
+			dataMap.put("message", "手机号码不存在");
+			dataMap.put("flag","fail");
+			JSONObject jo = JSONObject.fromObject(dataMap);
+			result = jo.toString();
+		} else if ("".equals(pwd) || pwd == null){
+			dataMap.put("message", "密码不能为空");
+			dataMap.put("flag","fail");
+			JSONObject jo = JSONObject.fromObject(dataMap);
+			result = jo.toString();
+		} else if(user==null || "".equals(user)){
+			dataMap.put("message", "手机号码与密码不符，请重新输入");
+			dataMap.put("flag","fail");
+			JSONObject jo = JSONObject.fromObject(dataMap);
+			result = jo.toString();
 		} else {
-			message="请输入用户名、密码";
-			return "fail";//检查输入用户名、密码
-		}
-
-		if(user==null || "".equals(user)){
-			message="请输入正确的用户名、密码";
-			return "error"; //用户名、密码错误
-			//user.equals("")
-		} else if ( user.getPower().equals("0")) {
 			session.put("loginUser",user);
-			return "userLogin";//管理员登录，进入后台
-		} else 
-			message="您没有权限登录，请联系管理员";
-			return "noPower";//普通用户登录 进入前端		
+			dataMap.put("message", "登录成功");
+			dataMap.put("flag","success");
+			dataMap.put("session", user);
+			JSONObject jo = JSONObject.fromObject(dataMap);
+			result = jo.toString();
+		}
+		return "userLogin";	
+			
 	}
 	
 	public String rePassword(){
 		
-		return message;
+		return result;
 		
 	}
 	public String logOut() {  
@@ -89,13 +110,11 @@ public class LoginAction extends BaseAction implements ModelDriven{
 	public void setUserForm(UserForm userForm) {
 		this.userForm = userForm;
 	}
-
-	public String getMessage() {
-		return message;
+	public String getResult() {
+		return result;
 	}
 
-	public void setMessage(String message) {
-		this.message = message;
+	public void setResult(String result) {
+		this.result = result;
 	}
-
 }

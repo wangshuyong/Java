@@ -146,7 +146,7 @@
 
 	</package>
 
-	<package name="user" namespace="/web" extends="struts-default,json-default">
+	<package name="user" namespace="/web" extends="json-default">
 
 		<action name="index" class="com.sea.action.IndexAction" method="excute">
 			<result>
@@ -161,12 +161,10 @@
 			<result name="error">/error.jsp</result>
 		</action>
 
-		<action name="Login" class="com.sea.action.LoginAction" method="excute">
-			<result name="success">
-				/admin/index.html
-			</result>
-			<result name="input">
-				/admin/login.html
+		<action name="Login_*" class="com.sea.action.LoginAction" method="{1}">
+			<result name="userLogin" type="json">
+				<param name="root">result</param>
+				<param name="excludeNullProperties"></param>
 			</result>
 		</action>
 
