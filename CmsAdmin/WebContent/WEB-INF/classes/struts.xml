@@ -163,7 +163,7 @@
 
 		<action name="Login_*" class="com.sea.action.LoginAction" method="{1}">
 			<result name="userLogin" type="json">
-				<param name="root">result</param>
+				<param name="root">dataMap</param>
 				<param name="excludeNullProperties"></param>
 			</result>
 		</action>
