@@ -9,14 +9,14 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import com.edu.cms.BaseLib.BaseTest;
+import com.edu.cms.BaseLib.DriverManager;
 import com.edu.cms.BaseLib.ConfigurationSettings;
 import com.edu.cms.BaseLib.ExcelUtils;
 import com.edu.cms.UIObject.LoginPageObj;
 import com.edu.cms.UITestServise.*;
 
 @RunWith(value = Parameterized.class)
-public class TestLogin extends BaseTest {
+public class TestLogin extends DriverManager {
 	
 	String userName;
 	String passWord;
@@ -53,18 +53,8 @@ public class TestLogin extends BaseTest {
 			  System.out.println(expected);
 			  System.out.println(lts.getElementPresent());
 			  assertEquals(expected, lts.getElementPresent());
-			  
 		  }
 		  
 	  }
 	
-//	@Test
-//	  public void testLogout() throws Exception {
-//		  LogoutService los = new LogoutService();
-//		  
-//			  LoginService  lis = los.logOut(); 
-//		  
-////		  assertTrue(lis.);
-//	  }	
-
 }

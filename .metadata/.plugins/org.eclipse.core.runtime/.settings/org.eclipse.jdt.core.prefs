@@ -1,2 +1,3 @@
 eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.TOMCAT_HOME=E\:/workspace/server/apache-tomcat-6.0.33
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled

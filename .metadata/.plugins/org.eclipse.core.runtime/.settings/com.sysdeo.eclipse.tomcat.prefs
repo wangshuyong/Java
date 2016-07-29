@@ -1,2 +1,6 @@
+contextsDir=E\:\\workspace\\server\\apache-tomcat-6.0.33\\conf\\Catalina\\localhost
 eclipse.preferences.version=1
 fixTomcatHomeBug=fixed
+tomcatConfigFile=E\:\\workspace\\server\\apache-tomcat-6.0.33\\conf\\server.xml
+tomcatDir=E\:\\workspace\\server\\apache-tomcat-6.0.33
+tomcatVersion=tomcatV6

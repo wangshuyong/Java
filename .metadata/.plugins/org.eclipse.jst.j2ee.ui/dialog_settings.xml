@@ -3,6 +3,7 @@
 	<item value="false" key="J2EE_EXPORT_OVERWRITE"/>
 	<item value="false" key="J2EE_EXPORT_SOURCE"/>
 	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\Users\yangsy\Desktop\CmsAdmin.war"/>
 		<item value="E:\workspace\server\apache-tomcat-6.0.33\webapps\CmsAdmin.war"/>
 	</list>
 </section>

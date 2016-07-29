@@ -8,13 +8,9 @@ import com.edu.cms.BaseLib.*;
 
 public class HomePageObj extends PageBase{
 	
-	@FindBy(how = How.CSS, using = "span.top_con_2_img2")
+	@FindBy(how = How.XPATH, using = "//div[@id='user-nav']/ul/li[4]/a/span")
 	@CacheLookup
 	private WebElement logout;
-	
-//	@FindBy(how = How., using = "登出")
-//	@CacheLookup
-//	private WebElement title;
 	
 	public WebElement getLogout() {
 		return logout;

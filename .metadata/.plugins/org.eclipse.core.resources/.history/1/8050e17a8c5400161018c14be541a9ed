@@ -1,0 +1,51 @@
+package com.wangsy.testng;
+
+import static org.junit.Assert.assertEquals;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.edu.cms.UITestServise.HomeService;
+import com.edu.cms.UITestServise.LoginService;
+
+public class NewTest {
+	  @BeforeClass
+	    public void beforeClass() {
+	        System.out.println("this is before class");
+	    }
+
+	    @Test
+	    public void TestNgLearn() {
+	        System.out.println("this is TestNG test case");
+	    }
+
+	    @AfterClass
+	    public void afterClass() {
+	        System.out.println("this is after class");
+	    }
+	    @Test
+	    public void TestNgLearn1() {
+	        System.out.println("this is TestNG test case111111");
+	    }
+//	    @DataProvider(name="userLogin")
+	 
+//	    @Test
+		  public void testLogin(String userName, String passWord,String flag,String expected) throws Exception {
+			  LoginService lts = new LoginService();
+			  HomeService  hts = lts.init().loginAs(userName,passWord);
+//			  assertEquals(expected, hts.getElementPresent());
+			  if(flag=="t") {
+//				  LogoutService lodt = new LogoutService();
+//				  lts = lodt.logOut();
+				  assertEquals(expected, hts.getElementPresent());
+				  			  
+			  }else if(flag=="f") {
+				  System.out.println(expected);
+				  System.out.println(lts.getElementPresent());
+				  assertEquals(expected, lts.getElementPresent());
+			  }
+			  
+		  }
+}

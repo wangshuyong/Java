@@ -1,0 +1,5 @@
+package com.edu.cms.BaseLib;
+
+public class StaticProvider {
+
+}

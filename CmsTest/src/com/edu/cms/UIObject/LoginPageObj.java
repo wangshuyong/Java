@@ -1,30 +1,24 @@
 package com.edu.cms.UIObject;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
 import com.edu.cms.BaseLib.PageBase;
-import com.edu.cms.BaseLib.BaseTest.DriverManager;
-import com.edu.cms.UITestServise.LoginService;
 
 public class LoginPageObj extends PageBase{
 
 	//	private static final String baseUrl = "http://cms.test.edutao.cn/login/admin"; 
 	 
-	@FindBy(name  = "loginName")
+	@FindBy(id  = "phone")
 	@CacheLookup
 	WebElement usernameBox;
-	@FindBy(name="password")
+	@FindBy(id="password")
     @CacheLookup
 	private WebElement passwordBox;
     // 提交按钮
-	@FindBy(name="login")
+	@FindBy(id="login")
     @CacheLookup
-	private
-    WebElement submitButton;
+	private WebElement submitButton;
 	
 	@FindBy(id="errorMsgId")
     @CacheLookup

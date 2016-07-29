@@ -1,20 +1,29 @@
 package com.edu.dotest;
 
 import org.junit.Test;
+import org.testng.Assert;
 
-import com.edu.cms.BaseLib.BaseTest;
+import com.edu.cms.BaseLib.DriverManager;
 import com.edu.cms.UITestServise.LoginService;
 import com.edu.cms.UITestServise.LogoutService;
 
-public class LogoutDoTest extends BaseTest{
+public class LogoutDoTest{
+	
+	@Test
+	public void testLogin() throws Exception {
+		LoginService lts = new LoginService();
+		 lts.loginAs("13000000001","123456");
+		 assertEquals("ÍË³ö",ts.getElementPresent());
+	}
 	@Test
 	  public void testLogout() throws Exception {
+		 
 		  LogoutService los = new LogoutService();
-		  super.Login();
-		  LoginService  lis = los.logOut();
+		 los.logOut();
 		  
 //		  assertTrue(lis.);
 		  DriverManager.quit();
 	  }	 
 
 }
+

@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.Parameters;
 import com.edu.cms.BaseLib.*;
 import com.edu.cms.UITestServise.*;
 @RunWith(value = Parameterized.class)
-public class TestCompanyManage extends BaseTest{
+public class TestCompanyManage extends DriverManager{
 	
 	String compName;
 	String phone;

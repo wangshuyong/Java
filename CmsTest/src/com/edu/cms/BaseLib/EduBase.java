@@ -11,19 +11,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import com.edu.cms.BaseLib.BaseTest.DriverManager;
-
 
 public class EduBase {
 	
 	 public EduBase() {
 		super();
 	}
-	private WebDriver driver =DriverManager.getDriver();
-	 public EduBase(WebDriver driver) {
-		super();
-		this.driver = driver;
-	}
+	private WebDriver driver=DriverManager.getDriver();
+
 	private boolean acceptNextAlert = true;
 
 	    /**

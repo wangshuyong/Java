@@ -61,30 +61,20 @@ public class LoginAction extends BaseAction implements ModelDriven{
 		if("".equals(phone) || phone ==null ) {
 			dataMap.put("message", "手机号码不能为空");
 			dataMap.put("flag","fail");
-			JSONObject jo = JSONObject.fromObject(dataMap);
-			result = jo.toString();
 		} else if (!userService.exists(phone)) {
 			dataMap.put("message", "手机号码不存在");
 			dataMap.put("flag","fail");
-			JSONObject jo = JSONObject.fromObject(dataMap);
-			result = jo.toString();
 		} else if ("".equals(pwd) || pwd == null){
 			dataMap.put("message", "密码不能为空");
 			dataMap.put("flag","fail");
-			JSONObject jo = JSONObject.fromObject(dataMap);
-			result = jo.toString();
 		} else if(user==null || "".equals(user)){
 			dataMap.put("message", "手机号码与密码不符，请重新输入");
 			dataMap.put("flag","fail");
-			JSONObject jo = JSONObject.fromObject(dataMap);
-			result = jo.toString();
 		} else {
 			session.put("loginUser",user);
 			dataMap.put("flag","success");
 			dataMap.put("session", user);
 			dataMap.put("message", "登录成功");
-//			JSONObject jo = JSONObject.fromObject(dataMap);
-//			result = jo.toString();
 		}
 		return "userLogin";	
 			

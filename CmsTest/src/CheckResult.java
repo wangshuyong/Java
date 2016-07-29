@@ -1,0 +1,6 @@
+
+public interface CheckResult {
+	
+//	check(){};
+
+}

@@ -1,0 +1,19 @@
+package com.edu.dotest;
+
+import org.junit.Test;
+
+import com.edu.cms.BaseLib.DriverManager;
+import com.edu.cms.UITestServise.LoginService;
+import com.edu.cms.UITestServise.LogoutService;
+
+public class LogoutDoTest{
+	@Test
+	  public void testLogout() throws Exception {
+		  LogoutService los = new LogoutService();
+		 los.logOut();
+		  
+//		  assertTrue(lis.);
+		  DriverManager.quit();
+	  }	 
+
+}
