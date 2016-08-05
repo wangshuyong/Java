@@ -8,7 +8,7 @@ public class LogoutService {
 	public void logOut(){
 		HomePageObj hpo =new HomePageObj();
 		hpo.getLogout().click();	
-		DriverManager.getDriver().quit();
+//		DriverManager.getDriver().quit();
 	}
 
 }

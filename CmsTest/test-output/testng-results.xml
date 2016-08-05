@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20421" started-at="2016-07-29T10:10:42Z" finished-at="2016-07-29T10:11:03Z">
+  <suite name="Default suite" duration-ms="28686" started-at="2016-08-04T10:23:35Z" finished-at="2016-08-04T10:24:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20421" started-at="2016-07-29T10:10:42Z" finished-at="2016-07-29T10:11:03Z">
-      <class name="com.wangsy.testng.LoginTest">
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wangsy.testng.LoginTest@2c8d66b2]" name="testLogin" duration-ms="19771" started-at="2016-07-29T18:10:43Z" data-provider="userLogin" finished-at="2016-07-29T18:11:03Z">
+    <test name="Default test" duration-ms="28686" started-at="2016-08-04T10:23:35Z" finished-at="2016-08-04T10:24:03Z">
+      <class name="com.edu.dotest.Testselenium">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.edu.dotest.Testselenium@1e643faf]" name="setUp" is-config="true" duration-ms="6122" started-at="2016-08-04T18:23:35Z" finished-at="2016-08-04T18:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.edu.dotest.Testselenium@1e643faf]" name="test1" duration-ms="8283" started-at="2016-08-04T18:23:48Z" data-provider="userLogin" finished-at="2016-08-04T18:23:56Z">
           <params>
             <param index="0">
               <value>
@@ -32,12 +36,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="FAIL" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wangsy.testng.LoginTest@2c8d66b2]" name="testLogin" duration-ms="4" started-at="2016-07-29T18:11:03Z" data-provider="userLogin" finished-at="2016-07-29T18:11:03Z">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.edu.dotest.Testselenium@1e643faf]" name="test1" duration-ms="2902" started-at="2016-08-04T18:23:56Z" data-provider="userLogin" finished-at="2016-08-04T18:23:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[13000000007]]>
+                <![CDATA[13426370076]]>
               </value>
             </param>
             <param index="1">
@@ -47,147 +51,49 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[f]]>
+                <![CDATA[t]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[密码错误]]>
+                <![CDATA[退出]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
-            <message>
-              <![CDATA[The FirefoxDriver cannot be used after quit() was called.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
-System info: host: 'wangsy-PC', ip: '10.130.62.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
-System info: host: 'wangsy-PC', ip: '10.130.62.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.clear(Unknown Source)
-	at com.edu.cms.BaseLib.EduBase.clearAndTypeString(EduBase.java:184)
-	at com.edu.cms.UITestServise.LoginService.loginAsFail(LoginService.java:18)
-	at com.wangsy.testng.LoginTest.testLogin(LoginTest.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="FAIL" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wangsy.testng.LoginTest@2c8d66b2]" name="testLogin" duration-ms="1" started-at="2016-07-29T18:11:03Z" data-provider="userLogin" finished-at="2016-07-29T18:11:03Z">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.edu.dotest.Testselenium@1e643faf]" name="test1" duration-ms="2347" started-at="2016-08-04T18:23:59Z" data-provider="userLogin" finished-at="2016-08-04T18:24:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[13200000012]]>
+                <![CDATA[1200000004]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[234567]]>
+                <![CDATA[123456]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[f]]>
+                <![CDATA[t]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[账号错误]]>
+                <![CDATA[退出]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
-            <message>
-              <![CDATA[The FirefoxDriver cannot be used after quit() was called.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
-System info: host: 'wangsy-PC', ip: '10.130.62.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
-System info: host: 'wangsy-PC', ip: '10.130.62.72', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.clear(Unknown Source)
-	at com.edu.cms.BaseLib.EduBase.clearAndTypeString(EduBase.java:184)
-	at com.edu.cms.UITestServise.LoginService.loginAsFail(LoginService.java:18)
-	at com.wangsy.testng.LoginTest.testLogin(LoginTest.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-      </class> <!-- com.wangsy.testng.LoginTest -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edu.dotest.Testselenium@1e643faf]" name="tearDown" is-config="true" duration-ms="1470" started-at="2016-08-04T18:24:02Z" finished-at="2016-08-04T18:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edu.dotest.Testselenium -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

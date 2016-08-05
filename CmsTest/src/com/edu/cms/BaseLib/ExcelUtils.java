@@ -19,32 +19,30 @@ public class ExcelUtils {
 	private int rowNum = 0;
 	private int currentRowNo = 0;
 	private int columns = 0;
+	private XSSFRow row = null;
+	private XSSFCell cell = null;
+	private FileInputStream fis = null;
 	public ArrayList<String> arrkey = new ArrayList<String>();
 
 	public ExcelUtils() {
-
+		
 	}
 
 	@SuppressWarnings({ "null", "resource" })
 	public Collection<Object> ReadExcelFile(String filePath, String sSheetName) {
-		XSSFRow row = null;
-		XSSFCell cell = null;
-		XSSFSheet sheet = null;
-		XSSFWorkbook wb;
 		List<Object> rows = new ArrayList<Object>();
 		List<Object> rowData = new ArrayList<Object>();
 		try {
-			FileInputStream fis = new FileInputStream(filePath);
-			wb = new XSSFWorkbook(fis);
-			sheet = wb.getSheet(sSheetName);
-
+			fis = new FileInputStream(filePath);
+			ExcelWBook = new XSSFWorkbook(fis);
+			ExcelWSheet = ExcelWBook.getSheet(sSheetName);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		// return cellNovalue;
-		for (int r = 0; r < sheet.getPhysicalNumberOfRows(); r++) {
-			int numberOfColumns = countNonEmptyColumns(sheet);
-			row = sheet.getRow(r);
+		for (int r = 0; r < ExcelWSheet.getPhysicalNumberOfRows(); r++) {
+			int numberOfColumns = countNonEmptyColumns(ExcelWSheet);
+			row = ExcelWSheet.getRow(r);
 			rowData.clear();
 			for (int column = 0; column < numberOfColumns; column++) {
 				cell = row.getCell(column);
@@ -58,24 +56,19 @@ public class ExcelUtils {
 
 	@SuppressWarnings("resource")
 	public String[][] getDataForTestNG(String filePath, String sSheetName) {
-		XSSFRow row = null;
-		XSSFCell cell = null;
-		XSSFSheet sheet = null;
-		XSSFWorkbook wb;
 		String[][] rows = null;
 		try {
-			FileInputStream fis = new FileInputStream(filePath);
-			wb = new XSSFWorkbook(fis);
-			sheet = wb.getSheet(sSheetName);
-
+			fis = new FileInputStream(filePath);
+			ExcelWBook = new XSSFWorkbook(fis);
+			ExcelWSheet = ExcelWBook.getSheet(sSheetName);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		rows=new String[sheet.getPhysicalNumberOfRows()][];
+		rows=new String[ExcelWSheet.getPhysicalNumberOfRows()][];
 		// return cellNovalue;
-		for (int r = 0; r < sheet.getPhysicalNumberOfRows(); r++) {
-			int numberOfColumns = countNonEmptyColumns(sheet);
-			row = sheet.getRow(r);
+		for (int r = 0; r < ExcelWSheet.getPhysicalNumberOfRows(); r++) {
+			int numberOfColumns = countNonEmptyColumns(ExcelWSheet);
+			row = ExcelWSheet.getRow(r);
 			rows[r] = new String[numberOfColumns];
 			for (int column = 0; column < numberOfColumns; column++) {
 				cell = row.getCell(column);
@@ -84,13 +77,10 @@ public class ExcelUtils {
 			}
 		}
 		return rows;
-
 	}
 
 	public boolean hasNext() {
-
 		if (this.rowNum == 0 || this.currentRowNo >= this.rowNum) {
-
 			try {
 				ExcelWBook.close();
 			} catch (Exception e) {

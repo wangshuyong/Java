@@ -13,7 +13,7 @@ public class LogoutDoTest{
 	public void testLogin() throws Exception {
 		LoginService lts = new LoginService();
 		 lts.loginAs("13000000001","123456");
-		 assertEquals("ÍË³ö",ts.getElementPresent());
+		 assertEquals("ÍË³ö",lts.getElementPresent());
 	}
 	@Test
 	  public void testLogout() throws Exception {

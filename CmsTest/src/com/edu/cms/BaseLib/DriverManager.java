@@ -30,9 +30,10 @@ import com.edu.cms.UITestServise.LoginService;
     		driver.get(ConfigurationSettings.getProperty("baseUrl"));
     	}
 	    return driver;
-	   }
+	}
 
     public static void quit(){
+    	DriverManager.getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	   driver.quit();
     }
 /**

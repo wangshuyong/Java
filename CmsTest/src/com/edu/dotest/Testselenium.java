@@ -1,13 +1,16 @@
 package com.edu.dotest;
 
-import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
-import org.junit.*;
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.edu.cms.BaseLib.ConfigurationSettings;
+import com.edu.cms.BaseLib.ExcelUtils;
 
 public class Testselenium {
 
@@ -15,22 +18,22 @@ public class Testselenium {
   private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
+  
+  @DataProvider(name="userLogin")
+  public Object[][] rangeData() {
+  	return new ExcelUtils().getDataForTestNG(ConfigurationSettings.getProperty("logincasefile"),ConfigurationSettings.getProperty("test_login_data"));
+  }
 
-  @Before
+  @BeforeTest
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
     baseUrl = "http://localhost:8080/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
-  @Test
-  public void test1() throws Exception {
+  @Test(dataProvider="userLogin")
+  public void test1(String userName, String passWord,String flag,String expected) throws Exception {
     driver.get(baseUrl + "/CmsAdmin/admin/login.html");
-    driver.findElement(By.id("phone")).clear();
-    driver.findElement(By.id("phone")).sendKeys("1300000001");
-    driver.findElement(By.id("password")).clear();
-    driver.findElement(By.id("password")).sendKeys("123456");
-    driver.findElement(By.id("login")).click();
     driver.findElement(By.id("phone")).clear();
     driver.findElement(By.id("phone")).sendKeys("13000000001");
     driver.findElement(By.id("password")).clear();
@@ -39,13 +42,9 @@ public class Testselenium {
     driver.findElement(By.xpath("//div[@id='user-nav']/ul/li[4]/a/span")).click();
   }
 
-  @After
+  @AfterTest
   public void tearDown() throws Exception {
     driver.quit();
-    String verificationErrorString = verificationErrors.toString();
-    if (!"".equals(verificationErrorString)) {
-      fail(verificationErrorString);
-    }
   }
 
   private boolean isElementPresent(By by) {
