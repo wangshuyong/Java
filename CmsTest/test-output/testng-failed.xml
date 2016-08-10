@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.edu.dotest.Testselenium">
+      <class name="com.wangsy.doTest.LoginTest">
         <methods>
-          <include name="test1"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="testLogin" invocation-numbers="1 2"/>
+          <include name="quit"/>
+          <include name="beforeLogin"/>
         </methods>
-      </class> <!-- com.edu.dotest.Testselenium -->
+      </class> <!-- com.wangsy.doTest.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

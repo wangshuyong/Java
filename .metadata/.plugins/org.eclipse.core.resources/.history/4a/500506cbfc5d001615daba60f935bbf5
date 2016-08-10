@@ -1,0 +1,28 @@
+package com.edu.cms.UITestServise;
+
+import org.openqa.selenium.WebDriver;
+
+import com.edu.cms.BaseLib.EduBase;
+import com.edu.cms.UIObject.HomePageObj;
+import com.edu.cms.UIObject.LoginPageObj;
+
+//import com.edu.cms.UIObject.HomePageObj;
+
+public class HomeService {
+	
+	public CompanyManageService comp = new CompanyManageService();
+	WebDriver driver;
+	EduBase eb ;
+	public HomePageObj hpo ;
+	public HomeService(WebDriver driver){
+		this.driver=driver;
+		hpo = new LoginPageObj(driver);
+		eb = new EduBase(driver);
+	}
+	public String getElementPresent(){
+		
+		return hpo.getLogout().getText();
+//		return hpo.
+	}
+			
+}

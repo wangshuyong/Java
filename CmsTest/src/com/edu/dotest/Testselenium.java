@@ -9,8 +9,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.edu.cms.BaseLib.ConfigurationSettings;
-import com.edu.cms.BaseLib.ExcelUtils;
+import com.wangsy.Utils.ConfigurationSettings;
+import com.wangsy.Utils.ExcelUtils;
 
 public class Testselenium {
 

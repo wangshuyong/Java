@@ -10,7 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import com.edu.cms.BaseLib.ConfigurationSettings;
+import com.wangsy.Utils.ConfigurationSettings;
 
 public enum DriverType {
     InternetExplorer {

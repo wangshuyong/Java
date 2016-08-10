@@ -4,7 +4,7 @@ package com.edu.cms.driver;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
-import com.edu.cms.BaseLib.ConfigurationSettings;
+import com.wangsy.Utils.ConfigurationSettings;
 
 
 

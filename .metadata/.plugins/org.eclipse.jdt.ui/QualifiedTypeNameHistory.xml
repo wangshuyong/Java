@@ -9,7 +9,6 @@
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="com.edu.cms.BaseLib.DriverManager"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
-<fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
@@ -17,4 +16,10 @@
 <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
 <fullyQualifiedTypeName name="com.edu.cms.BaseLib.ExcelUtils"/>
 <fullyQualifiedTypeName name="com.edu.cms.BaseLib.ConfigurationSettings"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.edu.cms.BaseLib.EduBase"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,30 @@
+package com.edu.cms.UITestServise;
+
+import org.openqa.selenium.WebDriver;
+
+import com.edu.cms.BaseLib.DriverManager;
+import com.edu.cms.BaseLib.EduBase;
+import com.edu.cms.UIObject.HomePageObj;
+import com.edu.cms.UIObject.LoginPageObj;
+
+public class LogoutService {
+	WebDriver driver;
+	HomePageObj hpo;
+	EduBase eb ;
+	
+	public LogoutService(){
+//		setDriver(DriverManager.getDriver());
+	}
+	
+	public LogoutService(WebDriver driver){
+		this.driver=driver;
+		hpo =new HomePageObj(driver);
+		eb = new EduBase(driver);
+	}
+	public void logOut(){
+		
+		hpo.getLogout().click();	
+//		DriverManager.getDriver().quit();
+	}
+
+}
