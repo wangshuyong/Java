@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="3" passed="1">
+<testng-results skipped="0" failed="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61751" started-at="2016-08-10T03:52:29Z" finished-at="2016-08-10T03:53:31Z">
+  <suite name="Default suite" duration-ms="66469" started-at="2016-08-12T06:37:37Z" finished-at="2016-08-12T06:38:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61751" started-at="2016-08-10T03:52:29Z" finished-at="2016-08-10T03:53:31Z">
-      <class name="com.wangsy.doTest.LoginTest">
-        <test-method status="PASS" signature="beforeLogin()[pri:0, instance:com.wangsy.doTest.LoginTest@2f7c7260]" name="beforeLogin" is-config="true" duration-ms="10961" started-at="2016-08-10T11:52:29Z" finished-at="2016-08-10T11:52:40Z">
+    <test name="useradd" duration-ms="17648" started-at="2016-08-12T06:37:37Z" finished-at="2016-08-12T06:37:54Z">
+      <class name="com.wangsy.doTest.UserAddTest">
+        <test-method status="PASS" signature="beforeLogin()[pri:0, instance:com.wangsy.doTest.UserAddTest@57829d67]" name="beforeLogin" is-config="true" duration-ms="11845" started-at="2016-08-12T14:37:37Z" finished-at="2016-08-12T14:37:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wangsy.doTest.LoginTest@2f7c7260]" name="testLogin" duration-ms="7320" started-at="2016-08-10T11:52:41Z" data-provider="userLogin" finished-at="2016-08-10T11:52:48Z">
+        <test-method status="PASS" signature="testUserAdd()[pri:0, instance:com.wangsy.doTest.UserAddTest@57829d67]" name="testUserAdd" duration-ms="9" started-at="2016-08-12T14:37:49Z" finished-at="2016-08-12T14:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserAdd -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.wangsy.doTest.UserAddTest@57829d67]" name="quit" is-config="true" duration-ms="5768" started-at="2016-08-12T14:37:49Z" finished-at="2016-08-12T14:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.wangsy.doTest.UserAddTest -->
+    </test> <!-- useradd -->
+    <test name="userdelete" duration-ms="35260" started-at="2016-08-12T06:37:37Z" finished-at="2016-08-12T06:38:12Z">
+      <class name="com.wangsy.doTest.UserDeleteTest">
+        <test-method status="PASS" signature="beforeLogin()[pri:0, instance:com.wangsy.doTest.UserDeleteTest@6fadae5d]" name="beforeLogin" is-config="true" duration-ms="33906" started-at="2016-08-12T14:37:37Z" finished-at="2016-08-12T14:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method status="PASS" signature="testUserDelete()[pri:0, instance:com.wangsy.doTest.UserDeleteTest@6fadae5d]" name="testUserDelete" duration-ms="1" started-at="2016-08-12T14:38:11Z" finished-at="2016-08-12T14:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDelete -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.wangsy.doTest.UserDeleteTest@6fadae5d]" name="quit" is-config="true" duration-ms="1346" started-at="2016-08-12T14:38:11Z" finished-at="2016-08-12T14:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.wangsy.doTest.UserDeleteTest -->
+    </test> <!-- userdelete -->
+    <test name="login test" duration-ms="66469" started-at="2016-08-12T06:37:37Z" finished-at="2016-08-12T06:38:43Z">
+      <class name="com.wangsy.doTest.LoginTest">
+        <test-method status="PASS" signature="beforeLogin()[pri:0, instance:com.wangsy.doTest.LoginTest@2d209079]" name="beforeLogin" is-config="true" duration-ms="18078" started-at="2016-08-12T14:37:37Z" finished-at="2016-08-12T14:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wangsy.doTest.LoginTest@2d209079]" name="testLogin" duration-ms="3774" started-at="2016-08-12T14:38:05Z" data-provider="userLogin" finished-at="2016-08-12T14:38:09Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="FAIL" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wangsy.doTest.LoginTest@2f7c7260]" name="testLogin" duration-ms="20789" started-at="2016-08-10T11:52:48Z" data-provider="userLogin" finished-at="2016-08-10T11:53:09Z">
+        <test-method status="FAIL" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wangsy.doTest.LoginTest@2d209079]" name="testLogin" duration-ms="17276" started-at="2016-08-12T14:38:09Z" data-provider="userLogin" finished-at="2016-08-12T14:38:26Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +110,7 @@ Driver info: driver.version: unknown
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy7.getText(Unknown Source)
 	at com.wangsy.testServise.LoginService.getElementPresent(LoginService.java:38)
-	at com.wangsy.doTest.LoginTest.testLogin(LoginTest.java:38)
+	at com.wangsy.doTest.LoginTest.testLogin(LoginTest.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -92,25 +124,21 @@ Driver info: driver.version: unknown
 	at org.testng.TestRunner.privateRun(TestRunner.java:774)
 	at org.testng.TestRunner.run(TestRunner.java:624)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"errorMsgId"}
-Command duration or timeout: 3.04 seconds
+Command duration or timeout: 3.12 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
 System info: host: 'wangsy-PC', ip: '10.130.62.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0781264e-5c46-4f8b-8ca3-c73d2c5c5fdf
+Session ID: 603a4b19-306f-4d35-92f2-344557dd7f6f
 *** Element info: {Using=id, value=errorMsgId}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -128,21 +156,21 @@ Session ID: 0781264e-5c46-4f8b-8ca3-c73d2c5c5fdf
 	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
 	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
 	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
-	... 28 more
+	... 24 more
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"errorMsgId"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
 System info: host: 'wangsy-PC', ip: '10.130.62.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/yangsy/AppData/Local/Temp/anonymous4166273190204435179webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/yangsy/AppData/Local/Temp/anonymous4166273190204435179webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/yangsy/AppData/Local/Temp/anonymous3395007504764819042webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/yangsy/AppData/Local/Temp/anonymous3395007504764819042webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="FAIL" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wangsy.doTest.LoginTest@2f7c7260]" name="testLogin" duration-ms="19936" started-at="2016-08-10T11:53:09Z" data-provider="userLogin" finished-at="2016-08-10T11:53:29Z">
+        <test-method status="FAIL" signature="testLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wangsy.doTest.LoginTest@2d209079]" name="testLogin" duration-ms="17100" started-at="2016-08-12T14:38:26Z" data-provider="userLogin" finished-at="2016-08-12T14:38:43Z">
           <params>
             <param index="0">
               <value>
@@ -183,7 +211,7 @@ Driver info: driver.version: unknown
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy7.getText(Unknown Source)
 	at com.wangsy.testServise.LoginService.getElementPresent(LoginService.java:38)
-	at com.wangsy.doTest.LoginTest.testLogin(LoginTest.java:38)
+	at com.wangsy.doTest.LoginTest.testLogin(LoginTest.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -197,25 +225,21 @@ Driver info: driver.version: unknown
 	at org.testng.TestRunner.privateRun(TestRunner.java:774)
 	at org.testng.TestRunner.run(TestRunner.java:624)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"errorMsgId"}
-Command duration or timeout: 3.05 seconds
+Command duration or timeout: 3.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
 System info: host: 'wangsy-PC', ip: '10.130.62.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0781264e-5c46-4f8b-8ca3-c73d2c5c5fdf
+Session ID: 603a4b19-306f-4d35-92f2-344557dd7f6f
 *** Element info: {Using=id, value=errorMsgId}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -233,25 +257,25 @@ Session ID: 0781264e-5c46-4f8b-8ca3-c73d2c5c5fdf
 	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
 	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
 	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
-	... 28 more
+	... 24 more
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"errorMsgId"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
 System info: host: 'wangsy-PC', ip: '10.130.62.74', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/yangsy/AppData/Local/Temp/anonymous4166273190204435179webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/yangsy/AppData/Local/Temp/anonymous4166273190204435179webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/yangsy/AppData/Local/Temp/anonymous3395007504764819042webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/yangsy/AppData/Local/Temp/anonymous3395007504764819042webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.wangsy.doTest.LoginTest@2f7c7260]" name="quit" is-config="true" duration-ms="1930" started-at="2016-08-10T11:53:29Z" finished-at="2016-08-10T11:53:31Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.wangsy.doTest.LoginTest@2d209079]" name="quit" is-config="true" duration-ms="0" started-at="2016-08-12T14:38:43Z" finished-at="2016-08-12T14:38:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.wangsy.doTest.LoginTest -->
-    </test> <!-- Default test -->
+    </test> <!-- login test -->
   </suite> <!-- Default suite -->
 </testng-results>

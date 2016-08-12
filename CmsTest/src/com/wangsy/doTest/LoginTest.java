@@ -18,10 +18,9 @@ import com.wangsy.testServise.LoginService;
 import com.wangsy.testServise.LogoutService;
 
 public class LoginTest {
-	LoginService loginService;
-	LogoutService logOutService;
-	HomeService homeService;
-	WebDriver driver;
+	private LoginService loginService;
+	private LogoutService logOutService;
+	private HomeService homeService;
 
 	@DataProvider(name = "userLogin")
 	public Object[][] rangeData() {

@@ -1,0 +1,9 @@
+package com.wangsy.doTest;
+
+import org.testng.annotations.Test;
+
+public class UserDeleteTest {
+  @Test
+  public void f() {
+  }
+}
